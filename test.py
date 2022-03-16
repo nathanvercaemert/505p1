@@ -19,7 +19,7 @@ timAr = copy.copy(ar)
 
 mergeAr = mergeSort(mergeAr)
 insertionSort(insertionAr)
-timAr.sort
+timAr.sort()
 
 mergeOut = open("./test/mergeSortTest/output.log", "w")
 for entry in mergeAr:
