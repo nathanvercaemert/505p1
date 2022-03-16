@@ -1,0 +1,8 @@
+#+LATEX_HEADER: \usepackage{placeins}
+#+TITLE: Sorts
+#+SUBTITLE: CSC 505 Spring 2022 (001)
+#+AUTHOR: Nathan Vercaemert
+#+DATE: 2022-03-16
+* Insertion Sort
+MIT OCW Introduction to Algorithms 6.046J/18.401J LECTURE 1
+[[./Screenshot 2022-03-16 095958.png]]

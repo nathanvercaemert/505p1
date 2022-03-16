@@ -1,0 +1,24 @@
+#+LATEX_HEADER: \usepackage{placeins}
+#+TITLE: Sorts
+#+SUBTITLE: CSC 505 Spring 2022 (001)
+#+AUTHOR: Nathan Vercaemert
+#+DATE: 2022-03-16
+* Insertion Sort
+MIT OCW Introduction to Algorithms 6.046J/18.401J LECTURE 1
+[[./Screenshot 2022-03-16 095958.png]]
+** Stack Overflow
+https://stackoverflow.com/questions/12755568/how-does-python-insertion-sort-work
+Title: How does Python insertion sort work?
+[[./Screenshot 2022-03-16 100657.png]]
+** Changes
+- Variable names were changed for consistency with mergeSort.
+- Operator was switched to "less than" for consistency.
+*** Note
+Psuedocode does not exactly match implementation, but close inspection will reveal that the execution matches psuedocode.
+* Merge Sort
+MIT OCW SEARCHING AND SORTING ALGORITHMS 6.0001 LECTURE 12
+[[./Screenshot 2022-03-16 100339.png]]
+[[./Screenshot 2022-03-16 100418.png]]
+** Changes
+- Variable names were changed for consistency.
+- Assignation of "middle" incorporates int() for readability.

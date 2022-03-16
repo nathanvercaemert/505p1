@@ -1,0 +1,4 @@
+class logEntry:
+    def __init__(self, entry, datetime):
+        self.entry = entry
+        self.datetime = datetime
