@@ -23,3 +23,8 @@ MIT OCW SEARCHING AND SORTING ALGORITHMS 6.0001 LECTURE 12
 - Variable names were changed for consistency.
 - Assignation of "middle" incorporates int() for readability.
 - "<=" used instead of "<" in "merge" to make sort stable.
+* isSorted
+Take from Stack Overflow.
+Title: Pythonic way to check if a list is sorted or not
+https://stackoverflow.com/questions/3755136/pythonic-way-to-check-if-a-list-is-sorted-or-not
+[[./Screenshot 2022-03-18 083426.png]]
