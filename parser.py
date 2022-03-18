@@ -1182,7 +1182,7 @@ class tzinfo:
 
 # _IsoCalendarDate = IsoCalendarDate
 # del IsoCalendarDate
-# _tzinfo_class = tzinfo
+_tzinfo_class = tzinfo
 
 class time:
     """Time with time zone.
