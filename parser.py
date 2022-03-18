@@ -1153,31 +1153,31 @@ class tzinfo:
             return (self.__class__, args, state)
 
 
-class IsoCalendarDate(tuple):
+# class IsoCalendarDate(tuple):
 
-    def __new__(cls, year, week, weekday, /):
-        return super().__new__(cls, (year, week, weekday))
+#     def __new__(cls, year, week, weekday, /):
+#         return super().__new__(cls, (year, week, weekday))
 
-    @property
-    def year(self):
-        return self[0]
+#     @property
+#     def year(self):
+#         return self[0]
 
-    @property
-    def week(self):
-        return self[1]
+#     @property
+#     def week(self):
+#         return self[1]
 
-    @property
-    def weekday(self):
-        return self[2]
+#     @property
+#     def weekday(self):
+#         return self[2]
 
-    def __reduce__(self):
-        # This code is intended to pickle the object without making the
-        # class public. See https://bugs.python.org/msg352381
-        return (tuple, (tuple(self),))
+#     def __reduce__(self):
+#         # This code is intended to pickle the object without making the
+#         # class public. See https://bugs.python.org/msg352381
+#         return (tuple, (tuple(self),))
 
-    def __repr__(self):
-        return (f'{self.__class__.__name__}'
-                f'(year={self[0]}, week={self[1]}, weekday={self[2]})')
+#     def __repr__(self):
+#         return (f'{self.__class__.__name__}'
+#                 f'(year={self[0]}, week={self[1]}, weekday={self[2]})')
 
 
 _IsoCalendarDate = IsoCalendarDate
