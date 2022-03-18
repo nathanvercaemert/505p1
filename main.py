@@ -25,7 +25,7 @@ sortType = sys.argv[3]
 
 # read the file into memory
 timePreRead = time.process_time()
-logFile = open(logFileName, "r", encoding="latin-1")
+logFile = open(logFileName, "r", encoding="ascii", errors="surrogateescape")
 ar = []
 while True:
     line = logFile.readline()
