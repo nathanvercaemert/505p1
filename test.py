@@ -30,3 +30,5 @@ for entry in insertionAr:
 timOut = open("./test/timsortTest/output.log", "w")
 for entry in timAr:
     timOut.write(entry.entry)
+
+# isSorted = all(timAr[i] <= timAr[i+1] for i in range(len(timAr) - 1))

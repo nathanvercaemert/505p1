@@ -22,3 +22,4 @@ MIT OCW SEARCHING AND SORTING ALGORITHMS 6.0001 LECTURE 12
 ** Changes
 - Variable names were changed for consistency.
 - Assignation of "middle" incorporates int() for readability.
+- "<=" used instead of "<" in "merge" to make sort stable.

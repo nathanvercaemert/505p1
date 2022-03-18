@@ -6,3 +6,6 @@ class logEntry:
 
     def __lt__(self, other):
         return self.datetime < other.datetime
+
+    def __le__(self, other):
+        return self.datetime <= other.datetime
