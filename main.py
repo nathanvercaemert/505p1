@@ -25,7 +25,7 @@ sortType = sys.argv[3]
 
 # read the file into memory
 timePreRead = time.process_time()
-logFile = open(logFileName, "r", encoding="ascii", errors="surrogateescape")
+logFile = open(logFileName, "rb")
 ar = []
 while True:
     line = logFile.readline()
@@ -50,9 +50,10 @@ timePostSort = time.process_time()
 isSorted = all(ar[i] <= ar[i+1] for i in range(len(ar) - 1))
 
 # write output file
-outputFile = open(outputFileName, "w")
+outputFile = open(outputFileName, "wb")
 for entry in ar:
-    outputFile.write(entry.entry)
+    toWrite = bytearray(entry.entry)
+    outputFile.write(toWrite)
 
 printString = sortType + ","
 printString += logFileNamePrint + ","
