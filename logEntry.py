@@ -1,9 +1,9 @@
-from parser import isoparse
+from parser import datetime
 
 class logEntry:
     def __init__(self, entry):
         self.entry = entry
-        self.datetime = isoparse(self.entry[:25])
+        self.datetime = datetime.fromisoformat(self.entry[:25])
 
     def __lt__(self, other):
         return self.datetime < other.datetime
