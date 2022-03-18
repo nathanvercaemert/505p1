@@ -56,6 +56,7 @@ for entry in ar:
 
 printString = sortType + ","
 printString += logFileNamePrint + ","
+printString += str(isSorted) + ","
 printString += str(timePostRead - timePreRead) + ","
 printString += str(timePostSort - timePreSort)
 print(printString)

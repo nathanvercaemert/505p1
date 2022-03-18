@@ -1,0 +1,3 @@
+#+BEGIN_SRC shell
+python3 main.py logFile outputFile sortType(m/i/t)
+#+END_SRC
