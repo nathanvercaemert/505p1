@@ -1180,9 +1180,9 @@ class tzinfo:
 #                 f'(year={self[0]}, week={self[1]}, weekday={self[2]})')
 
 
-_IsoCalendarDate = IsoCalendarDate
-del IsoCalendarDate
-_tzinfo_class = tzinfo
+# _IsoCalendarDate = IsoCalendarDate
+# del IsoCalendarDate
+# _tzinfo_class = tzinfo
 
 class time:
     """Time with time zone.
