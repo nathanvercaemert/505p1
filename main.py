@@ -2,7 +2,7 @@ import sys
 import os
 import time
 from logEntry import logEntry
-from sorts import mergeSort, insertionSort
+from sorts import mergeSort, insertionSort, mergeSortExpensive, insertionSortExpensive
 
 # get the input file name
 logFileName = sys.argv[1]
@@ -36,14 +36,25 @@ while True:
 logFile.close()
 timePostRead = time.process_time()
 
+# get cheap or expensive comparison
+cheapOrExpensive = sys.argv[4]
+
 # sort the data
 timePreSort = time.process_time()
-if sortType == "m":
-    ar = mergeSort(ar)
-if sortType == "i":
-    insertionSort(ar)
-if sortType == "t":
-    ar.sort()
+if cheapOrExpensive == "c":
+    if sortType == "m":
+        ar = mergeSort(ar)
+    if sortType == "i":
+        insertionSort(ar)
+    if sortType == "t":
+        ar.sort()
+else:
+    if sortType == "m":
+        ar = mergeSortExpensive(ar)
+    if sortType == "i":
+        insertionSortExpensive(ar)
+    if sortType == "t":
+        ar.sort()
 timePostSort = time.process_time()
 
 # check that data is sorted

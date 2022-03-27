@@ -1,6 +1,6 @@
 * Run
 #+BEGIN_SRC shell
-python3 main.py logFile outputFile sortType(m/i/t)
+python3 main.py logFile outputFile sortType(m/i/t) cheapOrExpensive(c/e)
 #+END_SRC
 * Output
 #+BEGIN_SRC shell
