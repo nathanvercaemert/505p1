@@ -67,6 +67,7 @@ for entry in ar:
     outputFile.write(toWrite)
 
 printString = sortType + ","
+printString += cheapOrExpensive + ","
 printString += logFileNamePrint + ","
 printString += str(isSorted) + ","
 printString += str(timePostRead - timePreRead) + ","
