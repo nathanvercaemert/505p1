@@ -1,0 +1,4 @@
+
+output/*.log
+output/output/*
+output_copy/*.log

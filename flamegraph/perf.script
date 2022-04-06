@@ -1,0 +1,2955 @@
+python3 37890 83422.720627:          1 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb6ffbace ctx_resched+0x8e ([kernel.kallsyms])
+	ffffffffb6ffbc8e __perf_event_enable+0x18e ([kernel.kallsyms])
+	ffffffffb6fff0bc event_function+0x9c ([kernel.kallsyms])
+	ffffffffb6ff9a83 remote_function+0x43 ([kernel.kallsyms])
+	ffffffffb6f3f782 flush_smp_call_function_queue+0x52 ([kernel.kallsyms])
+	ffffffffb6f402d3 generic_smp_call_function_single_interrupt+0x13 ([kernel.kallsyms])
+	ffffffffb7a026ce smp_call_function_single_interrupt+0x3e ([kernel.kallsyms])
+	ffffffffb7a01d0f call_function_single_interrupt+0xf ([kernel.kallsyms])
+	          56b67c _PyEval_EvalFrameDefault+0xcfc (/usr/bin/python3.8)
+	 182057474730290 [unknown] ([unknown])
+
+python3 37890 83422.720663:          1 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb6ffbace ctx_resched+0x8e ([kernel.kallsyms])
+	ffffffffb6ffbc8e __perf_event_enable+0x18e ([kernel.kallsyms])
+	ffffffffb6fff0bc event_function+0x9c ([kernel.kallsyms])
+	ffffffffb6ff9a83 remote_function+0x43 ([kernel.kallsyms])
+	ffffffffb6f3f782 flush_smp_call_function_queue+0x52 ([kernel.kallsyms])
+	ffffffffb6f402d3 generic_smp_call_function_single_interrupt+0x13 ([kernel.kallsyms])
+	ffffffffb7a026ce smp_call_function_single_interrupt+0x3e ([kernel.kallsyms])
+	ffffffffb7a01d0f call_function_single_interrupt+0xf ([kernel.kallsyms])
+	          56b67c _PyEval_EvalFrameDefault+0xcfc (/usr/bin/python3.8)
+	 182057474730290 [unknown] ([unknown])
+
+python3 37890 83422.720698:         36 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb6ffbace ctx_resched+0x8e ([kernel.kallsyms])
+	ffffffffb6ffbc8e __perf_event_enable+0x18e ([kernel.kallsyms])
+	ffffffffb6fff0bc event_function+0x9c ([kernel.kallsyms])
+	ffffffffb6ff9a83 remote_function+0x43 ([kernel.kallsyms])
+	ffffffffb6f3f782 flush_smp_call_function_queue+0x52 ([kernel.kallsyms])
+	ffffffffb6f402d3 generic_smp_call_function_single_interrupt+0x13 ([kernel.kallsyms])
+	ffffffffb7a026ce smp_call_function_single_interrupt+0x3e ([kernel.kallsyms])
+	ffffffffb7a01d0f call_function_single_interrupt+0xf ([kernel.kallsyms])
+	          56b67c _PyEval_EvalFrameDefault+0xcfc (/usr/bin/python3.8)
+	 182057474730290 [unknown] ([unknown])
+
+python3 37890 83422.720726:       1303 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb6ffbace ctx_resched+0x8e ([kernel.kallsyms])
+	ffffffffb6ffbc8e __perf_event_enable+0x18e ([kernel.kallsyms])
+	ffffffffb6fff0bc event_function+0x9c ([kernel.kallsyms])
+	ffffffffb6ff9a83 remote_function+0x43 ([kernel.kallsyms])
+	ffffffffb6f3f782 flush_smp_call_function_queue+0x52 ([kernel.kallsyms])
+	ffffffffb6f402d3 generic_smp_call_function_single_interrupt+0x13 ([kernel.kallsyms])
+	ffffffffb7a026ce smp_call_function_single_interrupt+0x3e ([kernel.kallsyms])
+	ffffffffb7a01d0f call_function_single_interrupt+0xf ([kernel.kallsyms])
+	          56b67c _PyEval_EvalFrameDefault+0xcfc (/usr/bin/python3.8)
+	 182057474730290 [unknown] ([unknown])
+
+python3 37890 83422.720752:      61250 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb6ffbace ctx_resched+0x8e ([kernel.kallsyms])
+	ffffffffb6ffbc8e __perf_event_enable+0x18e ([kernel.kallsyms])
+	ffffffffb6fff0bc event_function+0x9c ([kernel.kallsyms])
+	ffffffffb6ff9a83 remote_function+0x43 ([kernel.kallsyms])
+	ffffffffb6f3f782 flush_smp_call_function_queue+0x52 ([kernel.kallsyms])
+	ffffffffb6f402d3 generic_smp_call_function_single_interrupt+0x13 ([kernel.kallsyms])
+	ffffffffb7a026ce smp_call_function_single_interrupt+0x3e ([kernel.kallsyms])
+	ffffffffb7a01d0f call_function_single_interrupt+0xf ([kernel.kallsyms])
+	          56b67c _PyEval_EvalFrameDefault+0xcfc (/usr/bin/python3.8)
+	 182057474730290 [unknown] ([unknown])
+
+python3 37890 83422.720806:    2951045 cycles: 
+	          56c3e5 _PyEval_EvalFrameDefault+0x1a65 (/usr/bin/python3.8)
+	   1026e6073016b [unknown] ([unknown])
+
+python3 37890 83422.723410:   72327353 cycles: 
+	          5a70d0 [unknown] (/usr/bin/python3.8)
+	 183036402745472 [unknown] ([unknown])
+
+python3 37890 83422.748088:   60461674 cycles: 
+	          56aae1 _PyEval_EvalFrameDefault+0x161 (/usr/bin/python3.8)
+	 19002830474097c [unknown] ([unknown])
+
+python3 37890 83422.770204:   42163937 cycles: 
+	          56b0e5 _PyEval_EvalFrameDefault+0x765 (/usr/bin/python3.8)
+	  7c037d00370364 [unknown] ([unknown])
+
+python3 37890 83422.785436:   37484447 cycles: 
+	          59a33f [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83422.799156:   33505209 cycles: 
+	          5bfc56 _PyObject_GetMethod+0x6 (/usr/bin/python3.8)
+	 56402a0007c3270 [unknown] ([unknown])
+
+python3 37890 83422.812516:   34341992 cycles: 
+	          5bdd77 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83422.824828:   32083371 cycles: 
+	          5c406b PyObject_RichCompare+0xab (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83422.836428:   31057137 cycles: 
+	          56ad2d _PyEval_EvalFrameDefault+0x3ad (/usr/bin/python3.8)
+	 ba00a7401820183 [unknown] ([unknown])
+
+python3 37890 83422.847606:   30007005 cycles: 
+	          56b077 _PyEval_EvalFrameDefault+0x6f7 (/usr/bin/python3.8)
+	 1830044077c0084 [unknown] ([unknown])
+
+python3 37890 83422.857954:   29867669 cycles: 
+	          5c0aa2 PyObject_SetAttr+0xf2 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83422.868379:   29517292 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	  53028300a104a0 [unknown] ([unknown])
+
+python3 37890 83422.878463:   29540778 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	 2830474087c0074 [unknown] ([unknown])
+
+python3 37890 83422.888514:   29530577 cycles: 
+	          5dfc06 PyLong_FromString+0x676 (/usr/bin/python3.8)
+
+python3 37890 83422.898569:   29618285 cycles: 
+	          5c3fc0 PyObject_RichCompare+0x0 (/usr/bin/python3.8)
+	 37c007c03740182 [unknown] ([unknown])
+
+python3 37890 83422.908650:   29509805 cycles: 
+	          56b156 _PyEval_EvalFrameDefault+0x7d6 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83422.918640:   29714365 cycles: 
+	          5c4067 PyObject_RichCompare+0xa7 (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83422.929740:   28657478 cycles: 
+	          54404f [unknown] (/usr/bin/python3.8)
+	          9009a0 [unknown] ([unknown])
+
+python3 37890 83422.939243:   29277362 cycles: 
+	          56c426 _PyEval_EvalFrameDefault+0x1aa6 (/usr/bin/python3.8)
+	  140464067c0014 [unknown] ([unknown])
+
+python3 37890 83422.949291:   29454681 cycles: 
+	          5a62eb [unknown] (/usr/bin/python3.8)
+	20ec834853555541 [unknown] ([unknown])
+
+python3 37890 83422.959706:   29294182 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	  6b0964e6720290 [unknown] ([unknown])
+
+python3 37890 83422.969788:   29020110 cycles: 
+	          5f3c36 _PyObject_MakeTpCall+0xb6 (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83422.979643:   29273664 cycles: 
+	          570071 _PyEval_EvalFrameDefault+0x56f1 (/usr/bin/python3.8)
+	 a7c0d5f107c097c [unknown] ([unknown])
+
+python3 37890 83422.990177:   29294152 cycles: 
+	          56acaf _PyEval_EvalFrameDefault+0x32f (/usr/bin/python3.8)
+	 1820574bc730190 [unknown] ([unknown])
+
+python3 37890 83423.000410:   28840941 cycles: 
+	          5bfd7d _PyObject_GetMethod+0x12d (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83423.009902:   29188631 cycles: 
+	          56ab53 _PyEval_EvalFrameDefault+0x1d3 (/usr/bin/python3.8)
+	 28503640064047c [unknown] ([unknown])
+
+python3 37890 83423.019696:   29653968 cycles: 
+	          56acb3 _PyEval_EvalFrameDefault+0x333 (/usr/bin/python3.8)
+	 17c087c097d017d [unknown] ([unknown])
+
+python3 37890 83423.030184:   29371353 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 467016401640164 [unknown] ([unknown])
+
+python3 37890 83423.040452:   29237195 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	 28505640464017c [unknown] ([unknown])
+
+python3 37890 83423.050645:   29180713 cycles: 
+	          56abef _PyEval_EvalFrameDefault+0x26f (/usr/bin/python3.8)
+	 574bc730190006b [unknown] ([unknown])
+
+python3 37890 83423.061619:   31957050 cycles: 
+	          5ec1ad [unknown] (/usr/bin/python3.8)
+	          905e20 [unknown] ([unknown])
+
+python3 37890 83423.072274:   31314418 cycles: 
+	          5a623c [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83423.082631:   31036139 cycles: 
+	          58e456 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83423.092976:   31002112 cycles: 
+	          56b107 _PyEval_EvalFrameDefault+0x787 (/usr/bin/python3.8)
+	 f640183097c0674 [unknown] ([unknown])
+
+python3 37890 83423.104109:   30229130 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	5472006b00030004 [unknown] ([unknown])
+
+python3 37890 83423.114681:   29731298 cycles: 
+	          56b052 _PyEval_EvalFrameDefault+0x6d2 (/usr/bin/python3.8)
+	 27c007c446e057d [unknown] ([unknown])
+
+python3 37890 83423.125246:   29330271 cycles: 
+	          569416 _PyEval_EvalCodeWithName+0x2e6 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83423.135030:   29571916 cycles: 
+	          56b671 _PyEval_EvalFrameDefault+0xcf1 (/usr/bin/python3.8)
+	 97430720390046b [unknown] ([unknown])
+
+python3 37890 83423.145381:   29295547 cycles: 
+	          56fe53 _PyEval_EvalFrameDefault+0x54d3 (/usr/bin/python3.8)
+	 964e6720290016b [unknown] ([unknown])
+
+python3 37890 83423.155269:   29621101 cycles: 
+	          5e7681 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83423.165217:   29708975 cycles: 
+	          5bf7fe PyObject_GetAttr+0xbe (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83423.175166:   29956215 cycles: 
+	          56aad9 _PyEval_EvalFrameDefault+0x159 (/usr/bin/python3.8)
+	 17c0b6a017c0a6a [unknown] ([unknown])
+
+python3 37890 83423.185520:   29601481 cycles: 
+	          56ab7f _PyEval_EvalFrameDefault+0x1ff (/usr/bin/python3.8)
+	  6b0e6410720390 [unknown] ([unknown])
+
+python3 37890 83423.196340:   29097097 cycles: 
+	          56ad2d _PyEval_EvalFrameDefault+0x3ad (/usr/bin/python3.8)
+	 e6410720390016b [unknown] ([unknown])
+
+python3 37890 83423.208321:   29273629 cycles: 
+	          5c134f PyObject_SetAttr+0x99f (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83423.217918:   30982717 cycles: 
+	          56ab67 _PyEval_EvalFrameDefault+0x1e7 (/usr/bin/python3.8)
+	 76b07640183067c [unknown] ([unknown])
+
+python3 37890 83423.228718:   30374629 cycles: 
+	          56ab0c _PyEval_EvalFrameDefault+0x18c (/usr/bin/python3.8)
+	 1820574aa730283 [unknown] ([unknown])
+
+python3 37890 83423.240751:   28639703 cycles: 
+	          56b0a7 _PyEval_EvalFrameDefault+0x727 (/usr/bin/python3.8)
+	 290016b00030004 [unknown] ([unknown])
+
+python3 37890 83423.251747:   28521613 cycles: 
+	          5c4070 PyObject_RichCompare+0xb0 (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83423.261226:   28416425 cycles: 
+	          56ad28 _PyEval_EvalFrameDefault+0x3a8 (/usr/bin/python3.8)
+	 9640274b872036b [unknown] ([unknown])
+
+python3 37890 83423.271263:   28542379 cycles: 
+	          5ae9a0 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83423.283384:   26660192 cycles: 
+	          5d9e88 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83423.294308:   26216208 cycles: 
+	          5bfcf2 _PyObject_GetMethod+0xa2 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83423.303670:   26781330 cycles: 
+	          56fd9e _PyEval_EvalFrameDefault+0x541e (/usr/bin/python3.8)
+	c87302830474087c [unknown] ([unknown])
+
+python3 37890 83423.315555:   25132159 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	  7401820574ba73 [unknown] ([unknown])
+
+python3 37890 83423.324151:   26122626 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 1a1017c03a00274 [unknown] ([unknown])
+
+python3 37890 83423.335235:   25532170 cycles: 
+	          59a5d0 [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83423.345176:   26680369 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 183086401748472 [unknown] ([unknown])
+
+python3 37890 83423.354349:   26539311 cycles: 
+	          56af41 _PyEval_EvalFrameDefault+0x5c1 (/usr/bin/python3.8)
+	 17c007c01820283 [unknown] ([unknown])
+
+python3 37890 83423.363582:   27456096 cycles: 
+	          5b9f40 PyObject_Malloc+0x0 (/usr/bin/python3.8)
+
+python3 37890 83423.374539:   26438292 cycles: 
+	          5c4a14 [unknown] (/usr/bin/python3.8)
+	 97c087d0037017c [unknown] ([unknown])
+
+python3 37890 83423.383757:   27084432 cycles: 
+	    7fe1fd55fa80 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	            5f5f [unknown] ([unknown])
+
+python3 37890 83423.394897:   26281769 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 964027c07740182 [unknown] ([unknown])
+
+python3 37890 83423.404441:   27259055 cycles: 
+	          56ad21 _PyEval_EvalFrameDefault+0x3a1 (/usr/bin/python3.8)
+	 f640183097c0674 [unknown] ([unknown])
+
+python3 37890 83423.414064:   26993077 cycles: 
+	          5aeaed [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83423.423668:   27533081 cycles: 
+	          5bfc84 _PyObject_GetMethod+0x34 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83423.433133:   27964601 cycles: 
+	          56acc9 _PyEval_EvalFrameDefault+0x349 (/usr/bin/python3.8)
+	 46405740001026e [unknown] ([unknown])
+
+python3 37890 83423.442732:   28471416 cycles: 
+	          5c404d PyObject_RichCompare+0x8d (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83423.452313:   28850489 cycles: 
+	          56adae _PyEval_EvalFrameDefault+0x42e (/usr/bin/python3.8)
+	 19002830174027c [unknown] ([unknown])
+
+python3 37890 83423.462331:   28972154 cycles: 
+	          5dc42b [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83423.471920:   29318047 cycles: 
+	          59d298 [unknown] (/usr/bin/python3.8)
+	 2830474087c0074 [unknown] ([unknown])
+
+python3 37890 83423.481492:   29583595 cycles: 
+	          5a69a4 _PyObject_LookupSpecial+0x64 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83423.491276:   29959366 cycles: 
+	    7fe1fd55fa70 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83423.501067:   30156736 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 182057486730290 [unknown] ([unknown])
+
+python3 37890 83423.511127:   30362396 cycles: 
+	          56b872 _PyEval_EvalFrameDefault+0xef2 (/usr/bin/python3.8)
+	5273029002830474 [unknown] ([unknown])
+
+python3 37890 83423.521211:   30384030 cycles: 
+	          56abcf _PyEval_EvalFrameDefault+0x24f (/usr/bin/python3.8)
+	 2830964097c0774 [unknown] ([unknown])
+
+python3 37890 83423.531243:   30425962 cycles: 
+	          5f3b99 _PyObject_MakeTpCall+0x19 (/usr/bin/python3.8)
+	 36402745472006b [unknown] ([unknown])
+
+python3 37890 83423.541580:   30286276 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	1872086b0064017c [unknown] ([unknown])
+
+python3 37890 83423.551909:   30134872 cycles: 
+	          56aad5 _PyEval_EvalFrameDefault+0x155 (/usr/bin/python3.8)
+	  6a007c00530164 [unknown] ([unknown])
+
+python3 37890 83423.562315:   29918233 cycles: 
+	          570179 _PyEval_EvalFrameDefault+0x57f9 (/usr/bin/python3.8)
+	b860000000000000 [unknown] ([unknown])
+
+python3 37890 83423.572196:   29954241 cycles: 
+	          426b94 [unknown] (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83423.582037:   30139932 cycles: 
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	       100000000 [unknown] ([unknown])
+
+python3 37890 83423.592200:   30116080 cycles: 
+	          5a4564 PyType_IsSubtype+0x4 (/usr/bin/python3.8)
+	         2468970 [unknown] ([unknown])
+
+python3 37890 83423.602095:   30311832 cycles: 
+	          56ace4 _PyEval_EvalFrameDefault+0x364 (/usr/bin/python3.8)
+	 16b000300040a7c [unknown] ([unknown])
+
+python3 37890 83423.612257:   30215223 cycles: 
+	          56946b _PyEval_EvalCodeWithName+0x33b (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83423.622206:   30408330 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	       100000021 [unknown] ([unknown])
+
+python3 37890 83423.632145:   30494993 cycles: 
+	          59a33f [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83423.642505:   30408220 cycles: 
+	          56ab53 _PyEval_EvalFrameDefault+0x1d3 (/usr/bin/python3.8)
+	 18201830016057c [unknown] ([unknown])
+
+python3 37890 83423.656620:   30353254 cycles: 
+	          56ab3c _PyEval_EvalFrameDefault+0x1bc (/usr/bin/python3.8)
+	 67cda73086b0064 [unknown] ([unknown])
+
+python3 37890 83423.667398:   29864695 cycles: 
+	          56abbc _PyEval_EvalFrameDefault+0x23c (/usr/bin/python3.8)
+	 2830964097c0774 [unknown] ([unknown])
+
+python3 37890 83423.678260:   29228841 cycles: 
+	          5d9e88 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83423.688536:   29116438 cycles: 
+	          5acb40 PySlice_New+0x50 (/usr/bin/python3.8)
+	7a72056b0364047c [unknown] ([unknown])
+
+python3 37890 83423.698922:   28804222 cycles: 
+	          5c4a1d [unknown] (/usr/bin/python3.8)
+	 37d018300170f7c [unknown] ([unknown])
+
+python3 37890 83423.708338:   29164132 cycles: 
+	          5a75d7 [unknown] (/usr/bin/python3.8)
+	         246c260 [unknown] ([unknown])
+
+python3 37890 83423.717862:   29564867 cycles: 
+	          56b79b _PyEval_EvalFrameDefault+0xe1b (/usr/bin/python3.8)
+	 87c0074087d0037 [unknown] ([unknown])
+
+python3 37890 83423.728569:   29189142 cycles: 
+	          4f36ae [unknown] (/usr/bin/python3.8)
+	 2830474037c0074 [unknown] ([unknown])
+
+python3 37890 83423.738311:   29592101 cycles: 
+	          56afd9 _PyEval_EvalFrameDefault+0x659 (/usr/bin/python3.8)
+	5f5f6c6f6f625f00 [unknown] ([unknown])
+
+python3 37890 83423.748055:   29844379 cycles: 
+	          56b09e _PyEval_EvalFrameDefault+0x71e (/usr/bin/python3.8)
+	 87c0d74097d077d [unknown] ([unknown])
+
+python3 37890 83423.757932:   29955537 cycles: 
+	          5b2bca [unknown] (/usr/bin/python3.8)
+	 2743a72006b0364 [unknown] ([unknown])
+
+python3 37890 83423.768372:   30025380 cycles: 
+	    7fe1fd55fa70 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83423.778929:   29559477 cycles: 
+	          5e31b4 PyLong_FromDouble+0x4 (/usr/bin/python3.8)
+
+python3 37890 83423.788586:   29687723 cycles: 
+	          5d4dc0 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83423.798592:   29940799 cycles: 
+	          5f6850 _PyFunction_Vectorcall+0x1d0 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83423.816471:   26773185 cycles: 
+	          5df676 PyLong_FromString+0xe6 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83423.825638:   27353560 cycles: 
+	          5c47a3 [unknown] (/usr/bin/python3.8)
+	 464027c007c446e [unknown] ([unknown])
+
+python3 37890 83423.842891:   26126825 cycles: 
+	          5dde60 [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83423.864612:   27156046 cycles: 
+	          5dc494 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83423.879556:   23011172 cycles: 
+	          5b9f92 PyObject_Malloc+0x52 (/usr/bin/python3.8)
+
+python3 37890 83423.896756:   23267406 cycles: 
+	          56b6c3 _PyEval_EvalFrameDefault+0xd43 (/usr/bin/python3.8)
+	           10000 [unknown] ([unknown])
+	6c8d4d48538b4400 [unknown] ([unknown])
+
+python3 37890 83423.912394:   22355764 cycles: 
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	 47c037c067d057d [unknown] ([unknown])
+
+python3 37890 83423.926242:          1 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb7001746 __perf_event_task_sched_in+0x186 ([kernel.kallsyms])
+	ffffffffb6ecb3cd finish_task_switch+0xfd ([kernel.kallsyms])
+	ffffffffb78e26cb __schedule+0x2eb ([kernel.kallsyms])
+	ffffffffb78e2b62 schedule+0x42 ([kernel.kallsyms])
+	ffffffffb6e03bff exit_to_usermode_loop+0x8f ([kernel.kallsyms])
+	ffffffffb6e03e97 prepare_exit_to_usermode+0x77 ([kernel.kallsyms])
+	ffffffffb7a00a34 swapgs_restore_regs_and_return_to_usermode+0x0 ([kernel.kallsyms])
+	          56ac2f _PyEval_EvalFrameDefault+0x2af (/usr/bin/python3.8)
+	       100000021 [unknown] ([unknown])
+
+python3 37890 83423.926282:          1 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb7001746 __perf_event_task_sched_in+0x186 ([kernel.kallsyms])
+	ffffffffb6ecb3cd finish_task_switch+0xfd ([kernel.kallsyms])
+	ffffffffb78e26cb __schedule+0x2eb ([kernel.kallsyms])
+	ffffffffb78e2b62 schedule+0x42 ([kernel.kallsyms])
+	ffffffffb6e03bff exit_to_usermode_loop+0x8f ([kernel.kallsyms])
+	ffffffffb6e03e97 prepare_exit_to_usermode+0x77 ([kernel.kallsyms])
+	ffffffffb7a00a34 swapgs_restore_regs_and_return_to_usermode+0x0 ([kernel.kallsyms])
+	          56ac2f _PyEval_EvalFrameDefault+0x2af (/usr/bin/python3.8)
+	       100000021 [unknown] ([unknown])
+
+python3 37890 83423.926314:         33 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb7001746 __perf_event_task_sched_in+0x186 ([kernel.kallsyms])
+	ffffffffb6ecb3cd finish_task_switch+0xfd ([kernel.kallsyms])
+	ffffffffb78e26cb __schedule+0x2eb ([kernel.kallsyms])
+	ffffffffb78e2b62 schedule+0x42 ([kernel.kallsyms])
+	ffffffffb6e03bff exit_to_usermode_loop+0x8f ([kernel.kallsyms])
+	ffffffffb6e03e97 prepare_exit_to_usermode+0x77 ([kernel.kallsyms])
+	ffffffffb7a00a34 swapgs_restore_regs_and_return_to_usermode+0x0 ([kernel.kallsyms])
+	          56ac2f _PyEval_EvalFrameDefault+0x2af (/usr/bin/python3.8)
+	       100000021 [unknown] ([unknown])
+
+python3 37890 83423.926345:       1322 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb7001746 __perf_event_task_sched_in+0x186 ([kernel.kallsyms])
+	ffffffffb6ecb3cd finish_task_switch+0xfd ([kernel.kallsyms])
+	ffffffffb78e26cb __schedule+0x2eb ([kernel.kallsyms])
+	ffffffffb78e2b62 schedule+0x42 ([kernel.kallsyms])
+	ffffffffb6e03bff exit_to_usermode_loop+0x8f ([kernel.kallsyms])
+	ffffffffb6e03e97 prepare_exit_to_usermode+0x77 ([kernel.kallsyms])
+	ffffffffb7a00a34 swapgs_restore_regs_and_return_to_usermode+0x0 ([kernel.kallsyms])
+	          56ac2f _PyEval_EvalFrameDefault+0x2af (/usr/bin/python3.8)
+	       100000021 [unknown] ([unknown])
+
+python3 37890 83423.926392:      53946 cycles: 
+	ffffffffb6e735b6 native_write_msr+0x6 ([kernel.kallsyms])
+	ffffffffb6e0d170 intel_pmu_enable_all+0x10 ([kernel.kallsyms])
+	ffffffffb6e07598 x86_pmu_enable+0x118 ([kernel.kallsyms])
+	ffffffffb6ffb46d perf_pmu_enable.part.0+0xd ([kernel.kallsyms])
+	ffffffffb7001746 __perf_event_task_sched_in+0x186 ([kernel.kallsyms])
+	ffffffffb6ecb3cd finish_task_switch+0xfd ([kernel.kallsyms])
+	ffffffffb78e26cb __schedule+0x2eb ([kernel.kallsyms])
+	ffffffffb78e2b62 schedule+0x42 ([kernel.kallsyms])
+	ffffffffb6e03bff exit_to_usermode_loop+0x8f ([kernel.kallsyms])
+	ffffffffb6e03e97 prepare_exit_to_usermode+0x77 ([kernel.kallsyms])
+	ffffffffb7a00a34 swapgs_restore_regs_and_return_to_usermode+0x0 ([kernel.kallsyms])
+	          56ac2f _PyEval_EvalFrameDefault+0x2af (/usr/bin/python3.8)
+	       100000021 [unknown] ([unknown])
+
+python3 37890 83423.926469:    1519103 cycles: 
+	          56ab67 _PyEval_EvalFrameDefault+0x1e7 (/usr/bin/python3.8)
+	      530a7c165f [unknown] ([unknown])
+
+python3 37890 83423.927049:   26204510 cycles: 
+	          56aad5 _PyEval_EvalFrameDefault+0x155 (/usr/bin/python3.8)
+	    5f5f6c6f6f62 [unknown] ([unknown])
+
+python3 37890 83423.944244:   67601619 cycles: 
+	          56fc86 _PyEval_EvalFrameDefault+0x5306 (/usr/bin/python3.8)
+	  53047c000101a1 [unknown] ([unknown])
+
+python3 37890 83423.963877:   24150707 cycles: 
+	          56ab2a _PyEval_EvalFrameDefault+0x1aa (/usr/bin/python3.8)
+	 25c01a1017c03a0 [unknown] ([unknown])
+
+python3 37890 83423.980082:   25305326 cycles: 
+	          5acb5a PySlice_New+0x6a (/usr/bin/python3.8)
+	  370364037c003c [unknown] ([unknown])
+
+python3 37890 83424.001710:   26531237 cycles: 
+	          56fe0c _PyEval_EvalFrameDefault+0x548c (/usr/bin/python3.8)
+	 864007c00740182 [unknown] ([unknown])
+
+python3 37890 83424.010662:   26844610 cycles: 
+	ffffffffb7a00aad swapgs_restore_regs_and_return_to_usermode+0x79 ([kernel.kallsyms])
+	          6b4058 PyBytes_Repr+0x48 (/usr/bin/python3.8)
+
+python3 37890 83424.024131:   27375777 cycles: 
+	          58e6c7 [unknown] (/usr/bin/python3.8)
+	    7fe1f905d000 [unknown] ([unknown])
+	    7fe1f9059cb0 [unknown] ([unknown])
+
+python3 37890 83424.049198:   24915265 cycles: 
+	          5c09ca PyObject_SetAttr+0x1a (/usr/bin/python3.8)
+	  53107c0f5f107c [unknown] ([unknown])
+
+python3 37890 83424.058020:   25381352 cycles: 
+	          56b09e _PyEval_EvalFrameDefault+0x71e (/usr/bin/python3.8)
+	 183027c0074017d [unknown] ([unknown])
+
+python3 37890 83424.066707:   26739805 cycles: 
+	          51159f [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83424.075687:   27628377 cycles: 
+	          56ad1e _PyEval_EvalFrameDefault+0x39e (/usr/bin/python3.8)
+	 b640183097c0674 [unknown] ([unknown])
+
+python3 37890 83424.093735:   27727714 cycles: 
+	          56ab62 _PyEval_EvalFrameDefault+0x1e2 (/usr/bin/python3.8)
+	 174037c00740182 [unknown] ([unknown])
+
+python3 37890 83424.111056:   31069331 cycles: 
+	          4f7cbf [unknown] (/usr/bin/python3.8)
+	          8fdec0 [unknown] ([unknown])
+
+python3 37890 83424.121462:   30809204 cycles: 
+	          50fd09 PyObject_SetItem+0x19 (/usr/bin/python3.8)
+	 564037c037c007c [unknown] ([unknown])
+
+python3 37890 83424.132187:   30334952 cycles: 
+	          56aad5 _PyEval_EvalFrameDefault+0x155 (/usr/bin/python3.8)
+	 36b0664057c9871 [unknown] ([unknown])
+
+python3 37890 83424.150584:   29918739 cycles: 
+	          5d4e90 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83424.168779:   29739193 cycles: 
+	          56ff8c _PyEval_EvalFrameDefault+0x560c (/usr/bin/python3.8)
+	 27d017d025c0283 [unknown] ([unknown])
+
+python3 37890 83424.206578:   47179483 cycles: 
+	          56c842 _PyEval_EvalFrameDefault+0x1ec2 (/usr/bin/python3.8)
+	               1 [unknown] ([unknown])
+
+python3 37890 83424.223569:   38953237 cycles: 
+	          5d4e90 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83424.236367:   36306336 cycles: 
+	          56b103 _PyEval_EvalFrameDefault+0x783 (/usr/bin/python3.8)
+	 2830474037c0074 [unknown] ([unknown])
+
+python3 37890 83424.248798:   34224242 cycles: 
+	          502089 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83424.260731:   32419646 cycles: 
+	          56aaae _PyEval_EvalFrameDefault+0x12e (/usr/bin/python3.8)
+	 17d018300190285 [unknown] ([unknown])
+
+python3 37890 83424.272104:   31272007 cycles: 
+	          5c4a57 [unknown] (/usr/bin/python3.8)
+	 e7d025c01a1027c [unknown] ([unknown])
+
+python3 37890 83424.282540:   30823906 cycles: 
+	          5d4ec0 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83424.292746:   30760636 cycles: 
+	          5f689d _PyFunction_Vectorcall+0x21d (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83424.302958:   30651691 cycles: 
+	          5bf761 PyObject_GetAttr+0x21 (/usr/bin/python3.8)
+	 1a0006a007c0053 [unknown] ([unknown])
+
+python3 37890 83424.321152:   30636025 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	  6b0e6410720390 [unknown] ([unknown])
+
+python3 37890 83424.340175:   30025754 cycles: 
+	          56b0d7 _PyEval_EvalFrameDefault+0x757 (/usr/bin/python3.8)
+	 574527302900283 [unknown] ([unknown])
+
+python3 37890 83424.366393:   29849548 cycles: 
+	          56aad5 _PyEval_EvalFrameDefault+0x155 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83424.377097:   29572010 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	 87d0037017c087c [unknown] ([unknown])
+
+python3 37890 83424.387778:   28964170 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	 1a1017c03a00274 [unknown] ([unknown])
+
+python3 37890 83424.397995:   28846661 cycles: 
+	          6b406a PyBytes_Repr+0x5a (/usr/bin/python3.8)
+
+python3 37890 83424.408357:   28421888 cycles: 
+	          56b09e _PyEval_EvalFrameDefault+0x71e (/usr/bin/python3.8)
+	  74087d0037017c [unknown] ([unknown])
+
+python3 37890 83424.420750:   26607303 cycles: 
+	          56b24c _PyEval_EvalFrameDefault+0x8cc (/usr/bin/python3.8)
+	      5300640053 [unknown] ([unknown])
+
+python3 37890 83424.432225:   26391065 cycles: 
+	          56aae5 _PyEval_EvalFrameDefault+0x165 (/usr/bin/python3.8)
+	 25c02830964097c [unknown] ([unknown])
+
+python3 37890 83424.443524:   24969872 cycles: 
+	          56ab0c _PyEval_EvalFrameDefault+0x18c (/usr/bin/python3.8)
+	       100000000 [unknown] ([unknown])
+
+python3 37890 83424.452815:   25365098 cycles: 
+	          56ab67 _PyEval_EvalFrameDefault+0x1e7 (/usr/bin/python3.8)
+	 174037d0164027d [unknown] ([unknown])
+
+python3 37890 83424.464449:   24893233 cycles: 
+	          5bfcf2 _PyObject_GetMethod+0xa2 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83424.474813:   24254345 cycles: 
+	          56fc52 _PyEval_EvalFrameDefault+0x52d2 (/usr/bin/python3.8)
+	 e7d025c01a1027c [unknown] ([unknown])
+
+python3 37890 83424.484310:   24517825 cycles: 
+	          56b08c _PyEval_EvalFrameDefault+0x70c (/usr/bin/python3.8)
+	 f640183097c0674 [unknown] ([unknown])
+
+python3 37890 83424.492800:   25590892 cycles: 
+	          56fc99 _PyEval_EvalFrameDefault+0x5319 (/usr/bin/python3.8)
+	 27d0183027c0074 [unknown] ([unknown])
+
+python3 37890 83424.501597:   26360138 cycles: 
+	          5694d3 _PyEval_EvalCodeWithName+0x3a3 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83424.510898:   27284894 cycles: 
+	          599d3a [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83424.520557:   27557339 cycles: 
+	          5df5eb PyLong_FromString+0x5b (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83424.530419:   27789595 cycles: 
+	          56b024 _PyEval_EvalFrameDefault+0x6a4 (/usr/bin/python3.8)
+	5f5f6c6f6f625f00 [unknown] ([unknown])
+
+python3 37890 83424.539735:   28280859 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 18205744e730190 [unknown] ([unknown])
+
+python3 37890 83424.549245:   28704071 cycles: 
+	          56be14 _PyEval_EvalFrameDefault+0x1494 (/usr/bin/python3.8)
+	 564037c037c007c [unknown] ([unknown])
+
+python3 37890 83424.558704:   29267813 cycles: 
+	          5d4e90 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83424.568454:   29642376 cycles: 
+	          56ab53 _PyEval_EvalFrameDefault+0x1d3 (/usr/bin/python3.8)
+	 77c0774087d0464 [unknown] ([unknown])
+
+python3 37890 83424.586592:   29574720 cycles: 
+	          56ac64 _PyEval_EvalFrameDefault+0x2e4 (/usr/bin/python3.8)
+	 1a1017c02a0007c [unknown] ([unknown])
+
+python3 37890 83424.604561:   29692840 cycles: 
+	    7fe1fd55fb2e [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83424.630457:   29844910 cycles: 
+	          56ab47 _PyEval_EvalFrameDefault+0x1c7 (/usr/bin/python3.8)
+	 183097c06740182 [unknown] ([unknown])
+
+python3 37890 83424.648298:   30018157 cycles: 
+	          5ec9d7 PyList_New+0xe7 (/usr/bin/python3.8)
+	  44028302640164 [unknown] ([unknown])
+
+python3 37890 83424.665061:   29926291 cycles: 
+	          58fa23 PyUnicode_New+0x503 (/usr/bin/python3.8)
+
+python3 37890 83424.683347:   30964159 cycles: 
+	          5d4e4a [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83424.702037:   30337942 cycles: 
+	          510db4 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83424.732055:   30404584 cycles: 
+	          58f5b8 PyUnicode_New+0x98 (/usr/bin/python3.8)
+	31323a3430543332 [unknown] ([unknown])
+
+python3 37890 83424.750013:   30480270 cycles: 
+	          56ac05 _PyEval_EvalFrameDefault+0x285 (/usr/bin/python3.8)
+	 183027c0474097c [unknown] ([unknown])
+
+python3 37890 83424.768354:   30329310 cycles: 
+	          581272 [unknown] (/usr/bin/python3.8)
+	 664057c98710001 [unknown] ([unknown])
+
+python3 37890 83424.782863:   29930484 cycles: 
+	          4f2784 [unknown] (/usr/bin/python3.8)
+	 97c087d0037017c [unknown] ([unknown])
+
+python3 37890 83424.801758:   32813566 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	 17c036a007c0274 [unknown] ([unknown])
+
+python3 37890 83424.834109:   30804016 cycles: 
+	          56aae5 _PyEval_EvalFrameDefault+0x165 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83424.845271:   29974047 cycles: 
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	 17c0b6a017c0a6a [unknown] ([unknown])
+
+python3 37890 83424.855495:   29832050 cycles: 
+	          5f1bb8 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83424.865600:   29668646 cycles: 
+	          4fea35 [unknown] (/usr/bin/python3.8)
+	 27c007c446e057d [unknown] ([unknown])
+
+python3 37890 83424.875943:   29738092 cycles: 
+	          510e77 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83424.886871:   29067249 cycles: 
+	          4f7cbf [unknown] (/usr/bin/python3.8)
+	          8fdec0 [unknown] ([unknown])
+
+python3 37890 83424.897044:   28695348 cycles: 
+	          56aae1 _PyEval_EvalFrameDefault+0x161 (/usr/bin/python3.8)
+	 47c7672057c057d [unknown] ([unknown])
+
+python3 37890 83424.907161:   28778899 cycles: 
+	          56fc52 _PyEval_EvalFrameDefault+0x52d2 (/usr/bin/python3.8)
+	   158720a6b0474 [unknown] ([unknown])
+
+python3 37890 83424.916973:   29083947 cycles: 
+	          5a75d7 [unknown] (/usr/bin/python3.8)
+	         246c260 [unknown] ([unknown])
+
+python3 37890 83424.928354:   27947630 cycles: 
+	          5bf99a PyObject_GetAttr+0x25a (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83424.937616:   28539710 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	a672018301830044 [unknown] ([unknown])
+
+python3 37890 83424.947787:   28661788 cycles: 
+	          56ab09 _PyEval_EvalFrameDefault+0x189 (/usr/bin/python3.8)
+	 364057c027c017d [unknown] ([unknown])
+
+python3 37890 83424.957733:   28775802 cycles: 
+	          4f2786 [unknown] (/usr/bin/python3.8)
+	 97c087d0037017c [unknown] ([unknown])
+
+python3 37890 83424.967652:   28990706 cycles: 
+	          56b553 _PyEval_EvalFrameDefault+0xbd3 (/usr/bin/python3.8)
+	2c72036b03640019 [unknown] ([unknown])
+
+python3 37890 83424.985370:   29077119 cycles: 
+	          56fdc1 _PyEval_EvalFrameDefault+0x5441 (/usr/bin/python3.8)
+	 86401740001026e [unknown] ([unknown])
+
+python3 37890 83425.018622:   30322769 cycles: 
+	          5dc2c3 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83425.039058:   29583120 cycles: 
+	          58e3a0 [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83425.065357:   29648245 cycles: 
+	          50f0e4 PyNumber_Add+0x144 (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83425.084048:   31718064 cycles: 
+	          56ac14 _PyEval_EvalFrameDefault+0x294 (/usr/bin/python3.8)
+	 474097c0074037d [unknown] ([unknown])
+
+python3 37890 83425.110747:   31182676 cycles: 
+	          56acc9 _PyEval_EvalFrameDefault+0x349 (/usr/bin/python3.8)
+	  7c037401820274 [unknown] ([unknown])
+
+python3 37890 83425.133332:   29879997 cycles: 
+	          512816 PyObject_GetItem+0x6 (/usr/bin/python3.8)
+	 274027d00190285 [unknown] ([unknown])
+
+python3 37890 83425.152208:   29301066 cycles: 
+	          56b3fb _PyEval_EvalFrameDefault+0xa7b (/usr/bin/python3.8)
+	b260000000000000 [unknown] ([unknown])
+
+python3 37890 83425.178678:   28960589 cycles: 
+	          56b553 _PyEval_EvalFrameDefault+0xbd3 (/usr/bin/python3.8)
+	 48d0d6400190c64 [unknown] ([unknown])
+
+python3 37890 83425.196738:   28891734 cycles: 
+	          56abbc _PyEval_EvalFrameDefault+0x23c (/usr/bin/python3.8)
+	 474087c0074087d [unknown] ([unknown])
+
+python3 37890 83425.222314:   29321428 cycles: 
+	          56ad24 _PyEval_EvalFrameDefault+0x3a4 (/usr/bin/python3.8)
+	  180164027c007c [unknown] ([unknown])
+
+python3 37890 83425.237397:   29587947 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	 25c02830e64037c [unknown] ([unknown])
+
+python3 37890 83425.255700:   28716299 cycles: 
+	          56b0e5 _PyEval_EvalFrameDefault+0x765 (/usr/bin/python3.8)
+	 e7d025c01a1027c [unknown] ([unknown])
+
+python3 37890 83425.269258:   30981695 cycles: 
+	          57efd9 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83425.301547:   28684483 cycles: 
+	          5bf8c2 PyObject_GetAttr+0x182 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83425.327363:   28924677 cycles: 
+	          5c3fe8 PyObject_RichCompare+0x28 (/usr/bin/python3.8)
+	 1820283017c0564 [unknown] ([unknown])
+
+python3 37890 83425.345869:   28806778 cycles: 
+	          5de925 _PyLong_New+0x25 (/usr/bin/python3.8)
+
+python3 37890 83425.364294:   28554655 cycles: 
+	          5d4e88 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83425.390234:   28658912 cycles: 
+	          5a9560 [unknown] (/usr/bin/python3.8)
+	 183036402745472 [unknown] ([unknown])
+
+python3 37890 83425.408814:   28353218 cycles: 
+	          5d25a0 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83425.426663:   28506308 cycles: 
+	          56b861 _PyEval_EvalFrameDefault+0xee1 (/usr/bin/python3.8)
+	5273029002830474 [unknown] ([unknown])
+
+python3 37890 83425.444636:   28521402 cycles: 
+	          56c0ef _PyEval_EvalFrameDefault+0x176f (/usr/bin/python3.8)
+	 57d066a0574a672 [unknown] ([unknown])
+
+python3 37890 83425.463249:   28273520 cycles: 
+	          56ad6b _PyEval_EvalFrameDefault+0x3eb (/usr/bin/python3.8)
+	 9640274b872036b [unknown] ([unknown])
+
+python3 37890 83425.472785:   28561283 cycles: 
+	          5b960a [unknown] (/usr/bin/python3.8)
+	          902dc0 [unknown] ([unknown])
+
+python3 37890 83425.483004:   28652145 cycles: 
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	  53006400530374 [unknown] ([unknown])
+
+python3 37890 83425.492725:   28742583 cycles: 
+	          56b04e _PyEval_EvalFrameDefault+0x6ce (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83425.502667:   28860933 cycles: 
+	          56b60e _PyEval_EvalFrameDefault+0xc8e (/usr/bin/python3.8)
+	5e73019002830474 [unknown] ([unknown])
+
+python3 37890 83425.512517:   29135443 cycles: 
+	          5c4047 PyObject_RichCompare+0x87 (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83425.522148:   29499780 cycles: 
+	          569248 _PyEval_EvalCodeWithName+0x118 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83425.532135:   29675134 cycles: 
+	          56aa10 _PyEval_EvalFrameDefault+0x90 (/usr/bin/python3.8)
+	          9560a0 [unknown] ([unknown])
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83425.541936:   29795653 cycles: 
+	          56ac5b _PyEval_EvalFrameDefault+0x2db (/usr/bin/python3.8)
+	 1820574bc730190 [unknown] ([unknown])
+
+python3 37890 83425.552359:   29774300 cycles: 
+	          56c45e _PyEval_EvalFrameDefault+0x1ade (/usr/bin/python3.8)
+	  74037d00370014 [unknown] ([unknown])
+
+python3 37890 83425.571020:   29284660 cycles: 
+	          5a674d [unknown] (/usr/bin/python3.8)
+	         2468970 [unknown] ([unknown])
+
+python3 37890 83425.589373:   29191668 cycles: 
+	          56ab44 _PyEval_EvalFrameDefault+0x1c4 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83425.615484:   29097851 cycles: 
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	 47c7672057c057d [unknown] ([unknown])
+
+python3 37890 83425.625363:   29118169 cycles: 
+	          5bf8cf PyObject_GetAttr+0x18f (/usr/bin/python3.8)
+	 264027c027d0183 [unknown] ([unknown])
+
+python3 37890 83425.635382:   29332498 cycles: 
+	          56ac72 _PyEval_EvalFrameDefault+0x2f2 (/usr/bin/python3.8)
+	 183001902850017 [unknown] ([unknown])
+
+python3 37890 83425.646426:   28621273 cycles: 
+	          512844 PyObject_GetItem+0x34 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83425.657095:   28186928 cycles: 
+	          5bf83b PyObject_GetAttr+0xfb (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83425.667173:   28115295 cycles: 
+	          51358c PyNumber_InPlaceAdd+0x2c (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83425.676483:   28578690 cycles: 
+	          5c4a40 [unknown] (/usr/bin/python3.8)
+	 97c087d0037017c [unknown] ([unknown])
+
+python3 37890 83425.686141:   29087117 cycles: 
+	          56acaf _PyEval_EvalFrameDefault+0x32f (/usr/bin/python3.8)
+	 1a1017c02a0007c [unknown] ([unknown])
+
+python3 37890 83425.696568:   29038960 cycles: 
+	    7fe1fd55fa70 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83425.706398:   29068637 cycles: 
+	          56b624 _PyEval_EvalFrameDefault+0xca4 (/usr/bin/python3.8)
+	 16401820283017c [unknown] ([unknown])
+
+python3 37890 83425.715897:   29483856 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 182018301640274 [unknown] ([unknown])
+
+python3 37890 83425.726054:   29742623 cycles: 
+	          56b09e _PyEval_EvalFrameDefault+0x71e (/usr/bin/python3.8)
+	 67c057c047c0c74 [unknown] ([unknown])
+
+python3 37890 83425.736328:   29512852 cycles: 
+	          4f7c02 [unknown] (/usr/bin/python3.8)
+	 574527302900283 [unknown] ([unknown])
+
+python3 37890 83425.746195:   29605846 cycles: 
+	          51341d PySequence_Tuple+0xbd (/usr/bin/python3.8)
+	               1 [unknown] ([unknown])
+
+python3 37890 83425.756275:   29632811 cycles: 
+	          4f3698 [unknown] (/usr/bin/python3.8)
+	 16b09640183097c [unknown] ([unknown])
+
+python3 37890 83425.766081:   29833843 cycles: 
+	          5d9df9 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83425.777583:   29913893 cycles: 
+	    7fe1fd55c04b [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	6973696365727000 [unknown] ([unknown])
+
+python3 37890 83425.788568:   31302845 cycles: 
+	          5d4dc0 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83425.799795:   30061212 cycles: 
+	          5e76fe [unknown] (/usr/bin/python3.8)
+
+python3 37890 83425.810164:   29868511 cycles: 
+	          57ec40 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83425.820193:   29956228 cycles: 
+	          56c3d8 _PyEval_EvalFrameDefault+0x1a58 (/usr/bin/python3.8)
+	   1026e6073016b [unknown] ([unknown])
+
+python3 37890 83425.830390:   29881687 cycles: 
+	          56acc9 _PyEval_EvalFrameDefault+0x349 (/usr/bin/python3.8)
+	 97c067401820574 [unknown] ([unknown])
+
+python3 37890 83425.840331:   29965617 cycles: 
+	          56b60e _PyEval_EvalFrameDefault+0xc8e (/usr/bin/python3.8)
+	6273029002830474 [unknown] ([unknown])
+
+python3 37890 83425.858628:   29920901 cycles: 
+	          56fdc1 _PyEval_EvalFrameDefault+0x5441 (/usr/bin/python3.8)
+	   1026eec730290 [unknown] ([unknown])
+
+python3 37890 83425.877127:   29587251 cycles: 
+	          56b624 _PyEval_EvalFrameDefault+0xca4 (/usr/bin/python3.8)
+	 17d025c02830964 [unknown] ([unknown])
+
+python3 37890 83425.896477:   30127666 cycles: 
+	          5f6691 _PyFunction_Vectorcall+0x11 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+	ef89480fffffffff [unknown] ([unknown])
+
+python3 37890 83425.915293:   29450831 cycles: 
+	          599daa [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83425.942908:   31427864 cycles: 
+	          56fdb0 _PyEval_EvalFrameDefault+0x5430 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83425.961800:   30912845 cycles: 
+	          50e9ee PyNumber_Subtract+0x2e (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83425.980836:   30092767 cycles: 
+	          5f19e1 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83426.001410:   29816819 cycles: 
+	          5bfc8b _PyObject_GetMethod+0x3b (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83426.027838:   30705637 cycles: 
+	          56b60a _PyEval_EvalFrameDefault+0xc8a (/usr/bin/python3.8)
+	 9a0007c01820183 [unknown] ([unknown])
+
+python3 37890 83426.047321:   29558988 cycles: 
+	          5d4e88 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83426.059200:   29755408 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	  6b0964e6720290 [unknown] ([unknown])
+
+python3 37890 83426.086924:   29331962 cycles: 
+	ffffffffb6e9fd7b irq_enter+0x1b ([kernel.kallsyms])
+	ffffffffb7a01e4a do_IRQ+0x2a ([kernel.kallsyms])
+	ffffffffb7a00a0f ret_from_intr+0x0 ([kernel.kallsyms])
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	 26e1e73016b0264 [unknown] ([unknown])
+
+python3 37890 83426.104902:   31588223 cycles: 
+	    7fe1fd55fa78 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83426.124315:   30381946 cycles: 
+	          56b671 _PyEval_EvalFrameDefault+0xcf1 (/usr/bin/python3.8)
+	 3a0027428720190 [unknown] ([unknown])
+
+python3 37890 83426.142965:   29958338 cycles: 
+	          56adae _PyEval_EvalFrameDefault+0x42e (/usr/bin/python3.8)
+	10640183037c0674 [unknown] ([unknown])
+
+python3 37890 83426.168824:   30193481 cycles: 
+	          5d9e4a [unknown] (/usr/bin/python3.8)
+
+python3 37890 83426.187189:   29823284 cycles: 
+	          5bf280 PyObject_SelfIter+0x0 (/usr/bin/python3.8)
+	 464027c007c446e [unknown] ([unknown])
+
+python3 37890 83426.204191:   27533034 cycles: 
+	          510d4b [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83426.221268:   28103318 cycles: 
+	          53b66f PyObject_GC_Del+0xff (/usr/bin/python3.8)
+	         244eda0 [unknown] ([unknown])
+
+python3 37890 83426.238894:   28734512 cycles: 
+	          5e8e3a [unknown] (/usr/bin/python3.8)
+	 474087c00740182 [unknown] ([unknown])
+
+python3 37890 83426.249128:   28793036 cycles: 
+	          56adaa _PyEval_EvalFrameDefault+0x42a (/usr/bin/python3.8)
+	 2748e72036b0664 [unknown] ([unknown])
+
+python3 37890 83426.259163:   28744854 cycles: 
+	          56ab53 _PyEval_EvalFrameDefault+0x1d3 (/usr/bin/python3.8)
+	b860000000000000 [unknown] ([unknown])
+
+python3 37890 83426.268996:   28953321 cycles: 
+	          56abf3 _PyEval_EvalFrameDefault+0x273 (/usr/bin/python3.8)
+	107c0a7c0d5f107c [unknown] ([unknown])
+
+python3 37890 83426.279397:   28787653 cycles: 
+	          56b639 _PyEval_EvalFrameDefault+0xcb9 (/usr/bin/python3.8)
+	 17d025c02830964 [unknown] ([unknown])
+
+python3 37890 83426.289231:   28826262 cycles: 
+	          56ab31 _PyEval_EvalFrameDefault+0x1b1 (/usr/bin/python3.8)
+	c273029002830474 [unknown] ([unknown])
+
+python3 37890 83426.299738:   28653514 cycles: 
+	          56bb45 _PyEval_EvalFrameDefault+0x11c5 (/usr/bin/python3.8)
+	 47c037c027d0037 [unknown] ([unknown])
+
+python3 37890 83426.309799:   28538773 cycles: 
+	          56ab53 _PyEval_EvalFrameDefault+0x1d3 (/usr/bin/python3.8)
+	  3c00180164027c [unknown] ([unknown])
+
+python3 37890 83426.320185:   28472677 cycles: 
+	ffffffffb7a00248 irq_entries_start+0x28 ([kernel.kallsyms])
+	          56b88b _PyEval_EvalFrameDefault+0xf0b (/usr/bin/python3.8)
+	 56b0364047c7672 [unknown] ([unknown])
+
+python3 37890 83426.330427:   28358060 cycles: 
+	          59a12b [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83426.340029:   28593108 cycles: 
+	          5acaf7 PySlice_New+0x7 (/usr/bin/python3.8)
+	  19028500640264 [unknown] ([unknown])
+
+python3 37890 83426.348974:   29352202 cycles: 
+	          5bfc84 _PyObject_GetMethod+0x34 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83426.359398:   29403699 cycles: 
+	          56ac41 _PyEval_EvalFrameDefault+0x2c1 (/usr/bin/python3.8)
+	 964027c07740182 [unknown] ([unknown])
+
+python3 37890 83426.369264:   29365313 cycles: 
+	          5d9e90 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83426.379863:   29061110 cycles: 
+	          5ec130 [unknown] (/usr/bin/python3.8)
+	          905e20 [unknown] ([unknown])
+
+python3 37890 83426.389481:   29335013 cycles: 
+	          56b639 _PyEval_EvalFrameDefault+0xcb9 (/usr/bin/python3.8)
+	 28503640264017c [unknown] ([unknown])
+
+python3 37890 83426.400889:   28343990 cycles: 
+	          510dbb [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83426.411366:   28143095 cycles: 
+	          56ac09 _PyEval_EvalFrameDefault+0x289 (/usr/bin/python3.8)
+	 1820574c2730290 [unknown] ([unknown])
+
+python3 37890 83426.421285:   28376871 cycles: 
+	          5bf97c PyObject_GetAttr+0x23c (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83426.431679:   28178064 cycles: 
+	          56b861 _PyEval_EvalFrameDefault+0xee1 (/usr/bin/python3.8)
+	 364037c003c047c [unknown] ([unknown])
+
+python3 37890 83426.442184:   27726941 cycles: 
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	 183046402743a72 [unknown] ([unknown])
+
+python3 37890 83426.459445:   28282324 cycles: 
+	          5bfd20 _PyObject_GetMethod+0xd0 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83426.477081:   28622298 cycles: 
+	          56ba44 _PyEval_EvalFrameDefault+0x10c4 (/usr/bin/python3.8)
+	            5f5f [unknown] ([unknown])
+
+python3 37890 83426.496797:   27107691 cycles: 
+	          5c0aa2 PyObject_SetAttr+0xf2 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83426.506419:   27631132 cycles: 
+	          5d98a6 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83426.516565:   27486705 cycles: 
+	          5bf8a0 PyObject_GetAttr+0x160 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83426.542401:   27820329 cycles: 
+	          56aadc _PyEval_EvalFrameDefault+0x15c (/usr/bin/python3.8)
+	   1000000000000 [unknown] ([unknown])
+
+python3 37890 83426.559638:   28341615 cycles: 
+	          56b2a9 _PyEval_EvalFrameDefault+0x929 (/usr/bin/python3.8)
+	 56402a0007c3270 [unknown] ([unknown])
+
+python3 37890 83426.577362:   28680164 cycles: 
+	          4f8138 [unknown] (/usr/bin/python3.8)
+	 474087c00740182 [unknown] ([unknown])
+
+python3 37890 83426.595737:   28696320 cycles: 
+	          56b0fe _PyEval_EvalFrameDefault+0x77e (/usr/bin/python3.8)
+	 b640183097c0674 [unknown] ([unknown])
+
+python3 37890 83426.623044:   30716496 cycles: 
+	          56ac64 _PyEval_EvalFrameDefault+0x2e4 (/usr/bin/python3.8)
+	 182057486730290 [unknown] ([unknown])
+
+python3 37890 83426.641233:   30656784 cycles: 
+	          5d4d99 [unknown] (/usr/bin/python3.8)
+	 174027c00740182 [unknown] ([unknown])
+
+python3 37890 83426.659792:   30345889 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 183086401748472 [unknown] ([unknown])
+
+python3 37890 83426.710673:   31604489 cycles: 
+	          5c4a22 [unknown] (/usr/bin/python3.8)
+	 36a007c027c0182 [unknown] ([unknown])
+
+python3 37890 83426.728869:   28922193 cycles: 
+	          56aa47 _PyEval_EvalFrameDefault+0xc7 (/usr/bin/python3.8)
+	 86b0064017c1273 [unknown] ([unknown])
+
+python3 37890 83426.746755:   28231077 cycles: 
+	          56aa80 _PyEval_EvalFrameDefault+0x100 (/usr/bin/python3.8)
+	 17c007c00530164 [unknown] ([unknown])
+
+python3 37890 83426.764410:   28738343 cycles: 
+	          56b671 _PyEval_EvalFrameDefault+0xcf1 (/usr/bin/python3.8)
+	 97430720390046b [unknown] ([unknown])
+
+python3 37890 83426.782475:   29891164 cycles: 
+	          56aae1 _PyEval_EvalFrameDefault+0x161 (/usr/bin/python3.8)
+	  140364057c027c [unknown] ([unknown])
+
+python3 37890 83426.800480:   26342250 cycles: 
+	          58e3a0 [unknown] (/usr/bin/python3.8)
+	  7c037d00370364 [unknown] ([unknown])
+
+python3 37890 83426.819443:   28939477 cycles: 
+	          56ad0f _PyEval_EvalFrameDefault+0x38f (/usr/bin/python3.8)
+	ea72046b0664027c [unknown] ([unknown])
+
+python3 37890 83426.842344:   24942449 cycles: 
+	          5f66b0 _PyFunction_Vectorcall+0x30 (/usr/bin/python3.8)
+	  7cea72046b0664 [unknown] ([unknown])
+
+python3 37890 83426.858625:   28698969 cycles: 
+	          56abb0 _PyEval_EvalFrameDefault+0x230 (/usr/bin/python3.8)
+	 183001902850164 [unknown] ([unknown])
+
+python3 37890 83426.876685:   28769436 cycles: 
+	          5f668c _PyFunction_Vectorcall+0xc (/usr/bin/python3.8)
+	   18c720a6b0474 [unknown] ([unknown])
+
+python3 37890 83426.902825:   28663602 cycles: 
+	          5bf7f1 PyObject_GetAttr+0xb1 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83426.921019:   28536891 cycles: 
+	          50efdf PyNumber_Add+0x3f (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83426.940216:   27772510 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	 182057486730290 [unknown] ([unknown])
+
+python3 37890 83426.950550:   27642340 cycles: 
+	          5a97fe [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83426.960744:   27474114 cycles: 
+	          56a99c _PyEval_EvalFrameDefault+0x1c (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83426.970095:   27869185 cycles: 
+	          56ac37 _PyEval_EvalFrameDefault+0x2b7 (/usr/bin/python3.8)
+	 27c097c0a7d027d [unknown] ([unknown])
+
+python3 37890 83426.980081:   28080413 cycles: 
+	          56ac49 _PyEval_EvalFrameDefault+0x2c9 (/usr/bin/python3.8)
+	 a6b047400049e71 [unknown] ([unknown])
+
+python3 37890 83426.990483:   27919755 cycles: 
+	          5c3fc6 PyObject_RichCompare+0x6 (/usr/bin/python3.8)
+	 8740001026e6073 [unknown] ([unknown])
+
+python3 37890 83427.000114:   28106440 cycles: 
+	          5aeaed [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83427.009341:   28611591 cycles: 
+	          5a3006 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83427.018843:   29237671 cycles: 
+	          56b094 _PyEval_EvalFrameDefault+0x714 (/usr/bin/python3.8)
+	  53047c000101a1 [unknown] ([unknown])
+
+python3 37890 83427.028555:   29618228 cycles: 
+	          5f0074 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83427.039244:   29170673 cycles: 
+	          56adbf _PyEval_EvalFrameDefault+0x43f (/usr/bin/python3.8)
+	 1a1007c01a0006a [unknown] ([unknown])
+
+python3 37890 83427.049518:   29142334 cycles: 
+	          5bf748 PyObject_GetAttr+0x8 (/usr/bin/python3.8)
+	5f5f6c6f6f625f00 [unknown] ([unknown])
+
+python3 37890 83427.060505:   28503538 cycles: 
+	          56aa60 _PyEval_EvalFrameDefault+0xe0 (/usr/bin/python3.8)
+	 374018202740e73 [unknown] ([unknown])
+
+python3 37890 83427.070623:   28394443 cycles: 
+	          56aaee _PyEval_EvalFrameDefault+0x16e (/usr/bin/python3.8)
+	 29002830474097c [unknown] ([unknown])
+
+python3 37890 83427.085481:   27564754 cycles: 
+	          5e08ff PyLong_FromUnicodeObject+0x8f (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83427.111800:   27575946 cycles: 
+	          510db4 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83427.131119:   26544006 cycles: 
+	          5f3be0 _PyObject_MakeTpCall+0x60 (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83427.148692:   26852379 cycles: 
+	          56ab31 _PyEval_EvalFrameDefault+0x1b1 (/usr/bin/python3.8)
+	 16b000300040a7c [unknown] ([unknown])
+
+python3 37890 83427.176041:   25755645 cycles: 
+	          513566 PyNumber_InPlaceAdd+0x6 (/usr/bin/python3.8)
+	 97d017d025c0283 [unknown] ([unknown])
+
+python3 37890 83427.194588:   25358542 cycles: 
+	          5d9ea9 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83427.210603:   26689404 cycles: 
+	          4f3711 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83427.221036:   25967562 cycles: 
+	          56ac96 _PyEval_EvalFrameDefault+0x316 (/usr/bin/python3.8)
+	 86401830c7c0674 [unknown] ([unknown])
+
+python3 37890 83427.232685:   26261173 cycles: 
+	          5023e7 [unknown] (/usr/bin/python3.8)
+	          5f1780 [unknown] (/usr/bin/python3.8)
+	695f7473696c005f [unknown] ([unknown])
+
+python3 37890 83427.243061:   24931006 cycles: 
+	          56acfd _PyEval_EvalFrameDefault+0x37d (/usr/bin/python3.8)
+	 182018301640274 [unknown] ([unknown])
+
+python3 37890 83427.252152:   25436796 cycles: 
+	          56fe4f _PyEval_EvalFrameDefault+0x54cf (/usr/bin/python3.8)
+	 27c066401740001 [unknown] ([unknown])
+
+python3 37890 83427.260553:   26635218 cycles: 
+	          510d4b [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83427.269410:   27571436 cycles: 
+	          512810 PyObject_GetItem+0x0 (/usr/bin/python3.8)
+	   17a72056b0364 [unknown] ([unknown])
+
+python3 37890 83427.279385:   27960708 cycles: 
+	          5b9982 PyObject_IsTrue+0xb2 (/usr/bin/python3.8)
+	 27c0074126e027d [unknown] ([unknown])
+
+python3 37890 83427.289621:   27892765 cycles: 
+	          5e2c18 PyLong_FromLong+0x38 (/usr/bin/python3.8)
+
+python3 37890 83427.299147:   28313603 cycles: 
+	          5f683a _PyFunction_Vectorcall+0x1ba (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83427.308984:   28479698 cycles: 
+	          4f1f20 PyMember_SetOne+0x10 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83427.319166:   28554375 cycles: 
+	          56ab7b _PyEval_EvalFrameDefault+0x1fb (/usr/bin/python3.8)
+	  74018205740001 [unknown] ([unknown])
+
+python3 37890 83427.329536:   28259056 cycles: 
+	          56ab4e _PyEval_EvalFrameDefault+0x1ce (/usr/bin/python3.8)
+	 87d0037017c087c [unknown] ([unknown])
+
+python3 37890 83427.339704:   28169564 cycles: 
+	          56ae6b _PyEval_EvalFrameDefault+0x4eb (/usr/bin/python3.8)
+	  641872086b0064 [unknown] ([unknown])
+
+python3 37890 83427.349192:   28569332 cycles: 
+	          5f1bc0 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83427.358946:   29010062 cycles: 
+	          5dc2b9 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83427.368933:   29056443 cycles: 
+	          56ac4f _PyEval_EvalFrameDefault+0x2cf (/usr/bin/python3.8)
+	   4097c0164e872 [unknown] ([unknown])
+
+python3 37890 83427.379148:   28993523 cycles: 
+	    7fe1fd28fdc0 roundf32x+0x60 (/usr/lib/x86_64-linux-gnu/libm-2.31.so)
+
+python3 37890 83427.389230:   29017905 cycles: 
+	          5bfd20 _PyObject_GetMethod+0xd0 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83427.399579:   28887543 cycles: 
+	          5cda85 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83427.409443:   28970395 cycles: 
+	          56ab35 _PyEval_EvalFrameDefault+0x1b5 (/usr/bin/python3.8)
+	 16b016401a1017c [unknown] ([unknown])
+
+python3 37890 83427.427046:   29346697 cycles: 
+	          56ac2f _PyEval_EvalFrameDefault+0x2af (/usr/bin/python3.8)
+	 2830474097c0074 [unknown] ([unknown])
+
+python3 37890 83427.445228:   29414231 cycles: 
+	          56aad5 _PyEval_EvalFrameDefault+0x155 (/usr/bin/python3.8)
+	 3640064047c047d [unknown] ([unknown])
+
+python3 37890 83427.479815:   28411082 cycles: 
+	          505788 [unknown] (/usr/bin/python3.8)
+	          8fda20 [unknown] ([unknown])
+
+python3 37890 83427.504420:   28569952 cycles: 
+	          56ab22 _PyEval_EvalFrameDefault+0x1a2 (/usr/bin/python3.8)
+	 46b017c007c0053 [unknown] ([unknown])
+
+python3 37890 83427.522085:   29800223 cycles: 
+	          5d9de9 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83427.539874:   30044671 cycles: 
+	          5c1389 PyObject_SetAttr+0x9d9 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83427.566556:   29684371 cycles: 
+	          572d3d _PyEval_EvalFrameDefault+0x83bd (/usr/bin/python3.8)
+	           10000 [unknown] ([unknown])
+
+python3 37890 83427.577309:   29286215 cycles: 
+	          5aeb23 [unknown] (/usr/bin/python3.8)
+	 17d025c02830964 [unknown] ([unknown])
+
+python3 37890 83427.588081:   28662333 cycles: 
+	          56aadc _PyEval_EvalFrameDefault+0x15c (/usr/bin/python3.8)
+	 18300170f7c037c [unknown] ([unknown])
+
+python3 37890 83427.598211:   28701457 cycles: 
+	          56abd8 _PyEval_EvalFrameDefault+0x258 (/usr/bin/python3.8)
+	 67401820574aa73 [unknown] ([unknown])
+
+python3 37890 83427.608769:   28323827 cycles: 
+	          56b639 _PyEval_EvalFrameDefault+0xcb9 (/usr/bin/python3.8)
+	 272029002830174 [unknown] ([unknown])
+
+python3 37890 83427.618813:   28272427 cycles: 
+	          56b872 _PyEval_EvalFrameDefault+0xef2 (/usr/bin/python3.8)
+	 56b0364047c7672 [unknown] ([unknown])
+
+python3 37890 83427.628467:   28618448 cycles: 
+	          56acc9 _PyEval_EvalFrameDefault+0x349 (/usr/bin/python3.8)
+	 1a1017c03a00274 [unknown] ([unknown])
+
+python3 37890 83427.638017:   28972024 cycles: 
+	          5a6468 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83427.664070:   29170628 cycles: 
+	          5ec6df [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83427.682072:   29082883 cycles: 
+	          5cf57b [unknown] (/usr/bin/python3.8)
+	               8 [unknown] ([unknown])
+
+python3 37890 83427.700362:   29188265 cycles: 
+	          56ab2a _PyEval_EvalFrameDefault+0x1aa (/usr/bin/python3.8)
+	 564047c037c027d [unknown] ([unknown])
+
+python3 37890 83427.717929:   29220577 cycles: 
+	          59eaa4 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83427.735173:   27313814 cycles: 
+	          5f3c0a _PyObject_MakeTpCall+0x8a (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83427.748916:   27666013 cycles: 
+	          56c41e _PyEval_EvalFrameDefault+0x1a9e (/usr/bin/python3.8)
+	 26e16730390006b [unknown] ([unknown])
+
+python3 37890 83427.758492:   28146519 cycles: 
+	          56fc52 _PyEval_EvalFrameDefault+0x52d2 (/usr/bin/python3.8)
+	 16b09640183097c [unknown] ([unknown])
+
+python3 37890 83427.768587:   28220782 cycles: 
+	          6615c0 [unknown] (/usr/bin/python3.8)
+	 183027c0074017d [unknown] ([unknown])
+
+python3 37890 83427.778702:   28133723 cycles: 
+	          56aa37 _PyEval_EvalFrameDefault+0xb7 (/usr/bin/python3.8)
+	  7c000b026a007c [unknown] ([unknown])
+
+python3 37890 83427.788379:   28201051 cycles: 
+	          58e482 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83427.797859:   28739609 cycles: 
+	          5c09b6 PyObject_SetAttr+0x6 (/usr/bin/python3.8)
+	107c13640e5f107c [unknown] ([unknown])
+
+python3 37890 83427.817769:   28747962 cycles: 
+	          5a2f26 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83427.835853:   30523965 cycles: 
+	          5116cf [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83427.862414:   30066505 cycles: 
+	          56fdc1 _PyEval_EvalFrameDefault+0x5441 (/usr/bin/python3.8)
+	 864007c00740182 [unknown] ([unknown])
+
+python3 37890 83427.881026:   29614146 cycles: 
+	          50f66a PyNumber_Index+0x1a (/usr/bin/python3.8)
+	 183027c0074017d [unknown] ([unknown])
+
+python3 37890 83427.899622:   29336278 cycles: 
+	          5a3147 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83427.910110:   29053402 cycles: 
+	          56acc9 _PyEval_EvalFrameDefault+0x349 (/usr/bin/python3.8)
+	 2830474097c0074 [unknown] ([unknown])
+
+python3 37890 83427.920708:   28579164 cycles: 
+	          504ac0 [unknown] (/usr/bin/python3.8)
+	 46401a1056402a0 [unknown] ([unknown])
+
+python3 37890 83427.930727:   28686323 cycles: 
+	          56ab09 _PyEval_EvalFrameDefault+0x189 (/usr/bin/python3.8)
+	   300040a7c0164 [unknown] ([unknown])
+
+python3 37890 83427.941293:   28366413 cycles: 
+	          5ec1ad [unknown] (/usr/bin/python3.8)
+	          905e20 [unknown] ([unknown])
+
+python3 37890 83427.951631:   28150347 cycles: 
+	          56b043 _PyEval_EvalFrameDefault+0x6c3 (/usr/bin/python3.8)
+	    5f5f6c6f6f62 [unknown] ([unknown])
+
+python3 37890 83427.962242:   27722100 cycles: 
+	    7fe1fd55f695 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	               0 [unknown] ([unknown])
+
+python3 37890 83427.972094:   27688971 cycles: 
+	          56b0ee _PyEval_EvalFrameDefault+0x76e (/usr/bin/python3.8)
+	 16b09640183097c [unknown] ([unknown])
+
+python3 37890 83427.981717:   28239821 cycles: 
+	          5df5a5 PyLong_FromString+0x15 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83427.991293:   28610616 cycles: 
+	          50e9ee PyNumber_Subtract+0x2e (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83428.013435:   28921982 cycles: 
+	          576e00 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83428.023406:   28793420 cycles: 
+	          5a7226 [unknown] (/usr/bin/python3.8)
+	         246c260 [unknown] ([unknown])
+
+python3 37890 83428.033863:   28464224 cycles: 
+	          56fc86 _PyEval_EvalFrameDefault+0x5306 (/usr/bin/python3.8)
+	 574527302900283 [unknown] ([unknown])
+
+python3 37890 83428.043912:   28689348 cycles: 
+	          56fdc1 _PyEval_EvalFrameDefault+0x5441 (/usr/bin/python3.8)
+	   1026e16730390 [unknown] ([unknown])
+
+python3 37890 83428.054438:   28259210 cycles: 
+	          56ada2 _PyEval_EvalFrameDefault+0x422 (/usr/bin/python3.8)
+	 190006b017c037c [unknown] ([unknown])
+
+python3 37890 83428.064970:   27682210 cycles: 
+	          5acb2f PySlice_New+0x3f (/usr/bin/python3.8)
+	  19028500640264 [unknown] ([unknown])
+
+python3 37890 83428.074359:   28377755 cycles: 
+	          56b65c _PyEval_EvalFrameDefault+0xcdc (/usr/bin/python3.8)
+	 97c0164e8720290 [unknown] ([unknown])
+
+python3 37890 83428.083938:   28667218 cycles: 
+	          56aadc _PyEval_EvalFrameDefault+0x15c (/usr/bin/python3.8)
+	  16037c05640374 [unknown] ([unknown])
+
+python3 37890 83428.093438:   29180054 cycles: 
+	          555c31 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83428.103714:   29333717 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 182018301640274 [unknown] ([unknown])
+
+python3 37890 83428.126580:   28605942 cycles: 
+	          56afd6 _PyEval_EvalFrameDefault+0x656 (/usr/bin/python3.8)
+	 383000b036a007c [unknown] ([unknown])
+
+python3 37890 83428.144755:   28727301 cycles: 
+	          56adaa _PyEval_EvalFrameDefault+0x42a (/usr/bin/python3.8)
+	       100000053 [unknown] ([unknown])
+
+python3 37890 83428.162986:   28584976 cycles: 
+	          56fc42 _PyEval_EvalFrameDefault+0x52c2 (/usr/bin/python3.8)
+	 37c077401820574 [unknown] ([unknown])
+
+python3 37890 83428.180851:   28718089 cycles: 
+	          426b90 [unknown] (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83428.206466:   29003566 cycles: 
+	          6123e8 _PyGen_yf+0x8 (/usr/bin/python3.8)
+	          8fc1c0 [unknown] ([unknown])
+
+python3 37890 83428.223946:   29427237 cycles: 
+	          5c3fc6 PyObject_RichCompare+0x6 (/usr/bin/python3.8)
+	 86401740001026e [unknown] ([unknown])
+
+python3 37890 83428.233647:   29729111 cycles: 
+	          5ec93e PyList_New+0x4e (/usr/bin/python3.8)
+	  44028302640164 [unknown] ([unknown])
+
+python3 37890 83428.243740:   29975782 cycles: 
+	          56ab67 _PyEval_EvalFrameDefault+0x1e7 (/usr/bin/python3.8)
+	  7c01a0006a007c [unknown] ([unknown])
+
+python3 37890 83428.257100:   29384815 cycles: 
+	          5c3fc6 PyObject_RichCompare+0x6 (/usr/bin/python3.8)
+	 2641872046b017c [unknown] ([unknown])
+
+python3 37890 83428.269105:   27175089 cycles: 
+	          5b9f44 PyObject_Malloc+0x4 (/usr/bin/python3.8)
+
+python3 37890 83428.279413:   26416561 cycles: 
+	          5a31b2 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83428.289627:   26867453 cycles: 
+	          5718bc _PyEval_EvalFrameDefault+0x6f3c (/usr/bin/python3.8)
+	               1 [unknown] ([unknown])
+
+python3 37890 83428.299103:   26540442 cycles: 
+	          56b393 _PyEval_EvalFrameDefault+0xa13 (/usr/bin/python3.8)
+	               2 [unknown] ([unknown])
+
+python3 37890 83428.311325:   25552718 cycles: 
+	          56ab44 _PyEval_EvalFrameDefault+0x1c4 (/usr/bin/python3.8)
+	 37c027d00370017 [unknown] ([unknown])
+
+python3 37890 83428.322073:   24541654 cycles: 
+	ffffffffb6e95fa4 __put_task_struct+0x94 ([kernel.kallsyms])
+	ffffffffb6e9c83c delayed_put_task_struct+0x3c ([kernel.kallsyms])
+	ffffffffb6f19f9c rcu_do_batch+0x12c ([kernel.kallsyms])
+	ffffffffb6f1b1d4 rcu_core+0xf4 ([kernel.kallsyms])
+	ffffffffb6f1b35e rcu_core_si+0xe ([kernel.kallsyms])
+	ffffffffb7c000d1 __softirqentry_text_start+0xd1 ([kernel.kallsyms])
+	ffffffffb6e9fe5e irq_exit+0xae ([kernel.kallsyms])
+	ffffffffb7a027db smp_apic_timer_interrupt+0x7b ([kernel.kallsyms])
+	ffffffffb7a01c6f apic_timer_interrupt+0xf ([kernel.kallsyms])
+	          5c0aaf PyObject_SetAttr+0xff (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83428.331114:   25180320 cycles: 
+	          56ab44 _PyEval_EvalFrameDefault+0x1c4 (/usr/bin/python3.8)
+	 174027c00740182 [unknown] ([unknown])
+
+python3 37890 83428.340122:   25918136 cycles: 
+	          5e2c25 PyLong_FromLong+0x45 (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83428.349882:   26169373 cycles: 
+	          56b094 _PyEval_EvalFrameDefault+0x714 (/usr/bin/python3.8)
+	 2649872026b0164 [unknown] ([unknown])
+
+python3 37890 83428.359152:   26832141 cycles: 
+	          5ae9fa [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83428.368543:   27431768 cycles: 
+	          56abc1 _PyEval_EvalFrameDefault+0x241 (/usr/bin/python3.8)
+	   1000158720a6b [unknown] ([unknown])
+
+python3 37890 83428.378483:   27577738 cycles: 
+	          56fdc1 _PyEval_EvalFrameDefault+0x5441 (/usr/bin/python3.8)
+	 87c067401820574 [unknown] ([unknown])
+
+python3 37890 83428.388471:   27626463 cycles: 
+	          5dfcc4 PyLong_FromString+0x734 (/usr/bin/python3.8)
+	    7fe1fb2f57c0 [unknown] ([unknown])
+
+python3 37890 83428.398812:   27587324 cycles: 
+	          5c3fd9 PyObject_RichCompare+0x19 (/usr/bin/python3.8)
+	c87302830474087c [unknown] ([unknown])
+
+python3 37890 83428.416946:   27577819 cycles: 
+	          5e2be6 PyLong_FromLong+0x6 (/usr/bin/python3.8)
+
+python3 37890 83428.442192:   28144029 cycles: 
+	          56a9c3 _PyEval_EvalFrameDefault+0x43 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83428.460193:   28224651 cycles: 
+	          5b99c1 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83428.478157:   28339892 cycles: 
+	ffffffffb6ed6a79 account_user_time+0x29 ([kernel.kallsyms])
+	ffffffffb6ed6f63 account_process_tick+0xd3 ([kernel.kallsyms])
+	ffffffffb6f2824f update_process_times+0x1f ([kernel.kallsyms])
+	ffffffffb6f39b89 tick_sched_handle+0x29 ([kernel.kallsyms])
+	ffffffffb6f39e2d tick_sched_timer+0x3d ([kernel.kallsyms])
+	ffffffffb6f28fb7 __hrtimer_run_queues+0xf7 ([kernel.kallsyms])
+	ffffffffb6f29869 hrtimer_interrupt+0x109 ([kernel.kallsyms])
+	ffffffffb7a027d1 smp_apic_timer_interrupt+0x71 ([kernel.kallsyms])
+	ffffffffb7a01c6f apic_timer_interrupt+0xf ([kernel.kallsyms])
+	          56b01b _PyEval_EvalFrameDefault+0x69b (/usr/bin/python3.8)
+	      5300640182 [unknown] ([unknown])
+
+python3 37890 83428.496431:   28280899 cycles: 
+	          4f7cbf [unknown] (/usr/bin/python3.8)
+	          8fdec0 [unknown] ([unknown])
+
+python3 37890 83428.522228:   28416225 cycles: 
+	          56ab6f _PyEval_EvalFrameDefault+0x1ef (/usr/bin/python3.8)
+	 87d0037017c087c [unknown] ([unknown])
+
+python3 37890 83428.540260:   28416753 cycles: 
+	          56acc9 _PyEval_EvalFrameDefault+0x349 (/usr/bin/python3.8)
+	  7c037401820274 [unknown] ([unknown])
+
+python3 37890 83428.558322:   28649486 cycles: 
+	          56b117 _PyEval_EvalFrameDefault+0x797 (/usr/bin/python3.8)
+	 774097d0037027c [unknown] ([unknown])
+
+python3 37890 83428.568843:   28315896 cycles: 
+	          56abcc _PyEval_EvalFrameDefault+0x24c (/usr/bin/python3.8)
+	 27c007cea72046b [unknown] ([unknown])
+
+python3 37890 83428.578699:   28510934 cycles: 
+	          56c3d8 _PyEval_EvalFrameDefault+0x1a58 (/usr/bin/python3.8)
+	  140264077c017c [unknown] ([unknown])
+
+python3 37890 83428.588441:   28899708 cycles: 
+	          56aa47 _PyEval_EvalFrameDefault+0xc7 (/usr/bin/python3.8)
+	 16b02641472016b [unknown] ([unknown])
+
+python3 37890 83428.598944:   28520820 cycles: 
+	          56acbd _PyEval_EvalFrameDefault+0x33d (/usr/bin/python3.8)
+	 674018205743c73 [unknown] ([unknown])
+
+python3 37890 83428.609058:   28379185 cycles: 
+	          56ab4a _PyEval_EvalFrameDefault+0x1ca (/usr/bin/python3.8)
+	 57d01a1047c03a0 [unknown] ([unknown])
+
+python3 37890 83428.619246:   28302856 cycles: 
+	          5bf7f1 PyObject_GetAttr+0xb1 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83428.629186:   28526874 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	  53028300a104a0 [unknown] ([unknown])
+
+python3 37890 83428.639249:   28509602 cycles: 
+	          5acb2f PySlice_New+0x3f (/usr/bin/python3.8)
+	  370364037c003c [unknown] ([unknown])
+
+python3 37890 83428.649133:   28605803 cycles: 
+	    7fe1fd55f607 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83428.658925:   28949641 cycles: 
+	          5dfb30 PyLong_FromString+0x5a0 (/usr/bin/python3.8)
+	        7fe1fb2f [unknown] ([unknown])
+
+python3 37890 83428.668651:   29099645 cycles: 
+	          5bf7f1 PyObject_GetAttr+0xb1 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83428.678609:   29291100 cycles: 
+	          5bfcf2 _PyObject_GetMethod+0xa2 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83428.688493:   29518340 cycles: 
+	          4f4f25 [unknown] (/usr/bin/python3.8)
+	          909980 [unknown] ([unknown])
+
+python3 37890 83428.706505:   29543717 cycles: 
+	          5aea12 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83428.724278:   29811340 cycles: 
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	 d5f107c097c0c5f [unknown] ([unknown])
+
+python3 37890 83428.750827:   32872306 cycles: 
+	          5d4e90 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83428.770355:   31536541 cycles: 
+	          5c0aa2 PyObject_SetAttr+0xf2 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83428.789440:   30779366 cycles: 
+	    7fe1fd55fa70 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83428.816499:   29825233 cycles: 
+	          5f1bb0 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83428.835042:   29578836 cycles: 
+	          5a5e42 [unknown] (/usr/bin/python3.8)
+	20ec834853555541 [unknown] ([unknown])
+
+python3 37890 83428.853435:   29256372 cycles: 
+	          5c404d PyObject_RichCompare+0x8d (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83428.880003:   29003858 cycles: 
+	          57eea8 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83428.898103:   28937264 cycles: 
+	          56b829 _PyEval_EvalFrameDefault+0xea9 (/usr/bin/python3.8)
+	 97c0774097d0037 [unknown] ([unknown])
+
+python3 37890 83428.916448:   28761074 cycles: 
+	          5135c7 PyNumber_InPlaceAdd+0x67 (/usr/bin/python3.8)
+	  140464067c0014 [unknown] ([unknown])
+
+python3 37890 83428.942434:   28844762 cycles: 
+	          4ff162 PyFunction_NewWithQualName+0x22 (/usr/bin/python3.8)
+	          90bf00 [unknown] ([unknown])
+
+python3 37890 83428.953224:   28521182 cycles: 
+	          56b085 _PyEval_EvalFrameDefault+0x705 (/usr/bin/python3.8)
+	  74087d0037017c [unknown] ([unknown])
+
+python3 37890 83428.983538:   29325526 cycles: 
+	          5c4804 [unknown] (/usr/bin/python3.8)
+	 37c007401820574 [unknown] ([unknown])
+
+python3 37890 83429.002462:   28553669 cycles: 
+	          56ac93 _PyEval_EvalFrameDefault+0x313 (/usr/bin/python3.8)
+	 183001902850017 [unknown] ([unknown])
+
+python3 37890 83429.019519:   28039791 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 27c03a002742872 [unknown] ([unknown])
+
+python3 37890 83429.037013:   28454362 cycles: 
+	          5dc469 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83429.046764:   28829360 cycles: 
+	          56ac5b _PyEval_EvalFrameDefault+0x2db (/usr/bin/python3.8)
+	 97c0c5f107c087c [unknown] ([unknown])
+
+python3 37890 83429.057737:   28893351 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	 1a1017c03a00274 [unknown] ([unknown])
+
+python3 37890 83429.068062:   28135655 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 37d027d017d035c [unknown] ([unknown])
+
+python3 37890 83429.077820:   28394548 cycles: 
+	          4f7c0b [unknown] (/usr/bin/python3.8)
+	 574527302900283 [unknown] ([unknown])
+
+python3 37890 83429.095600:   28546038 cycles: 
+	          56b726 _PyEval_EvalFrameDefault+0xda6 (/usr/bin/python3.8)
+	 f5f107c13640e5f [unknown] ([unknown])
+
+python3 37890 83429.106065:   28606507 cycles: 
+	          5aea32 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83429.116486:   28235710 cycles: 
+	          5ac1cf PyTuple_New+0x2f (/usr/bin/python3.8)
+	               1 [unknown] ([unknown])
+
+python3 37890 83429.126600:   28200737 cycles: 
+	          56ad28 _PyEval_EvalFrameDefault+0x3a8 (/usr/bin/python3.8)
+	 18205740001026e [unknown] ([unknown])
+
+python3 37890 83429.137358:   27586311 cycles: 
+	          5ec665 [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83429.147289:   27868651 cycles: 
+	          56b08c _PyEval_EvalFrameDefault+0x70c (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83429.165146:   28081955 cycles: 
+	          50fcf6 PyObject_SetItem+0x6 (/usr/bin/python3.8)
+	  5300640e711671 [unknown] ([unknown])
+
+python3 37890 83429.175149:   28058831 cycles: 
+	          5f78fb [unknown] (/usr/bin/python3.8)
+	          901d40 [unknown] ([unknown])
+
+python3 37890 83429.185481:   28045639 cycles: 
+	          59a7ff [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83429.199908:   25021320 cycles: 
+	          56acaf _PyEval_EvalFrameDefault+0x32f (/usr/bin/python3.8)
+	1264097430720390 [unknown] ([unknown])
+
+python3 37890 83429.211746:   23932606 cycles: 
+	          5c0aa2 PyObject_SetAttr+0xf2 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83429.221289:   23344038 cycles: 
+	          56b06e _PyEval_EvalFrameDefault+0x6ee (/usr/bin/python3.8)
+	 37c077401820574 [unknown] ([unknown])
+
+python3 37890 83429.228974:   25079152 cycles: 
+	          56b21a _PyEval_EvalFrameDefault+0x89a (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+	ef89480fffffffff [unknown] ([unknown])
+
+python3 37890 83429.237228:   27158296 cycles: 
+	          5dfb30 PyLong_FromString+0x5a0 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83429.246358:   28303804 cycles: 
+	          56fc5b _PyEval_EvalFrameDefault+0x52db (/usr/bin/python3.8)
+	 17c00a104a0007c [unknown] ([unknown])
+
+python3 37890 83429.255851:   28636845 cycles: 
+	          5acafe PySlice_New+0xe (/usr/bin/python3.8)
+	 36b036400190264 [unknown] ([unknown])
+
+python3 37890 83429.266296:   28525624 cycles: 
+	          5ddd30 [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83429.276861:   28103543 cycles: 
+	          56acc9 _PyEval_EvalFrameDefault+0x349 (/usr/bin/python3.8)
+	 1820574a2730190 [unknown] ([unknown])
+
+python3 37890 83429.286506:   28387535 cycles: 
+	          56b0f0 _PyEval_EvalFrameDefault+0x770 (/usr/bin/python3.8)
+	  16087c12640974 [unknown] ([unknown])
+
+python3 37890 83429.296538:   28520641 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 1a1017c02a0007c [unknown] ([unknown])
+
+python3 37890 83429.307023:   28308995 cycles: 
+	          56aae1 _PyEval_EvalFrameDefault+0x161 (/usr/bin/python3.8)
+	 37d036a007c0182 [unknown] ([unknown])
+
+python3 37890 83429.317043:   28215312 cycles: 
+	          56ab67 _PyEval_EvalFrameDefault+0x1e7 (/usr/bin/python3.8)
+	b860000000000000 [unknown] ([unknown])
+
+python3 37890 83429.327085:   28369524 cycles: 
+	          5c479d [unknown] (/usr/bin/python3.8)
+	 174027c00740182 [unknown] ([unknown])
+
+python3 37890 83429.336883:   28402245 cycles: 
+	    7fe1fd55fb38 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83429.355145:   28460339 cycles: 
+	          54367b PyTraceBack_Here+0x5b (/usr/bin/python3.8)
+
+python3 37890 83429.372633:   28809224 cycles: 
+	          56ac49 _PyEval_EvalFrameDefault+0x2c9 (/usr/bin/python3.8)
+	 25c01a1027c03a0 [unknown] ([unknown])
+
+python3 37890 83429.398209:   29462235 cycles: 
+	ffffffffb6e03e8a prepare_exit_to_usermode+0x6a ([kernel.kallsyms])
+	ffffffffb7a00a34 swapgs_restore_regs_and_return_to_usermode+0x0 ([kernel.kallsyms])
+	    7fe1fd55f5f0 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	31323a3430543332 [unknown] ([unknown])
+
+python3 37890 83429.416438:   29270732 cycles: 
+	          56fe4f _PyEval_EvalFrameDefault+0x54cf (/usr/bin/python3.8)
+	 17c046403740001 [unknown] ([unknown])
+
+python3 37890 83429.434261:   29553159 cycles: 
+	          5dc2cd [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83429.452366:   29479133 cycles: 
+	          56b639 _PyEval_EvalFrameDefault+0xcb9 (/usr/bin/python3.8)
+	6273029002830474 [unknown] ([unknown])
+
+python3 37890 83429.478483:   29475405 cycles: 
+	          56ab44 _PyEval_EvalFrameDefault+0x1c4 (/usr/bin/python3.8)
+	 190006b0d640183 [unknown] ([unknown])
+
+python3 37890 83429.496820:   29458268 cycles: 
+	          56de6f _PyEval_EvalFrameDefault+0x34ef (/usr/bin/python3.8)
+	 183036402745472 [unknown] ([unknown])
+
+python3 37890 83429.514637:   29578461 cycles: 
+	          5bfc84 _PyObject_GetMethod+0x34 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83429.533152:   29438757 cycles: 
+	          5bfd14 _PyObject_GetMethod+0xc4 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83429.559336:   29370992 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 183097c06740182 [unknown] ([unknown])
+
+python3 37890 83429.569564:   28853297 cycles: 
+	          5c4070 PyObject_RichCompare+0xb0 (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83429.579789:   28961861 cycles: 
+	          56aae1 _PyEval_EvalFrameDefault+0x161 (/usr/bin/python3.8)
+	       200000000 [unknown] ([unknown])
+	20c7f64007e28307 [unknown] ([unknown])
+
+python3 37890 83429.589622:   29197295 cycles: 
+	          56abb0 _PyEval_EvalFrameDefault+0x230 (/usr/bin/python3.8)
+	 3a00274027d0019 [unknown] ([unknown])
+
+python3 37890 83429.599795:   29120689 cycles: 
+	          56ac54 _PyEval_EvalFrameDefault+0x2d4 (/usr/bin/python3.8)
+	 97c067401820574 [unknown] ([unknown])
+
+python3 37890 83429.609788:   29229498 cycles: 
+	          56b671 _PyEval_EvalFrameDefault+0xcf1 (/usr/bin/python3.8)
+	 3a0027428720190 [unknown] ([unknown])
+
+python3 37890 83429.619893:   29297829 cycles: 
+	          5f3c2b _PyObject_MakeTpCall+0xab (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83429.630516:   28889788 cycles: 
+	          5c49f5 [unknown] (/usr/bin/python3.8)
+	 290016b00030004 [unknown] ([unknown])
+
+python3 37890 83429.640440:   28946650 cycles: 
+	          5bfc7a _PyObject_GetMethod+0x2a (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83429.650825:   28804903 cycles: 
+	          5c4911 [unknown] (/usr/bin/python3.8)
+	 574527302900283 [unknown] ([unknown])
+
+python3 37890 83429.661091:   28628974 cycles: 
+	          5f66b0 _PyFunction_Vectorcall+0x30 (/usr/bin/python3.8)
+	   158720a6b0474 [unknown] ([unknown])
+
+python3 37890 83429.671101:   28705150 cycles: 
+	          5a7226 [unknown] (/usr/bin/python3.8)
+	         246c260 [unknown] ([unknown])
+
+python3 37890 83429.689634:   28459297 cycles: 
+	          56afd6 _PyEval_EvalFrameDefault+0x656 (/usr/bin/python3.8)
+	 182018303640874 [unknown] ([unknown])
+
+python3 37890 83429.711611:   28317170 cycles: 
+	          5c495e [unknown] (/usr/bin/python3.8)
+	 574527302900283 [unknown] ([unknown])
+
+python3 37890 83429.728498:   28840105 cycles: 
+	          56adba _PyEval_EvalFrameDefault+0x43a (/usr/bin/python3.8)
+	 37c007c03740182 [unknown] ([unknown])
+
+python3 37890 83429.740104:   26053863 cycles: 
+	          5acaf6 PySlice_New+0x6 (/usr/bin/python3.8)
+	 37c057d01a1047c [unknown] ([unknown])
+
+python3 37890 83429.756697:   27146599 cycles: 
+	          5f67bf _PyFunction_Vectorcall+0x13f (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83429.773909:   27867684 cycles: 
+	          56b085 _PyEval_EvalFrameDefault+0x705 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83429.791968:   28117443 cycles: 
+	          5f679d _PyFunction_Vectorcall+0x11d (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83429.801963:   28220495 cycles: 
+	          5c4a34 [unknown] (/usr/bin/python3.8)
+	 17d0b7d025c01a1 [unknown] ([unknown])
+
+python3 37890 83429.818956:   25851617 cycles: 
+	          56bd80 _PyEval_EvalFrameDefault+0x1400 (/usr/bin/python3.8)
+	 183037c0374037d [unknown] ([unknown])
+
+python3 37890 83429.835894:   26766552 cycles: 
+	          58e41f [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83429.852778:   27511401 cycles: 
+	          50027e [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83429.862243:   28260555 cycles: 
+	          56b120 _PyEval_EvalFrameDefault+0x7a0 (/usr/bin/python3.8)
+	 390016b00030004 [unknown] ([unknown])
+
+python3 37890 83429.871781:   28604241 cycles: 
+	          56ac41 _PyEval_EvalFrameDefault+0x2c1 (/usr/bin/python3.8)
+	  7c027c01820183 [unknown] ([unknown])
+
+python3 37890 83429.881553:   28927931 cycles: 
+	          56b0d7 _PyEval_EvalFrameDefault+0x757 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83429.891883:   28822193 cycles: 
+	          56aadc _PyEval_EvalFrameDefault+0x15c (/usr/bin/python3.8)
+	 27d046701640164 [unknown] ([unknown])
+
+python3 37890 83429.901843:   28854851 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	 37d027d017d035c [unknown] ([unknown])
+
+python3 37890 83429.911757:   29046469 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	 67c00140364057c [unknown] ([unknown])
+
+python3 37890 83429.921751:   29053580 cycles: 
+	          5dc4c1 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83429.939913:   29159186 cycles: 
+	          56fdb7 _PyEval_EvalFrameDefault+0x5437 (/usr/bin/python3.8)
+	10640183037c0674 [unknown] ([unknown])
+
+python3 37890 83429.957824:   29250859 cycles: 
+	          5c3ff2 PyObject_RichCompare+0x32 (/usr/bin/python3.8)
+	  7c018201830364 [unknown] ([unknown])
+
+python3 37890 83429.976356:   29017146 cycles: 
+	          56aae1 _PyEval_EvalFrameDefault+0x161 (/usr/bin/python3.8)
+	 27d003700170014 [unknown] ([unknown])
+
+python3 37890 83430.002416:   28902139 cycles: 
+	          56abc9 _PyEval_EvalFrameDefault+0x249 (/usr/bin/python3.8)
+	 87c027d017d025c [unknown] ([unknown])
+
+python3 37890 83430.038275:   28923772 cycles: 
+	          4f36ae [unknown] (/usr/bin/python3.8)
+	 a6401830e7c0674 [unknown] ([unknown])
+
+python3 37890 83430.053400:   28720150 cycles: 
+	          56ba44 _PyEval_EvalFrameDefault+0x10c4 (/usr/bin/python3.8)
+	            5f5f [unknown] ([unknown])
+
+python3 37890 83430.071792:   31428257 cycles: 
+	          56acc0 _PyEval_EvalFrameDefault+0x340 (/usr/bin/python3.8)
+	  7401820574ba73 [unknown] ([unknown])
+
+python3 37890 83430.100205:   29331723 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	  74017d0183017c [unknown] ([unknown])
+
+python3 37890 83430.117874:   29326745 cycles: 
+	          4f369d [unknown] (/usr/bin/python3.8)
+	 a6401830e7c0674 [unknown] ([unknown])
+
+python3 37890 83430.136080:   29588795 cycles: 
+	          5a70d0 [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83430.159242:   28670906 cycles: 
+	          56b0be _PyEval_EvalFrameDefault+0x73e (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83430.176767:   29044434 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	 183001902850017 [unknown] ([unknown])
+
+python3 37890 83430.186696:   29169272 cycles: 
+	          56c061 _PyEval_EvalFrameDefault+0x16e1 (/usr/bin/python3.8)
+	 36b036400190664 [unknown] ([unknown])
+
+python3 37890 83430.196411:   29402519 cycles: 
+	          56ac72 _PyEval_EvalFrameDefault+0x2f2 (/usr/bin/python3.8)
+	 474037c00740182 [unknown] ([unknown])
+
+python3 37890 83430.206442:   29635301 cycles: 
+	          56ac37 _PyEval_EvalFrameDefault+0x2b7 (/usr/bin/python3.8)
+	 97c067401820574 [unknown] ([unknown])
+
+python3 37890 83430.216283:   29696721 cycles: 
+	          5dc4cd [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83430.226920:   29325003 cycles: 
+	          5c3fcb PyObject_RichCompare+0xb (/usr/bin/python3.8)
+	 266017c007c0464 [unknown] ([unknown])
+
+python3 37890 83430.237318:   29214801 cycles: 
+	          4ff17c PyFunction_NewWithQualName+0x3c (/usr/bin/python3.8)
+	          90bf00 [unknown] ([unknown])
+
+python3 37890 83430.247371:   29242081 cycles: 
+	          56afd6 _PyEval_EvalFrameDefault+0x656 (/usr/bin/python3.8)
+	 1a0006a007c0053 [unknown] ([unknown])
+
+python3 37890 83430.258543:   28428891 cycles: 
+	          5acb05 PySlice_New+0x15 (/usr/bin/python3.8)
+	  19028500640264 [unknown] ([unknown])
+
+python3 37890 83430.268753:   28325088 cycles: 
+	          56ad21 _PyEval_EvalFrameDefault+0x3a1 (/usr/bin/python3.8)
+	 27c077401820574 [unknown] ([unknown])
+
+python3 37890 83430.278732:   28321069 cycles: 
+	          5e8e3d [unknown] (/usr/bin/python3.8)
+	 474087c00740182 [unknown] ([unknown])
+
+python3 37890 83430.288244:   28720054 cycles: 
+	          5c1344 PyObject_SetAttr+0x994 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83430.298251:   28817712 cycles: 
+	          5c3fc6 PyObject_RichCompare+0x6 (/usr/bin/python3.8)
+	  74067d00190285 [unknown] ([unknown])
+
+python3 37890 83430.307904:   29210167 cycles: 
+	          5aeb27 [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83430.318262:   29159194 cycles: 
+	          56fdab _PyEval_EvalFrameDefault+0x542b (/usr/bin/python3.8)
+	 37c007c03740182 [unknown] ([unknown])
+
+python3 37890 83430.328288:   29158899 cycles: 
+	          56ac8f _PyEval_EvalFrameDefault+0x30f (/usr/bin/python3.8)
+	 18205744e730190 [unknown] ([unknown])
+
+python3 37890 83430.338574:   29042364 cycles: 
+	          56b472 _PyEval_EvalFrameDefault+0xaf2 (/usr/bin/python3.8)
+	 2743a72006b0364 [unknown] ([unknown])
+
+python3 37890 83430.349179:   28620976 cycles: 
+	          5c5c0b [unknown] (/usr/bin/python3.8)
+	          903b00 [unknown] ([unknown])
+
+python3 37890 83430.359593:   28485765 cycles: 
+	          56b671 _PyEval_EvalFrameDefault+0xcf1 (/usr/bin/python3.8)
+	 182057462730290 [unknown] ([unknown])
+
+python3 37890 83430.369279:   28591892 cycles: 
+	          56aa37 _PyEval_EvalFrameDefault+0xb7 (/usr/bin/python3.8)
+	 86b0064017c1273 [unknown] ([unknown])
+
+python3 37890 83430.378961:   29029685 cycles: 
+	          5dc309 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83430.397195:   28881097 cycles: 
+	          5c4a3a [unknown] (/usr/bin/python3.8)
+	 774097d0037027c [unknown] ([unknown])
+
+python3 37890 83430.414979:   29229859 cycles: 
+	          56a98c _PyEval_EvalFrameDefault+0xc (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83430.433367:   29144862 cycles: 
+	    7fe1fd55f67c [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83430.459353:   29139281 cycles: 
+	          56aa30 _PyEval_EvalFrameDefault+0xb0 (/usr/bin/python3.8)
+	1872006b0164017c [unknown] ([unknown])
+
+python3 37890 83430.481756:   28874625 cycles: 
+	          5c3fcb PyObject_RichCompare+0xb (/usr/bin/python3.8)
+	   400007f000053 [unknown] ([unknown])
+
+python3 37890 83430.499504:   29181858 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 183001902850017 [unknown] ([unknown])
+
+python3 37890 83430.510665:   30664872 cycles: 
+	          56aba2 _PyEval_EvalFrameDefault+0x222 (/usr/bin/python3.8)
+	 2830174037c0074 [unknown] ([unknown])
+
+python3 37890 83430.529662:   30181108 cycles: 
+	          59eaa8 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83430.548068:   29799337 cycles: 
+	          56fe69 _PyEval_EvalFrameDefault+0x54e9 (/usr/bin/python3.8)
+	 18205740001026e [unknown] ([unknown])
+
+python3 37890 83430.559034:   29024670 cycles: 
+	          5a31b2 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83430.569706:   28749392 cycles: 
+	          56a99c _PyEval_EvalFrameDefault+0x1c (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83430.579981:   28477345 cycles: 
+	          5c3fca PyObject_RichCompare+0xa (/usr/bin/python3.8)
+	  74067d00190285 [unknown] ([unknown])
+
+python3 37890 83430.590005:   28421078 cycles: 
+	          56c48a _PyEval_EvalFrameDefault+0x1b0a (/usr/bin/python3.8)
+	 3a0027494720283 [unknown] ([unknown])
+
+python3 37890 83430.599862:   28693452 cycles: 
+	          5d4ede [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83430.609544:   28728864 cycles: 
+	          56a9b0 _PyEval_EvalFrameDefault+0x30 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83430.619257:   29250543 cycles: 
+	          58e3a4 [unknown] (/usr/bin/python3.8)
+	  7c037d00370364 [unknown] ([unknown])
+
+python3 37890 83430.629550:   29088838 cycles: 
+	          5a659b [unknown] (/usr/bin/python3.8)
+	          8fb380 [unknown] ([unknown])
+
+python3 37890 83430.647116:   29488083 cycles: 
+	          56ac5b _PyEval_EvalFrameDefault+0x2db (/usr/bin/python3.8)
+	 674018205749073 [unknown] ([unknown])
+
+python3 37890 83430.659950:   27048939 cycles: 
+	          5cd814 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83430.677685:   27134265 cycles: 
+	          56ab0c _PyEval_EvalFrameDefault+0x18c (/usr/bin/python3.8)
+	    7f0000530364 [unknown] ([unknown])
+
+python3 37890 83430.699034:   27978540 cycles: 
+	          56aae5 _PyEval_EvalFrameDefault+0x165 (/usr/bin/python3.8)
+	  7c086a007c0774 [unknown] ([unknown])
+
+python3 37890 83430.716367:   28349679 cycles: 
+	          56bd68 _PyEval_EvalFrameDefault+0x13e8 (/usr/bin/python3.8)
+	 374018201830464 [unknown] ([unknown])
+
+python3 37890 83430.725635:   28933946 cycles: 
+	          56a980 _PyEval_EvalFrameDefault+0x0 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83430.736162:   28768784 cycles: 
+	          4f27bc [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83430.746055:   29071221 cycles: 
+	ffffffffb7a01d40 reschedule_interrupt+0x0 ([kernel.kallsyms])
+	          56aa77 _PyEval_EvalFrameDefault+0xf7 (/usr/bin/python3.8)
+	 17d018300190285 [unknown] ([unknown])
+
+python3 37890 83430.756660:   28727498 cycles: 
+	          56c348 _PyEval_EvalFrameDefault+0x19c8 (/usr/bin/python3.8)
+	               1 [unknown] ([unknown])
+
+python3 37890 83430.767224:   28438226 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	 18205744e730190 [unknown] ([unknown])
+
+python3 37890 83430.777981:   28518651 cycles: 
+	          5d9aff [unknown] (/usr/bin/python3.8)
+
+python3 37890 83430.788663:   27467669 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	  74017d0183017c [unknown] ([unknown])
+
+python3 37890 83430.798461:   27802738 cycles: 
+	          56bd71 _PyEval_EvalFrameDefault+0x13f1 (/usr/bin/python3.8)
+	 87d0464026e0b64 [unknown] ([unknown])
+
+python3 37890 83430.813870:   26227114 cycles: 
+	          5ec78d [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83430.838629:   27562092 cycles: 
+	          5a660c [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83430.855873:   28256982 cycles: 
+	          5718a7 _PyEval_EvalFrameDefault+0x6f27 (/usr/bin/python3.8)
+	               1 [unknown] ([unknown])
+
+python3 37890 83430.873902:   28285078 cycles: 
+	          5dc384 [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83430.892116:   28324669 cycles: 
+	          5eff94 [unknown] (/usr/bin/python3.8)
+	894855d489415441 [unknown] ([unknown])
+
+python3 37890 83430.901699:   28553655 cycles: 
+	          4f8141 [unknown] (/usr/bin/python3.8)
+	 37c077401820574 [unknown] ([unknown])
+
+python3 37890 83430.911380:   28912231 cycles: 
+	          56aad5 _PyEval_EvalFrameDefault+0x155 (/usr/bin/python3.8)
+	 37c007c037d0037 [unknown] ([unknown])
+
+python3 37890 83430.921255:   29168765 cycles: 
+	          56b613 _PyEval_EvalFrameDefault+0xc93 (/usr/bin/python3.8)
+	 574c87302830474 [unknown] ([unknown])
+
+python3 37890 83430.931578:   29080518 cycles: 
+	          50faa8 PyNumber_Multiply+0x18 (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83430.942216:   28654875 cycles: 
+	          56b5f3 _PyEval_EvalFrameDefault+0xc73 (/usr/bin/python3.8)
+	 5740001026eec73 [unknown] ([unknown])
+
+python3 37890 83430.953051:   28159824 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	 182057486730290 [unknown] ([unknown])
+
+python3 37890 83430.962874:   28278333 cycles: 
+	          4fef06 [unknown] (/usr/bin/python3.8)
+	          8fb600 [unknown] ([unknown])
+
+python3 37890 83430.990402:   28290005 cycles: 
+	          56ab22 _PyEval_EvalFrameDefault+0x1a2 (/usr/bin/python3.8)
+	 17d025c02830964 [unknown] ([unknown])
+
+python3 37890 83431.007093:   27561311 cycles: 
+	          5ab7d4 [unknown] (/usr/bin/python3.8)
+	          901d40 [unknown] ([unknown])
+
+python3 37890 83431.016323:   28270409 cycles: 
+	          56b613 _PyEval_EvalFrameDefault+0xc93 (/usr/bin/python3.8)
+	 190016b0b640183 [unknown] ([unknown])
+
+python3 37890 83431.042055:   28381200 cycles: 
+	          56b08c _PyEval_EvalFrameDefault+0x70c (/usr/bin/python3.8)
+	  7cea72046b0664 [unknown] ([unknown])
+
+python3 37890 83431.062716:   31888609 cycles: 
+	          5ac22a PyTuple_New+0x8a (/usr/bin/python3.8)
+	            5f5f [unknown] ([unknown])
+
+python3 37890 83431.088703:   31107740 cycles: 
+	          56ab62 _PyEval_EvalFrameDefault+0x1e2 (/usr/bin/python3.8)
+	6073016b04645472 [unknown] ([unknown])
+
+python3 37890 83431.107769:   31204574 cycles: 
+	          5b2b76 [unknown] (/usr/bin/python3.8)
+	 2743a72006b0364 [unknown] ([unknown])
+
+python3 37890 83431.126148:   30708119 cycles: 
+	          56ace4 _PyEval_EvalFrameDefault+0x364 (/usr/bin/python3.8)
+	 17c087c097d017d [unknown] ([unknown])
+
+python3 37890 83431.136962:   30422834 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	   30004027c0264 [unknown] ([unknown])
+
+python3 37890 83431.148194:   29482002 cycles: 
+	          5e8e26 [unknown] (/usr/bin/python3.8)
+	 474087c00740182 [unknown] ([unknown])
+
+python3 37890 83431.158765:   28957858 cycles: 
+	          5c4a20 [unknown] (/usr/bin/python3.8)
+	 290016b00030004 [unknown] ([unknown])
+
+python3 37890 83431.169591:   28460430 cycles: 
+	          56b613 _PyEval_EvalFrameDefault+0xc93 (/usr/bin/python3.8)
+	 3740053026a007c [unknown] ([unknown])
+
+python3 37890 83431.179039:   28820158 cycles: 
+	          5c4a7d [unknown] (/usr/bin/python3.8)
+	 b640183097c0674 [unknown] ([unknown])
+
+python3 37890 83431.188967:   29004327 cycles: 
+	          5f3c54 _PyObject_MakeTpCall+0xd4 (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83431.199505:   28676508 cycles: 
+	          5df5e5 PyLong_FromString+0x55 (/usr/bin/python3.8)
+	    7fe1fb003332 [unknown] ([unknown])
+
+python3 37890 83431.209733:   28408943 cycles: 
+	          56ac9b _PyEval_EvalFrameDefault+0x31b (/usr/bin/python3.8)
+	 1a1017c03a00274 [unknown] ([unknown])
+
+python3 37890 83431.219141:   29005661 cycles: 
+	          5ec1f0 [unknown] (/usr/bin/python3.8)
+	          905e20 [unknown] ([unknown])
+
+python3 37890 83431.236816:   29288839 cycles: 
+	          56b085 _PyEval_EvalFrameDefault+0x705 (/usr/bin/python3.8)
+	 37c7e72016b0003 [unknown] ([unknown])
+
+python3 37890 83431.262937:   29519861 cycles: 
+	          56fe1b _PyEval_EvalFrameDefault+0x549b (/usr/bin/python3.8)
+	 6740f7d00140c64 [unknown] ([unknown])
+
+python3 37890 83431.280988:   29293622 cycles: 
+	          56ac37 _PyEval_EvalFrameDefault+0x2b7 (/usr/bin/python3.8)
+	 97c0c5f107c087c [unknown] ([unknown])
+
+python3 37890 83431.300011:   28715647 cycles: 
+	          56abcc _PyEval_EvalFrameDefault+0x24c (/usr/bin/python3.8)
+	 964097c0774097d [unknown] ([unknown])
+
+python3 37890 83431.317484:   28951051 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	 182057486730290 [unknown] ([unknown])
+
+python3 37890 83431.343441:   29368786 cycles: 
+	          56b107 _PyEval_EvalFrameDefault+0x787 (/usr/bin/python3.8)
+	 390016b00030004 [unknown] ([unknown])
+
+python3 37890 83431.361956:   28922897 cycles: 
+	          4f36b9 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83431.382302:   30627889 cycles: 
+	          4f369d [unknown] (/usr/bin/python3.8)
+	 2830474037c0074 [unknown] ([unknown])
+
+python3 37890 83431.393232:   30073592 cycles: 
+	          56ac27 _PyEval_EvalFrameDefault+0x2a7 (/usr/bin/python3.8)
+	 46405740001026e [unknown] ([unknown])
+
+python3 37890 83431.403909:   29538953 cycles: 
+	          56ab6b _PyEval_EvalFrameDefault+0x1eb (/usr/bin/python3.8)
+	 87d0037017c087c [unknown] ([unknown])
+
+python3 37890 83431.413868:   29282702 cycles: 
+	          5ec6c8 [unknown] (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83431.423828:   29660673 cycles: 
+	          56fdb7 _PyEval_EvalFrameDefault+0x5437 (/usr/bin/python3.8)
+	 37c007c03740182 [unknown] ([unknown])
+
+python3 37890 83431.434248:   29445035 cycles: 
+	          56ad0f _PyEval_EvalFrameDefault+0x38f (/usr/bin/python3.8)
+	 97c067401820574 [unknown] ([unknown])
+
+python3 37890 83431.444581:   29191626 cycles: 
+	          5ac22a PyTuple_New+0x8a (/usr/bin/python3.8)
+	9872026b01640183 [unknown] ([unknown])
+
+python3 37890 83431.454566:   29346705 cycles: 
+	          56afc9 _PyEval_EvalFrameDefault+0x649 (/usr/bin/python3.8)
+	 283017c02640274 [unknown] ([unknown])
+
+python3 37890 83431.472798:   29263271 cycles: 
+	          5f6a13 _PyFunction_Vectorcall+0x393 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83431.499660:   28634594 cycles: 
+	          5a64e2 [unknown] (/usr/bin/python3.8)
+	20ec834853555541 [unknown] ([unknown])
+
+python3 37890 83431.517433:   28761232 cycles: 
+
+python3 37890 83431.535113:   29202539 cycles: 
+	          5a71a5 [unknown] (/usr/bin/python3.8)
+	         2468970 [unknown] ([unknown])
+
+python3 37890 83431.553118:   29016706 cycles: 
+	          56b109 _PyEval_EvalFrameDefault+0x789 (/usr/bin/python3.8)
+	 16b086401830c7c [unknown] ([unknown])
+
+python3 37890 83431.563561:   29119601 cycles: 
+	          56a998 _PyEval_EvalFrameDefault+0x18 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83431.574141:   28650273 cycles: 
+	          5d4dc0 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83431.584505:   28540148 cycles: 
+	          56acb3 _PyEval_EvalFrameDefault+0x333 (/usr/bin/python3.8)
+	 18300170f7c037c [unknown] ([unknown])
+
+python3 37890 83431.594576:   28419786 cycles: 
+	          4f1f10 PyMember_SetOne+0x0 (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83431.604157:   28869425 cycles: 
+	          5d4e90 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83431.614010:   28918275 cycles: 
+	          5ec76e [unknown] (/usr/bin/python3.8)
+
+python3 37890 83431.624757:   28768310 cycles: 
+	          56c4bd _PyEval_EvalFrameDefault+0x1b3d (/usr/bin/python3.8)
+	 97c0074037d0183 [unknown] ([unknown])
+
+python3 37890 83431.650277:   29029539 cycles: 
+	          56bb5f _PyEval_EvalFrameDefault+0x11df (/usr/bin/python3.8)
+	bc730190006b0d64 [unknown] ([unknown])
+
+python3 37890 83431.669574:   29231262 cycles: 
+	          56ac0d _PyEval_EvalFrameDefault+0x28d (/usr/bin/python3.8)
+	 97c0074097d0037 [unknown] ([unknown])
+
+python3 37890 83431.687419:   31185132 cycles: 
+	          56ad2d _PyEval_EvalFrameDefault+0x3ad (/usr/bin/python3.8)
+	  7c036401740001 [unknown] ([unknown])
+
+python3 37890 83431.705633:   31078731 cycles: 
+	          502080 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83431.722799:   29622948 cycles: 
+	          5bf8be PyObject_GetAttr+0x17e (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83431.747364:   29900756 cycles: 
+	          56b08c _PyEval_EvalFrameDefault+0x70c (/usr/bin/python3.8)
+	9073019002830474 [unknown] ([unknown])
+
+python3 37890 83431.765243:   30995126 cycles: 
+	          5d995a [unknown] (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83431.783929:   30784150 cycles: 
+	          58e3d9 [unknown] (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83431.807015:   29886167 cycles: 
+	          5ad067 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83431.825170:   29817870 cycles: 
+	          56ac78 _PyEval_EvalFrameDefault+0x2f8 (/usr/bin/python3.8)
+	  7c037401820274 [unknown] ([unknown])
+
+python3 37890 83431.843280:   29848311 cycles: 
+	          5f6836 _PyFunction_Vectorcall+0x1b6 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83431.861345:   29814407 cycles: 
+	          5d9ec0 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83431.880092:   33127580 cycles: 
+	          599dd3 [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83431.907100:   32014512 cycles: 
+	          56b085 _PyEval_EvalFrameDefault+0x705 (/usr/bin/python3.8)
+	 a6401830e7c0674 [unknown] ([unknown])
+
+python3 37890 83431.926308:   31035709 cycles: 
+	          5d4e90 [unknown] (/usr/bin/python3.8)
+	          908780 [unknown] ([unknown])
+
+python3 37890 83431.945154:   30569663 cycles: 
+	          56fc3e _PyEval_EvalFrameDefault+0x52be (/usr/bin/python3.8)
+	 97c087d0037017c [unknown] ([unknown])
+
+python3 37890 83431.972362:   29726596 cycles: 
+	          5c09be PyObject_SetAttr+0xe (/usr/bin/python3.8)
+	107c13640e5f107c [unknown] ([unknown])
+
+python3 37890 83431.990424:   29680806 cycles: 
+	          56ab22 _PyEval_EvalFrameDefault+0x1a2 (/usr/bin/python3.8)
+	1872046b017c007c [unknown] ([unknown])
+
+python3 37890 83432.008170:   29906584 cycles: 
+	          5bf8c7 PyObject_GetAttr+0x187 (/usr/bin/python3.8)
+	 2830674017c0074 [unknown] ([unknown])
+
+python3 37890 83432.034236:   29905219 cycles: 
+	          5f793c [unknown] (/usr/bin/python3.8)
+	          901d40 [unknown] ([unknown])
+
+python3 37890 83432.044107:   30108068 cycles: 
+	          50f04c PyNumber_Add+0xac (/usr/bin/python3.8)
+	          90b400 [unknown] ([unknown])
+
+python3 37890 83432.054287:   30160667 cycles: 
+	          4f8138 [unknown] (/usr/bin/python3.8)
+	 474087c00740182 [unknown] ([unknown])
+
+python3 37890 83432.065363:   33075180 cycles: 
+	    7fe1fd55f6a2 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	               0 [unknown] ([unknown])
+
+python3 37890 83432.077124:   31465458 cycles: 
+	          5c09c6 PyObject_SetAttr+0x16 (/usr/bin/python3.8)
+	 a7c047c105f0a7c [unknown] ([unknown])
+
+python3 37890 83432.087707:   30919303 cycles: 
+	          56ad90 _PyEval_EvalFrameDefault+0x410 (/usr/bin/python3.8)
+	 c5f107c087c107d [unknown] ([unknown])
+
+python3 37890 83432.097872:   30816570 cycles: 
+	          5f6745 _PyFunction_Vectorcall+0xc5 (/usr/bin/python3.8)
+	          906420 [unknown] ([unknown])
+
+python3 37890 83432.116163:   30657217 cycles: 
+	          5ac1c7 PyTuple_New+0x27 (/usr/bin/python3.8)
+	         2468970 [unknown] ([unknown])
+	7c8349000005c784 [unknown] ([unknown])
+
+python3 37890 83432.136330:   32703754 cycles: 
+	          5effc1 [unknown] (/usr/bin/python3.8)
+	          909b40 [unknown] ([unknown])
+
+python3 37890 83432.151864:   31434990 cycles: 
+	          5ab90c PySlice_AdjustIndices+0xc (/usr/bin/python3.8)
+	          90b860 [unknown] ([unknown])
+
+python3 37890 83432.180705:   30723861 cycles: 
+	          56abd8 _PyEval_EvalFrameDefault+0x258 (/usr/bin/python3.8)
+	   30004007c0164 [unknown] ([unknown])
+
+python3 37890 83432.200795:   31196236 cycles: 
+	          56ad8c _PyEval_EvalFrameDefault+0x40c (/usr/bin/python3.8)
+	 c5f107c087c107d [unknown] ([unknown])
+
+python3 37890 83432.227076:   30873556 cycles: 
+	          56aaf9 _PyEval_EvalFrameDefault+0x179 (/usr/bin/python3.8)
+	 290006b0964e672 [unknown] ([unknown])
+
+python3 37890 83432.245776:   30482455 cycles: 
+	          5d9954 [unknown] (/usr/bin/python3.8)
+
+python3 37890 83432.264608:   29972506 cycles: 
+	          599daa [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83432.288174:   28630787 cycles: 
+	          51108d [unknown] (/usr/bin/python3.8)
+
+python3 37890 83432.306417:   28681526 cycles: 
+	          5a9608 [unknown] (/usr/bin/python3.8)
+	          8fb9c0 [unknown] ([unknown])
+
+python3 37890 83432.324603:   28567689 cycles: 
+	          56b2a9 _PyEval_EvalFrameDefault+0x929 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83432.339994:   30926073 cycles: 
+	          56b393 _PyEval_EvalFrameDefault+0xa13 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83432.366398:   30641222 cycles: 
+	          56c264 _PyEval_EvalFrameDefault+0x18e4 (/usr/bin/python3.8)
+	 47c057d01830014 [unknown] ([unknown])
+
+python3 37890 83432.385011:   30173163 cycles: 
+	          56b79b _PyEval_EvalFrameDefault+0xe1b (/usr/bin/python3.8)
+	 27c097c087d0037 [unknown] ([unknown])
+
+python3 37890 83432.403514:   30015363 cycles: 
+	    7fe1fd55fa78 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83432.421746:   29770922 cycles: 
+	          56ab44 _PyEval_EvalFrameDefault+0x1c4 (/usr/bin/python3.8)
+	107c13640e5f107c [unknown] ([unknown])
+
+python3 37890 83432.448020:   29663518 cycles: 
+	          56abc1 _PyEval_EvalFrameDefault+0x241 (/usr/bin/python3.8)
+	 77400010183087c [unknown] ([unknown])
+
+python3 37890 83432.466305:   29588665 cycles: 
+	          56aad9 _PyEval_EvalFrameDefault+0x159 (/usr/bin/python3.8)
+	  74005303830014 [unknown] ([unknown])
+
+python3 37890 83432.498505:   28069864 cycles: 
+	          56ac7c _PyEval_EvalFrameDefault+0x2fc (/usr/bin/python3.8)
+	 674018205746273 [unknown] ([unknown])
+
+python3 37890 83432.519997:   28439923 cycles: 
+	          56acaf _PyEval_EvalFrameDefault+0x32f (/usr/bin/python3.8)
+	1264097430720390 [unknown] ([unknown])
+
+python3 37890 83432.538111:   28556263 cycles: 
+	    7fe1fd55fa70 [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83432.556086:   28710091 cycles: 
+	          56ad16 _PyEval_EvalFrameDefault+0x396 (/usr/bin/python3.8)
+	 16b086401830c7c [unknown] ([unknown])
+
+python3 37890 83432.582487:   28417445 cycles: 
+	          56c08d _PyEval_EvalFrameDefault+0x170d (/usr/bin/python3.8)
+	  57047d0183027c [unknown] ([unknown])
+
+python3 37890 83432.600561:   28507668 cycles: 
+	          5d9a9d [unknown] (/usr/bin/python3.8)
+
+python3 37890 83432.622076:   25802049 cycles: 
+	    7fe1fd28fd60 roundf32x+0x0 (/usr/lib/x86_64-linux-gnu/libm-2.31.so)
+
+python3 37890 83432.630870:   26707474 cycles: 
+	          5ae9d7 [unknown] (/usr/bin/python3.8)
+	          90c0a0 [unknown] ([unknown])
+
+python3 37890 83432.648421:   27015509 cycles: 
+	          56ad5d _PyEval_EvalFrameDefault+0x3dd (/usr/bin/python3.8)
+	 9640274b872036b [unknown] ([unknown])
+
+python3 37890 83432.673617:   27630607 cycles: 
+	          581f44 PyUnicode_Substring+0xf4 (/usr/bin/python3.8)
+	               0 [unknown] ([unknown])
+
+python3 37890 83432.691267:   28146112 cycles: 
+	          5c4a78 [unknown] (/usr/bin/python3.8)
+	  74087d0037017c [unknown] ([unknown])
+
+python3 37890 83432.708838:   28397290 cycles: 
+	          56acfd _PyEval_EvalFrameDefault+0x37d (/usr/bin/python3.8)
+	 774018205745e73 [unknown] ([unknown])
+

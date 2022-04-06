@@ -45,6 +45,7 @@ numRuns = int(sys.argv[5])
 workingList = []
 for i in range(numRuns):
     workingList = copy.deepcopy(ar)
+    print('Go')
     # sort the data
     timePreSort = time.process_time()
     if cheapOrExpensive == "c":
