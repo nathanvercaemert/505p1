@@ -220,8 +220,8 @@ def plotMergeOrTim(mergeOrTimToPlot):
     plt.show()
 
 
-# plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
-# plotFolderLogVsRaw(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
-# plotFolder(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
-# plotInsertion(insertionAToPlot)
+plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+plotFolderLogVsRaw(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+plotFolder(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+plotInsertion(insertionAToPlot)
 plotMergeOrTim(mergeAToPlot)
