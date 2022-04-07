@@ -86,6 +86,8 @@ def getPlotPoints(entries):
     return pointsToPlot
 
 
+# lists of tuples
+# each tuple is (number of log entries, sort time)
 insertionAToPlot = getPlotPoints(insertionAEntries)
 insertionBToPlot = getPlotPoints(insertionBEntries)
 insertionCToPlot = getPlotPoints(insertionCEntries)
@@ -102,13 +104,13 @@ def plotFolder(insertionToPlot, mergeToPlot, timToPlot, folder):
     plt.clf()
     ilog = []
     for point in insertionToPlot:
-        ilog.append((math.log(point[0], 2), math.log(point[1], 2)))
+        ilog.append(math.log(point[1], 2))
     mlog = []
     for point in mergeToPlot:
-        mlog.append((math.log(point[0], 2), math.log(point[1], 2)))
+        mlog.append(math.log(point[1], 2))
     tlog = []
     for point in timToPlot:
-        tlog.append((math.log(point[0], 2), math.log(point[1], 2)))
+        tlog.append(math.log(point[1], 2))
     plt.plot(ilog, label="i")
     plt.plot(mlog, label="m")
     plt.plot(tlog, label="t")
