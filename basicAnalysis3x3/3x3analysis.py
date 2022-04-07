@@ -119,7 +119,7 @@ def plotFolderLogLog(insertionToPlot, mergeToPlot, timToPlot, folder):
 
 
 # toPlot is list of tuples (x, y)
-def plotFolder(insertionToPlot, mergeToPlot, timToPlot, folder):
+def plotFolderLogVsRaw(insertionToPlot, mergeToPlot, timToPlot, folder):
     plt.clf()
     iSortTime = []
     for point in insertionToPlot:
@@ -137,5 +137,31 @@ def plotFolder(insertionToPlot, mergeToPlot, timToPlot, folder):
     plt.show()
 
 
-# plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
-plotFolder(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+# toPlot is list of tuples (x, y)
+def plotFolder(insertionToPlot, mergeToPlot, timToPlot, folder):
+    plt.clf()
+    iX = []
+    iY = []
+    for point in insertionToPlot:
+        iX.append(point[0])
+        iY.append(point[1])
+    mX = []
+    mY = []
+    for point in mergeToPlot:
+        mX.append(point[0])
+        mY.append(point[1])
+    tX = []
+    tY = []
+    for point in timToPlot:
+        tX.append(point[0])
+        tY.append(point[1])
+    plt.plot(iX, iY, label="i")
+    plt.plot(mX, mY, label="m")
+    plt.plot(tX, tY, label="t")
+    plt.legend()
+    plt.show()
+
+
+plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+# plotFolderLogVsRaw(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+# plotFolder(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
