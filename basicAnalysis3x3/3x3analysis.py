@@ -3,6 +3,8 @@ sys.path.append('..')
 import matplotlib.pyplot as plt
 import statistics
 import math
+from scipy.optimize import curve_fit
+import numpy
 
 from readDaveRuns import getRunTimeEntries
 
@@ -114,6 +116,7 @@ def plotFolderLogLog(insertionToPlot, mergeToPlot, timToPlot, folder):
     plt.plot(ilog, label="i")
     plt.plot(mlog, label="m")
     plt.plot(tlog, label="t")
+
     plt.legend()
     plt.show()
 
@@ -158,10 +161,112 @@ def plotFolder(insertionToPlot, mergeToPlot, timToPlot, folder):
     plt.plot(iX, iY, label="i")
     plt.plot(mX, mY, label="m")
     plt.plot(tX, tY, label="t")
+
     plt.legend()
     plt.show()
 
 
-plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+def quadraticCurveFit(x, a, b, c):
+    return a*x**2 + b*x + c
+
+
+def nLogNCurveFit(x, a, b, c):
+    return a*x + b*numpy.log2(x) + c
+
+
+# def quadraticCurveFit(x, a, b):
+#     return a*x**2 + b*x
+
+
+# def nLogNCurveFit(x, a, b):
+#     return a*x + b*numpy.log2(x)
+
+# def makePositive(ar):
+#     least = numpy.inf
+#     for element in ar:
+#         if element < least:
+#             least = element
+#     if least < 0:
+#         for index, element in enumerate(ar):
+#             ar[index] += least
+
+
+# toPlot is list of tuples (x, y)
+def plotFolderLogLogCurveFit(insertionToPlot, mergeToPlot, timToPlot, folder):
+    plt.clf()
+    iX = []
+    iXlog = []
+    iY = []
+    iYlog = []
+    for point in insertionToPlot:
+        iX.append(point[0])
+        iXlog.append(math.log(point[0], 2))
+        iY.append(point[1])
+        iYlog.append(math.log(point[1], 2))
+    mX = []
+    mXlog = []
+    mY = []
+    mYlog = []
+    for point in mergeToPlot:
+        mX.append(point[0])
+        mXlog.append(math.log(point[0], 2))
+        mY.append(point[1])
+        mYlog.append(math.log(point[1], 2))
+    tX = []
+    tXlog = []
+    tY = []
+    tYlog = []
+    for point in timToPlot:
+        tX.append(point[0])
+        tXlog.append(math.log(point[0], 2))
+        tY.append(point[1])
+        tYlog.append(math.log(point[1], 2))
+    plt.plot(iX, iY, '-', label="i", color="mediumslateblue")
+    # plt.plot(mXlog, mYlog, '-', label="m", color="darkorange")
+    # plt.plot(tXlog, tYlog, '-', label="t", color="mediumslateblue")
+
+    iXAr = numpy.array(iX)
+    iYAr = numpy.array(iY)
+    iOpt, iCov = curve_fit(quadraticCurveFit, iXAr, iYAr)
+    # iOpt, iCov = curve_fit(quadraticCurveFit, iXAr, iYAr, bounds=([-numpy.inf, 0, -numpy.inf], numpy.inf))
+    iYAr = quadraticCurveFit(iXAr, *iOpt)
+    # iXArLog = numpy.log2(iXAr)
+    # makePositive(iYAr)
+    # iYArLog = []
+    # for index, y in enumerate(iYAr):
+    #     try:
+    #         iYArLog.append(math.log(y, 2))
+    #     except Exception as e:
+    #         iYArLog.append(0)
+    # iYArLog = numpy.log2(iYAr)
+    plt.plot(iXAr, iYAr, '--', label='fit: a=%5.3f, b=%5.3f, c=%5.3f' % tuple(iOpt), color="darkorange")
+    # plt.plot(iXArLog, iYArLog, '--', label='fit: a=%5.3f, b=%5.3f' % tuple(iOpt), color="darkturquoise")
+
+    # mXAr = numpy.array(mX)
+    # mYAr = numpy.array(mY)
+    # mOpt, mCov = curve_fit(nLogNCurveFit, mXAr, mYAr)
+    # # mOpt, mCov = curve_fit(nLogNCurveFit, mXAr, mYAr, bounds=([-numpy.inf, 0, -numpy.inf], numpy.inf))
+    # mYAr = nLogNCurveFit(mXAr, *mOpt)
+    # mXArLog = numpy.log2(mXAr)
+    # mYArLog = numpy.log2(mYAr)
+    # plt.plot(mXAr, mYAr, '--', label='fit: a=%5.3f, b=%5.3f, c=%5.3f' % tuple(mOpt), color="darkorange")
+    # # plt.plot(mXArLog, mYArLog, '--', label='fit: a=%5.3f, b=%5.3f' % tuple(mOpt), color="darkorange")
+
+    # tXAr = numpy.array(tX)
+    # tYAr = numpy.array(tY)
+    # tOpt, tCov = curve_fit(nLogNCurveFit, tXAr, tYAr)
+    # # tOpt, tCov = curve_fit(nLogNCurveFit, tXAr, tYAr, bounds=([-numpy.inf, 0, -numpy.inf], numpy.inf))
+    # tYAr = nLogNCurveFit(tXAr, *tOpt)
+    # tXArLog = numpy.log2(tXAr)
+    # tYArLog = numpy.log2(tYAr)
+    # plt.plot(tXAr, tYAr, '--', label='fit: a=%5.3f, b=%5.3f, c=%5.3f' % tuple(tOpt), color="mediumslateblue")
+    # # plt.plot(tXArLog, tYArLog, '--', label='fit: a=%5.3f, b=%5.3f' % tuple(tOpt), color="mediumslateblue")
+
+    plt.legend()
+    plt.show()
+
+
+# plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
 # plotFolderLogVsRaw(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
 # plotFolder(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+plotFolderLogLogCurveFit(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
