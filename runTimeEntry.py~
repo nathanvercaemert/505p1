@@ -1,0 +1,3 @@
+class runTimeEntry:
+    def __init__(self, entry, runNumber):
+        
