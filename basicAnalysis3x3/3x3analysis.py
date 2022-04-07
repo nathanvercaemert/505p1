@@ -100,7 +100,7 @@ timCToPlot = getPlotPoints(timCEntries)
 
 
 # toPlot is list of tuples (x, y)
-def plotFolder(insertionToPlot, mergeToPlot, timToPlot, folder):
+def plotFolderLogLog(insertionToPlot, mergeToPlot, timToPlot, folder):
     plt.clf()
     ilog = []
     for point in insertionToPlot:
@@ -118,4 +118,24 @@ def plotFolder(insertionToPlot, mergeToPlot, timToPlot, folder):
     plt.show()
 
 
+# toPlot is list of tuples (x, y)
+def plotFolder(insertionToPlot, mergeToPlot, timToPlot, folder):
+    plt.clf()
+    iSortTime = []
+    for point in insertionToPlot:
+        iSortTime.append(point[1])
+    mSortTime = []
+    for point in mergeToPlot:
+        mSortTime.append(point[1])
+    tSortTime = []
+    for point in timToPlot:
+        tSortTime.append(point[1])
+    plt.plot(iSortTime, label="i")
+    plt.plot(mSortTime, label="m")
+    plt.plot(tSortTime, label="t")
+    plt.legend()
+    plt.show()
+
+
+# plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
 plotFolder(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
