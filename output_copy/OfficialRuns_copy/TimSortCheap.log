@@ -1,3 +1,4 @@
+sortType,cost,file,sorted,preProcessTime,sortTime
 t,c,C/1,True,0.0002088210000000014,2.10100000000088e-06
 t,c,C/1,True,0,2.781000000000311e-06
 t,c,C/1,True,0,2.8430000000023714e-06
