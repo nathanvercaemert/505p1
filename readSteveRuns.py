@@ -89,7 +89,75 @@ def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToAp
 def dummyFunction(s):
     return s
 
-def logFunction(s):
+def logFunctionS(s):
+    return math.log(s)
+
+def logFunctionT(s):
     return math.log(s + 1)
 
-displayPlot('A', 'c', ['i', 'm', 't'], 'Folder A Cheap', logFunction, logFunction)
+#displayPlot('A', 'c', ['i'], 'Folder A Cheap', logFunctionS, logFunctionT)
+
+# predict for n^2
+def predictNSq(i, j, time):
+    return time / (i**2 / j**2)
+
+def predictNLogN(i, j, time):
+    return time / ( (i * math.log(i, 2)) / (j * math.log(j, 2)) )
+
+def predictionPlot(folder, cost, sortType, plotTitle, predictFunction, f, f2):
+    plt.clf()
+    p =  dfs.loc[(dfs['folder'] == folder) & (dfs['cost'] == cost) & (dfs['sortType'] == sortType)]
+    p = p.explode(['sizeList', 'timeList'], ignore_index=True)
+    p['sizeList'] = p['sizeList'].astype(int)
+    p['timeList'] = p['timeList'].astype(float)
+    # plot the real list
+    plt.plot(p['sizeList'].apply(f), p['timeList'].apply(f2), label='real', lw=3)
+    
+    # predicting up to max
+    max = 4194304
+    # start at first timed item
+    i = 2
+    while i < max:
+        idx = int(math.log(i, 2))
+        if (idx >= len(p)):
+            break
+        lst = p[idx:idx + 1]
+        timeValue = lst.iloc[0]['timeList']
+        # predict next item up to end
+        j = i * 2
+        
+        while j <= max:
+            lst = pd.concat([lst, pd.DataFrame([{'sortType':sortType,
+                                                 'cost':cost,
+                                                 'folder':folder,
+                                                 'sizeList':j,
+                                                 'timeList':predictFunction(i, j, timeValue)}])])
+            j *= 2
+        plt.plot(lst['sizeList'].apply(f), lst['timeList'].apply(f2), '--', marker='*', lw=.3 ,label=i, markevery=[0], markersize=4)
+        i *= 4
+    
+    plt.xlabel('size')
+    plt.ylabel('time')
+    plt.ticklabel_format(style='plain')
+    plt.legend()
+    plt.title(plotTitle)
+    plt.show()
+
+predictionPlot('A', 'c', 'i', 'A Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
+predictionPlot('B', 'c', 'i', 'B Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
+predictionPlot('C', 'c', 'i', 'C Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
+predictionPlot('A', 'c', 'm', 'A Cheap Merge', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('B', 'c', 'm', 'B Cheap Merge', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('C', 'c', 'm', 'C Cheap Merge', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('A', 'c', 't', 'A Cheap Tim', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('B', 'c', 't', 'B Cheap Tim', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('C', 'c', 't', 'C Cheap Tim', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('A', 'e', 'i', 'A Expensive Insertion', predictNSq, logFunctionS, logFunctionT)
+predictionPlot('B', 'e', 'i', 'B Expensive Insertion', predictNSq, logFunctionS, logFunctionT)
+predictionPlot('C', 'e', 'i', 'C Expensive Insertion', predictNSq, logFunctionS, logFunctionT)
+predictionPlot('A', 'e', 'm', 'A Expensive Merge', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('B', 'e', 'm', 'B Expensive Merge', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('C', 'e', 'm', 'C Expensive Merge', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('A', 'e', 't', 'A Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('B', 'e', 't', 'B Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
+predictionPlot('C', 'e', 't', 'C Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
