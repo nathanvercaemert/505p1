@@ -6,7 +6,7 @@ import math
 from scipy.optimize import curve_fit
 import numpy
 
-from readDaveRuns import getRunTimeEntries
+from readStevenRuns import getRunTimeEntries
 
 runTimeEntries = getRunTimeEntries()
 
@@ -96,6 +96,9 @@ insertionCToPlot = getPlotPoints(insertionCEntries)
 mergeAToPlot = getPlotPoints(mergeAEntries)
 mergeBToPlot = getPlotPoints(mergeBEntries)
 mergeCToPlot = getPlotPoints(mergeCEntries)
+mergeAExpToPlot =getPlotPoints()
+mergeBExpToPlot =
+mergeCExpToPlot =
 timAToPlot = getPlotPoints(timAEntries)
 timBToPlot = getPlotPoints(timBEntries)
 timCToPlot = getPlotPoints(timCEntries)
@@ -220,8 +223,8 @@ def plotMergeOrTim(mergeOrTimToPlot):
     plt.show()
 
 
-plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
-plotFolderLogVsRaw(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
-plotFolder(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
-plotInsertion(insertionAToPlot)
+# plotFolderLogLog(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+# plotFolderLogVsRaw(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+# plotFolder(insertionAToPlot, mergeAToPlot, timAToPlot, "A")
+# plotInsertion(insertionAToPlot)
 plotMergeOrTim(mergeAToPlot)
