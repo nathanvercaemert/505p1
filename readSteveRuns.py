@@ -1,4 +1,5 @@
 import os
+from unicodedata import name
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -37,6 +38,14 @@ df = df.drop(columns='preProcessTime')
 dfs = pd.DataFrame()#(columns = ['sortType', 'cost', 'folder', 'sizeList', 'timeList'])
 #print(dfs)
 
+# https://localcoder.org/pandas-group-by-remove-outliers
+def is_outlier(s):
+    # https://towardsdatascience.com/practical-implementation-of-outlier-detection-in-python-90680453b3ce
+    Q1 = s['sortTime'].quantile(.25)
+    Q3 = s['sortTime'].quantile(.75)
+    IQR = Q3 - Q1
+    return s.loc[~((s['sortTime'] < (Q1 - 1.5 * IQR)) | (s['sortTime'] > (Q3 + 1.5 * IQR)))]
+
 # every combination individually
 for cost in costs:
     for sortType in sortTypes:
@@ -44,13 +53,19 @@ for cost in costs:
             dfNew = df.loc[(df['sortType'] == sortType) & (df['cost'] == cost) & (df['folder'] == folder)]
             
             # group by equivalent size, drop the warmup items
-            dfNew = dfNew.groupby('size', as_index=False).apply(lambda x: x.iloc[3:] if len(x) == 13 else x.iloc[2:]).reset_index()
+            dfNew = dfNew.groupby('size').apply(lambda x: x.iloc[3:] if len(x) == 13 else x.iloc[2:]).reset_index(drop=True)
+            dfNew = dfNew.groupby('size').apply(is_outlier).reset_index(drop=True)
+            #pd.set_option("display.max_rows", None, "display.max_columns", None)
+            #print(dfNew) 
             # group again by size
+            
             dfNew = dfNew.groupby('size')['sortTime'].mean()
             # convert index to int and sort
             dfNew.index = dfNew.index.astype(int)
             dfNew = dfNew.sort_index()
-            pd.set_option("display.max_rows", None, "display.max_columns", None)
+            print(dfNew)
+            
+            #pd.set_option("display.max_rows", None, "display.max_columns", None)
             #plt.plot(dfNew.index.tolist(), dfNew.tolist())
             #plt.title(cost + sortType + folder)
             #plt.xlabel("size")
