@@ -1,9 +1,12 @@
+from cProfile import label
 import os
 from unicodedata import name
+from matplotlib import style
+from numpy import dtype
 import pandas as pd
 import matplotlib.pyplot as plt
-
-from sympy import true
+import math
+from scipy.optimize import curve_fit
 
 # folder relative to current location
 directory = "./output_copy/OfficialRuns_copy/"
@@ -17,9 +20,10 @@ for file in file_list:
     data = pd.read_csv(directory + file)
     df = pd.concat([df, pd.DataFrame(data)], ignore_index=True)
 
-
 # turn the column files into folder and size and split
 df[['folder', 'size']] = df['file'].str.split('/', expand=True)
+# make size an int
+df['size'] = df['size'].astype(int)
 # drop the unneeded column file
 df = df.drop(columns='file')
 
@@ -35,7 +39,7 @@ df = df.drop(columns='sorted')
 # don't really need preprocess time
 df = df.drop(columns='preProcessTime')
 
-dfs = pd.DataFrame()#(columns = ['sortType', 'cost', 'folder', 'sizeList', 'timeList'])
+dfs = pd.DataFrame()
 #print(dfs)
 
 # https://localcoder.org/pandas-group-by-remove-outliers
@@ -51,26 +55,41 @@ for cost in costs:
     for sortType in sortTypes:
         for folder in folders:
             dfNew = df.loc[(df['sortType'] == sortType) & (df['cost'] == cost) & (df['folder'] == folder)]
-            
             # group by equivalent size, drop the warmup items
             dfNew = dfNew.groupby('size').apply(lambda x: x.iloc[3:] if len(x) == 13 else x.iloc[2:]).reset_index(drop=True)
             dfNew = dfNew.groupby('size').apply(is_outlier).reset_index(drop=True)
-            #pd.set_option("display.max_rows", None, "display.max_columns", None)
-            #print(dfNew) 
             # group again by size
             
             dfNew = dfNew.groupby('size')['sortTime'].mean()
-            # convert index to int and sort
-            dfNew.index = dfNew.index.astype(int)
             dfNew = dfNew.sort_index()
-            print(dfNew)
-            
-            #pd.set_option("display.max_rows", None, "display.max_columns", None)
-            #plt.plot(dfNew.index.tolist(), dfNew.tolist())
-            #plt.title(cost + sortType + folder)
-            #plt.xlabel("size")
-            #plt.ylabel("time")
-            #plt.show()
-            dfs = pd.concat([dfs, pd.DataFrame([{'sortType':sortType, 'cost':cost, 'folder':folder, 'sizeList':dfNew.index.tolist(), 'timeList':dfNew.tolist()}])], ignore_index=True)
-            
-print(dfs)
+
+            dfs = pd.concat([dfs, pd.DataFrame([{'sortType':sortType, 'cost':cost, 'folder':folder, 'sizeList':dfNew.index.values, 'timeList':dfNew.values}])], ignore_index=True)
+
+# full print
+pd.set_option("display.max_rows", None, "display.max_columns", None)
+
+def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToApplyTime):
+    plt.clf()
+    p =  dfs.loc[(dfs['folder'] == folder) & (dfs['cost'] == cost)]
+    p = p.explode(['sizeList', 'timeList'], ignore_index=True)
+    p['sizeList'] = p['sizeList'].astype(int)
+    p['timeList'] = p['timeList'].astype(float)
+    p['sizeList'] = p['sizeList'].apply(funcToApplySize)
+    p['timeList'] = p['timeList'].apply(funcToApplyTime)
+    for sortType in sortTypeList:
+        print(p.loc[p['sortType'] == sortType]['sizeList'])
+        plt.plot(p.loc[p['sortType'] == sortType]['sizeList'], p.loc[p['sortType'] == sortType]['timeList'], label=sortType)
+    plt.xlabel('size')
+    plt.ylabel('time')
+    plt.ticklabel_format(style='plain')
+    plt.legend()
+    plt.title(plotTitle)
+    plt.show()
+
+def dummyFunction(s):
+    return s
+
+def logFunction(s):
+    return math.log(s + 1)
+
+displayPlot('A', 'c', ['i', 'm', 't'], 'Folder A Cheap', logFunction, logFunction)
