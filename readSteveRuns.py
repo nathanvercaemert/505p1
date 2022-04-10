@@ -143,7 +143,10 @@ def predictionPlot(folder, cost, sortType, plotTitle, predictFunction, f, f2):
     plt.title(plotTitle)
     plt.show()
 
-predictionPlot('A', 'c', 'i', 'A Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
+displayPlot('A', 'c', ['i', 'm', 't'], '(i, m, t) ON A Cheap', logFunctionS, logFunctionS)
+
+predictionPlot('A', 'c', 'i', 'A Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
+'''
 predictionPlot('B', 'c', 'i', 'B Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
 predictionPlot('C', 'c', 'i', 'C Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
 predictionPlot('A', 'c', 'm', 'A Cheap Merge', predictNLogN, logFunctionS, logFunctionT)
@@ -161,3 +164,4 @@ predictionPlot('C', 'e', 'm', 'C Expensive Merge', predictNLogN, logFunctionS, l
 predictionPlot('A', 'e', 't', 'A Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
 predictionPlot('B', 'e', 't', 'B Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
 predictionPlot('C', 'e', 't', 'C Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
+'''
