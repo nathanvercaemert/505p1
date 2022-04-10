@@ -73,7 +73,11 @@ for cost in costs:
 # full print
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 
+def quadraticCurveFit(x, a, b, c):
+    return a * x**2 + b * x + c
 
+def nLogNCurveFit(x, a, b, c):
+    return a * x + b * np.log2(x) + c
 
 def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToApplyTime):
     plt.clf()
@@ -92,9 +96,14 @@ def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToAp
         xs = np.linspace(0, 29, 100)
         ys = s(xs)
 
-        plt.plot(x, y, label=sortType)
-        plt.plot(x, y, 'o')
-        plt.plot(xs, ys)        
+        plt.scatter(x, y, label=sortType)
+        #plt.plot(x, y, 'o')
+        #plt.plot(xs, ys)
+        # # The actual curve fitting happens here
+        optimizedParameters, _ = opt.curve_fit(nLogNCurveFit , x, y)
+
+        # Use the optimized parameters to plot the best fit
+        plt.plot(x, nLogNCurveFit(x, *optimizedParameters), label="fit")
     
 
     plt.xlabel('size')
@@ -112,15 +121,15 @@ def logFunction(s):
     return math.log(s + 1)
 
 #Cheap plots for each folder 9 plots
-displayPlot('A', 'c', ['i'], 'Insertion Sort Folder A Cheap', dummyFunction,dummyFunction)
-displayPlot('B', 'c', ['i'], 'Insertion Sort Folder B Cheap', dummyFunction,dummyFunction)
-displayPlot('C', 'c', ['i'], 'Insertion Sort Folder C Cheap', dummyFunction,dummyFunction)
-displayPlot('A', 'c', ['m'], 'Merge Sort Folder A Cheap', dummyFunction,dummyFunction)
-displayPlot('B', 'c', ['m'], 'Merge Sort Folder B Cheap', dummyFunction,dummyFunction)
-displayPlot('C', 'c', ['m'], 'Merge Sort Folder C Cheap', dummyFunction,dummyFunction)
-displayPlot('A', 'c', ['t'], 'Tim Sort Folder A Cheap', dummyFunction,dummyFunction)
-displayPlot('B', 'c', ['t'], 'Tim Sort Folder B Cheap', dummyFunction,dummyFunction)
-displayPlot('C', 'c', ['t'], 'Tim Sort Folder C Cheap', dummyFunction,dummyFunction)
+#displayPlot('A', 'c', ['i'], 'Insertion Sort Folder A Cheap', dummyFunction,dummyFunction)
+#displayPlot('B', 'c', ['i'], 'Insertion Sort Folder B Cheap', dummyFunction,dummyFunction)
+displayPlot('C', 'c', ['i'], 'Insertion Sort Folder C Cheap', logFunction,logFunction)
+#displayPlot('A', 'c', ['m'], 'Merge Sort Folder A Cheap', dummyFunction,dummyFunction)
+#displayPlot('B', 'c', ['m'], 'Merge Sort Folder B Cheap', logFunction,logFunction)
+#displayPlot('C', 'c', ['m'], 'Merge Sort Folder C Cheap', dummyFunction,dummyFunction)
+#displayPlot('A', 'c', ['t'], 'Tim Sort Folder A Cheap', dummyFunction,dummyFunction)
+#displayPlot('B', 'c', ['t'], 'Tim Sort Folder B Cheap', dummyFunction,dummyFunction)
+#displayPlot('C', 'c', ['t'], 'Tim Sort Folder C Cheap', dummyFunction,dummyFunction)
 
 '''
 #expensive plots
