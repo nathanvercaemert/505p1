@@ -1,0 +1,75 @@
+% Created 2022-04-10 Sun 18:00
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{color}
+\usepackage{listings}
+\author{DESKTOP-OEFS7VE}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={DESKTOP-OEFS7VE},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2 (Org mode 9.5.1)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Digital Ocean}
+\label{sec:orgef98f97}
+\subsection{Box Location}
+\label{sec:org45488b7}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+ssh root@142.93.64.31
+\end{lstlisting}
+\subsection{Password}
+\label{sec:orgb3ce47b}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+CSC505project
+\end{lstlisting}
+\subsection{Project Folder}
+\label{sec:org62dad0a}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+505p1
+\end{lstlisting}
+\section{Run}
+\label{sec:orgd3ea1d1}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+python3 main.py logFile outputFile type(m/i/t) cost(c/e) numRuns
+\end{lstlisting}
+\subsection{Parameters}
+\label{sec:org799087d}
+\begin{itemize}
+\item Cost refers to whether the "cheap" or "expensive" version of our comparison is used.
+\item Type refers to whether insertion sort, merge sort, or timsort is used.
+\item The data for the sorts is located in the following directory:
+\end{itemize}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+/root/csc505-spring-2022/Project1/
+\end{lstlisting}
+\section{Output}
+\label{sec:org6002ca3}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+m/i/t,cheapOrExpensive,logFile,isSorted,readTime,sortTime
+\end{lstlisting}
+\end{document}

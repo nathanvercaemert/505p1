@@ -1,6 +1,26 @@
+* Digital Ocean
+** Box Location
+#+BEGIN_SRC shell
+ssh root@142.93.64.31
+#+END_SRC
+** Password
+#+BEGIN_SRC shell
+CSC505project
+#+END_SRC
+** Project Folder
+#+BEGIN_SRC shell
+505p1
+#+END_SRC
 * Run
 #+BEGIN_SRC shell
-python3 main.py logFile outputFile sortType(m/i/t) cheapOrExpensive(c/e)
+python3 main.py logFile outputFile type(m/i/t) cost(c/e) numRuns
+#+END_SRC
+** Parameters
+- Cost refers to whether the "cheap" or "expensive" version of our comparison is used.
+- Type refers to whether insertion sort, merge sort, or timsort is used.
+- The data for the sorts is located in the following directory:
+#+BEGIN_SRC shell
+/root/csc505-spring-2022/Project1/
 #+END_SRC
 * Output
 #+BEGIN_SRC shell
