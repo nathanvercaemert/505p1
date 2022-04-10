@@ -77,7 +77,7 @@ def quadraticCurveFit(x, a, b, c):
     return a * x**2 + b * x + c
 
 def nLogNCurveFit(x, a, b, c):
-    return a * x + b * np.log2(x) + c
+    return a * x * np.log2(x) + b * x + c
 
 def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToApplyTime):
     plt.clf()
@@ -88,42 +88,46 @@ def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToAp
     p['sizeList'] = p['sizeList'].apply(funcToApplySize)
     p['timeList'] = p['timeList'].apply(funcToApplyTime)
     for sortType in sortTypeList:
-        print(p.loc[p['sortType'] == sortType]['sizeList'])
         x = p.loc[p['sortType'] == sortType]['sizeList']
         y = p.loc[p['sortType'] == sortType]['timeList']
 
-        s = UnivariateSpline(x, y, s=5)
-        xs = np.linspace(0, 29, 100)
-        ys = s(xs)
-
         plt.scatter(x, y, label=sortType)
-        #plt.plot(x, y, 'o')
-        #plt.plot(xs, ys)
+        f = None
+        lbl = ''
         # # The actual curve fitting happens here
-        optimizedParameters, _ = opt.curve_fit(nLogNCurveFit , x, y)
+        if sortType == 'i':
+            f = quadraticCurveFit
+            lbl = 'fit: %.2ex^2 + %.2ex + %.2e'
+        else :
+            f = nLogNCurveFit
+            lbl = 'fit: %.2exlog(x) + %.2ex + %.2e'
 
+        optimizedParameters, _ = opt.curve_fit(f , x, y)
         # Use the optimized parameters to plot the best fit
-        plt.plot(x, nLogNCurveFit(x, *optimizedParameters), label="fit")
-    
+        plt.plot(x, f(x, *optimizedParameters), label=lbl % tuple(optimizedParameters))
 
     plt.xlabel('size')
     plt.ylabel('time')
     plt.ticklabel_format(style='plain')
     plt.legend()
     plt.title(plotTitle)
-  # plt.savefig(outputfile)
+    # plt.savefig(outputfile)
     plt.show()
 
 def dummyFunction(s):
     return s
 
-def logFunction(s):
+def logFunctionS(s):
+    return math.log(s)
+
+def logFunctionT(s):
     return math.log(s + 1)
 
 #Cheap plots for each folder 9 plots
 #displayPlot('A', 'c', ['i'], 'Insertion Sort Folder A Cheap', dummyFunction,dummyFunction)
 #displayPlot('B', 'c', ['i'], 'Insertion Sort Folder B Cheap', dummyFunction,dummyFunction)
-displayPlot('C', 'c', ['i'], 'Insertion Sort Folder C Cheap', logFunction,logFunction)
+displayPlot('A', 'c', ['i','m','t'], 'Insertion Sort Folder A Cheap', dummyFunction, dummyFunction)
+#displayPlot('A', 'c', ['m'], 'Insertion Sort Folder A Cheap', dummyFunction,dummyFunction, nLogNCurveFit)
 #displayPlot('A', 'c', ['m'], 'Merge Sort Folder A Cheap', dummyFunction,dummyFunction)
 #displayPlot('B', 'c', ['m'], 'Merge Sort Folder B Cheap', logFunction,logFunction)
 #displayPlot('C', 'c', ['m'], 'Merge Sort Folder C Cheap', dummyFunction,dummyFunction)

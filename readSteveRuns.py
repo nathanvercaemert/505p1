@@ -3,9 +3,11 @@ import os
 from unicodedata import name
 from matplotlib import style
 from numpy import dtype
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import math
+import scipy.optimize as opt
 from scipy.optimize import curve_fit
 
 # folder relative to current location
@@ -68,7 +70,13 @@ for cost in costs:
 # full print
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 
-def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToApplyTime):
+def quadraticCurveFit(x, a, b, c):
+    return a * x**2 + b * x + c
+
+def nLogNCurveFit(x, a, b, c):
+    return a * x * np.log2(x) + b * x + c
+
+def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToApplyTime, curveFitBool):
     plt.clf()
     p =  dfs.loc[(dfs['folder'] == folder) & (dfs['cost'] == cost)]
     p = p.explode(['sizeList', 'timeList'], ignore_index=True)
@@ -77,13 +85,34 @@ def displayPlot(folder, cost, sortTypeList, plotTitle, funcToApplySize, funcToAp
     p['sizeList'] = p['sizeList'].apply(funcToApplySize)
     p['timeList'] = p['timeList'].apply(funcToApplyTime)
     for sortType in sortTypeList:
-        print(p.loc[p['sortType'] == sortType]['sizeList'])
-        plt.plot(p.loc[p['sortType'] == sortType]['sizeList'], p.loc[p['sortType'] == sortType]['timeList'], label=sortType)
-    plt.xlabel('size')
-    plt.ylabel('time')
+        x = p.loc[p['sortType'] == sortType]['sizeList']
+        y = p.loc[p['sortType'] == sortType]['timeList']
+
+        if curveFitBool:
+            plt.scatter(x, y, label=sortType)
+            f = None
+            lbl = ''
+            # # The actual curve fitting happens here
+            if sortType == 'i':
+                f = quadraticCurveFit
+                lbl = 'fit: %.2ex^2 + %.2ex + %.2e'
+            else :
+                f = nLogNCurveFit
+                lbl = 'fit: %.2exlog(x) + %.2ex + %.2e'
+
+            optimizedParameters, _ = opt.curve_fit(f , x, y)
+            # Use the optimized parameters to plot the best fit
+            plt.plot(x, f(x, *optimizedParameters), label=lbl % tuple(optimizedParameters))
+        else:
+            plt.plot(x, y, label=sortType)
+    plt.xlabel(f'log(size)')
+    plt.ylabel(f'log(time) (sec)')
+    #plt.xlabel(f'log(size)')
+    #plt.ylabel(f'time (sec)')
     plt.ticklabel_format(style='plain')
     plt.legend()
     plt.title(plotTitle)
+    plt.savefig(f'./plots/{plotTitle}.png')
     plt.show()
 
 def dummyFunction(s):
@@ -94,8 +123,6 @@ def logFunctionS(s):
 
 def logFunctionT(s):
     return math.log(s + 1)
-
-#displayPlot('A', 'c', ['i'], 'Folder A Cheap', logFunctionS, logFunctionT)
 
 # predict for n^2
 def predictNSq(i, j, time):
@@ -136,28 +163,61 @@ def predictionPlot(folder, cost, sortType, plotTitle, predictFunction, f, f2):
         plt.plot(lst['sizeList'].apply(f), lst['timeList'].apply(f2), '--', marker='*', lw=.3 ,label=i, markevery=[0], markersize=4)
         i *= 4
     
-    plt.xlabel('size')
-    plt.ylabel('time')
+    plt.xlabel('log(size)')
+    plt.ylabel('log(time) (sec)')
     plt.ticklabel_format(style='plain')
     plt.legend()
     plt.title(plotTitle)
+    plt.savefig(f'./plots/{plotTitle}.png')
     plt.show()
 
-predictionPlot('A', 'c', 'i', 'A Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
-predictionPlot('B', 'c', 'i', 'B Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
-predictionPlot('C', 'c', 'i', 'C Cheap Insertion', predictNSq, logFunctionS, logFunctionT)
-predictionPlot('A', 'c', 'm', 'A Cheap Merge', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('B', 'c', 'm', 'B Cheap Merge', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('C', 'c', 'm', 'C Cheap Merge', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('A', 'c', 't', 'A Cheap Tim', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('B', 'c', 't', 'B Cheap Tim', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('C', 'c', 't', 'C Cheap Tim', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('A', 'e', 'i', 'A Expensive Insertion', predictNSq, logFunctionS, logFunctionT)
-predictionPlot('B', 'e', 'i', 'B Expensive Insertion', predictNSq, logFunctionS, logFunctionT)
-predictionPlot('C', 'e', 'i', 'C Expensive Insertion', predictNSq, logFunctionS, logFunctionT)
-predictionPlot('A', 'e', 'm', 'A Expensive Merge', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('B', 'e', 'm', 'B Expensive Merge', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('C', 'e', 'm', 'C Expensive Merge', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('A', 'e', 't', 'A Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('B', 'e', 't', 'B Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
-predictionPlot('C', 'e', 't', 'C Expensive Tim', predictNLogN, logFunctionS, logFunctionT)
+# displayPlot('A', 'c', ['i', 'm', 't'], 'Folder A Log-Log Cheap', logFunctionS, logFunctionS, False)
+# displayPlot('B', 'c', ['i', 'm', 't'], 'Folder B Log-Log Cheap', logFunctionS, logFunctionS, False)
+# displayPlot('C', 'c', ['i', 'm', 't'], 'Folder C Log-Log Cheap', logFunctionS, logFunctionS, False)
+# displayPlot('A', 'e', ['i', 'm', 't'], 'Folder A Log-Log Expensive', logFunctionS, logFunctionS, False)
+# displayPlot('B', 'e', ['i', 'm', 't'], 'Folder B Log-Log Expensive', logFunctionS, logFunctionS, False)
+# displayPlot('C', 'e', ['i', 'm', 't'], 'Folder C Log-Log Expensive', logFunctionS, logFunctionS, False)
+
+
+# displayPlot('A', 'c', ['i'], 'Folder A Cheap Insertion', dummyFunction, dummyFunction, True)
+# displayPlot('A', 'c', ['m'], 'Folder A Cheap Merge', dummyFunction, dummyFunction, True)
+# displayPlot('A', 'c', ['t'], 'Folder A Cheap Tim', dummyFunction, dummyFunction, True)
+# displayPlot('B', 'c', ['i'], 'Folder B Cheap Insertion', dummyFunction, dummyFunction, True)
+# displayPlot('B', 'c', ['m'], 'Folder B Cheap Merge', dummyFunction, dummyFunction, True)
+# displayPlot('B', 'c', ['t'], 'Folder B Cheap Tim', dummyFunction, dummyFunction, True)
+# displayPlot('C', 'c', ['i'], 'Folder C Cheap Insertion', dummyFunction, dummyFunction, True)
+# displayPlot('C', 'c', ['m'], 'Folder C Cheap Merge', dummyFunction, dummyFunction, True)
+# displayPlot('C', 'c', ['t'], 'Folder C Cheap Tim', dummyFunction, dummyFunction, True)
+
+# displayPlot('A', 'e', ['i'], 'Folder A Expensive Insertion', dummyFunction, dummyFunction, True)
+# displayPlot('A', 'e', ['m'], 'Folder A Expensive Merge', dummyFunction, dummyFunction, True)
+# displayPlot('A', 'e', ['t'], 'Folder A Expensive Tim', dummyFunction, dummyFunction, True)
+# displayPlot('B', 'e', ['i'], 'Folder B Expensive Insertion', dummyFunction, dummyFunction, True)
+# displayPlot('B', 'e', ['m'], 'Folder B Expensive Merge', dummyFunction, dummyFunction, True)
+# displayPlot('B', 'e', ['t'], 'Folder B Expensive Tim', dummyFunction, dummyFunction, True)
+# displayPlot('C', 'e', ['i'], 'Folder C Expensive Insertion', dummyFunction, dummyFunction, True)
+# displayPlot('C', 'e', ['m'], 'Folder C Expensive Merge', dummyFunction, dummyFunction, True)
+# displayPlot('C', 'e', ['t'], 'Folder C Expensive Tim', dummyFunction, dummyFunction, True)
+
+
+predictionPlot('A', 'c', 'i', 'Prediction A Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
+predictionPlot('B', 'c', 'i', 'Prediction B Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
+predictionPlot('C', 'c', 'i', 'Prediction C Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
+predictionPlot('A', 'c', 'm', 'Prediction A Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
+predictionPlot('B', 'c', 'm', 'Prediction B Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
+predictionPlot('C', 'c', 'm', 'Prediction C Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
+predictionPlot('A', 'c', 't', 'Prediction A Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
+predictionPlot('B', 'c', 't', 'Prediction B Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
+predictionPlot('C', 'c', 't', 'Prediction C Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
+predictionPlot('A', 'e', 'i', 'Prediction A Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
+predictionPlot('B', 'e', 'i', 'Prediction B Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
+predictionPlot('C', 'e', 'i', 'Prediction C Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
+predictionPlot('A', 'e', 'm', 'Prediction A Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
+predictionPlot('B', 'e', 'm', 'Prediction B Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
+predictionPlot('C', 'e', 'm', 'Prediction C Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
+
+
+#predictionPlot('A', 'c', 'i', 'A Cheap Insertion Prediction', predictNSq, logFunctionS, logFunctionS)
+#predictionPlot('A', 'c', 'm', 'A Cheap Merge Prediction', predictNLogN, logFunctionS, logFunctionS)
+#predictionPlot('A', 'e', 'i', 'A Expensive Insertion Prediction', predictNSq, logFunctionS, logFunctionS)
+#predictionPlot('A', 'e', 'm', 'A Expensive Merge Prediction', predictNLogN, logFunctionS, logFunctionS)
