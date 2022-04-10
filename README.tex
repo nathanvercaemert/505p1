@@ -1,0 +1,69 @@
+% Created 2022-04-10 Sun 13:07
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{color}
+\usepackage{listings}
+\author{DESKTOP-OEFS7VE}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={DESKTOP-OEFS7VE},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2 (Org mode 9.5.1)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Digital Ocean}
+\label{sec:orgaaabe67}
+\subsection{Box Location}
+\label{sec:org4b01ac4}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+ssh root@142.93.64.31
+\end{lstlisting}
+\subsection{Password}
+\label{sec:org1dcaa66}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+CSC505project
+\end{lstlisting}
+\section{Run}
+\label{sec:org2b73ec1}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+python3 main.py logFile outputFile type(m/i/t) cost(c/e) numRuns
+\end{lstlisting}
+\subsection{Parameters}
+\label{sec:orgd2bad98}
+\begin{itemize}
+\item Cost refers to whether the "cheap" or "expensive" version of our comparison is used.
+\item Type refers to whether insertion sort, merge sort, or timsort is used.
+\item The data for the sorts is located in the following directory:
+\end{itemize}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+/root/csc505-spring-2022/Project1/
+\end{lstlisting}
+\section{Output}
+\label{sec:org4077bc2}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+m/i/t,cheapOrExpensive,logFile,isSorted,readTime,sortTime
+\end{lstlisting}
+\end{document}
