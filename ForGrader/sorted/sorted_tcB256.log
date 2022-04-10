@@ -1,0 +1,256 @@
+2015-08-23T03:36:25-05:00 10.108.69.93 sshd[16537]: Did not receive identification string from 208.43.117.11
+2015-08-23T03:36:30-05:00 10.108.69.93 sshd[16549]: Did not receive identification string from 208.43.117.11
+2015-08-23T03:36:30-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80331: max number of retransmissions (20) reached STATE_QUICK_R1
+2015-08-23T03:36:30-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80332: max number of retransmissions (20) reached STATE_QUICK_R1
+2015-08-23T03:36:30-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80333: max number of retransmissions (20) reached STATE_QUICK_R1
+2015-08-23T03:36:30-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80334: max number of retransmissions (20) reached STATE_QUICK_R1
+2015-08-23T03:36:30-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80335: max number of retransmissions (20) reached STATE_QUICK_R1
+2015-08-23T03:36:30-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80336: max number of retransmissions (20) reached STATE_QUICK_R1
+2015-08-23T03:36:30-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80337: max number of retransmissions (20) reached STATE_QUICK_R1
+2015-08-23T03:36:30-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80338: max number of retransmissions (20) reached STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 118
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 244
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 29
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 245
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 217
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 77
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 87
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80770: discarding duplicate packet; already STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80769: discarding duplicate packet; already STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80768: discarding duplicate packet; already STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 147
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: length of ISAKMP Hash Payload is larger than can fit
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: byte 2 of ISAKMP Hash Payload should have been zero, but was not (ignored)
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 150
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 72
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 228
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 105
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 122
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 145
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 139
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 158
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 179
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 133
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: length of ISAKMP Hash Payload is larger than can fit
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: byte 2 of ISAKMP Hash Payload should have been zero, but was not (ignored)
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 158
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 152
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 161
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 210
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 32
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: length of ISAKMP Hash Payload is larger than can fit
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: byte 2 of ISAKMP Hash Payload should have been zero, but was not (ignored)
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 61
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 102
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 61
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 118
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 219
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 247
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 179
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 241
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 166
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 167
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 62
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 73
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 140
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 233
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 112
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: length of ISAKMP Hash Payload is larger than can fit
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: byte 2 of ISAKMP Hash Payload should have been zero, but was not (ignored)
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 126
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 88
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 100
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 195
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 205
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui2_tri_dbr_tri" #85175: discarding duplicate packet; already STATE_QUICK_I1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "uir_tri_dbr_tri" #85174: discarding duplicate packet; already STATE_QUICK_I1
+2015-08-23T03:36:31-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80767: discarding duplicate packet; already STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80766: discarding duplicate packet; already STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80765: discarding duplicate packet; already STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80764: discarding duplicate packet; already STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #80763: discarding duplicate packet; already STATE_QUICK_R1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui2_tri_db1_tri" #85173: discarding duplicate packet; already STATE_QUICK_I1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "uir_tri_db2_tri" #85172: discarding duplicate packet; already STATE_QUICK_I1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 219
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 118
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 58
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 235
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 126
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 160
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 75
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 27
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 252
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 107
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: length of ISAKMP Hash Payload is larger than can fit
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: byte 2 of ISAKMP Hash Payload should have been zero, but was not (ignored)
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 98
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 26
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: length of ISAKMP Hash Payload is larger than can fit
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: byte 2 of ISAKMP Hash Payload should have been zero, but was not (ignored)
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 217
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 196
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: malformed payload in packet
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: next payload type of ISAKMP Hash Payload has an unknown value: 211
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_dbr_tri" #85171: discarding duplicate packet; already STATE_QUICK_I1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "uir_tri_db1_tri" #85170: discarding duplicate packet; already STATE_QUICK_I1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui2_tri_db2_tri" #85169: discarding duplicate packet; already STATE_QUICK_I1
+2015-08-23T03:36:31-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db2_tri" #85168: discarding duplicate packet; already STATE_QUICK_I1
+2015-08-23T03:36:34-05:00 10.62.12.194 wa-ihs 184.172.29.76 - - [23/Aug/2015:03:36:30 -0500] "GET /SaaSGovernorWeb/public/WorkloadAutomation_32.png HTTP/1.1" 404 103
+2015-08-23T03:36:34-05:00 10.62.12.194 wa-ihs 184.172.29.76 - - [23/Aug/2015:03:36:30 -0500] "GET /SaaSGovernorWeb/public/WorkloadAutomation_400.png HTTP/1.1" 404 104
+2015-08-23T03:36:35-05:00 10.108.69.93 sshd[16553]: Did not receive identification string from 208.43.117.11
+2015-08-23T03:36:38-05:00 10.91.62.206 pluto[1084]: "db1_tri_db2_tri": terminating SAs using this connection
+2015-08-23T03:36:38-05:00 10.91.62.206 pluto[1084]: both sides of "db1_tri_db2_tri" are our interface eth0!
+2015-08-23T03:36:38-05:00 10.91.62.206 pluto[1084]: "db1_tri_dbr_tri": terminating SAs using this connection
+2015-08-23T03:36:38-05:00 10.91.62.206 pluto[1084]: both sides of "db1_tri_dbr_tri" are our interface eth0!
+2015-08-23T03:36:38-05:00 10.91.62.206 pluto[1084]: "db2_tri_dbr_tri": terminating SAs using this connection
+2015-08-23T03:36:38-05:00 10.91.62.206 pluto[1084]: both sides of "db2_tri_dbr_tri" are our interface eth0!
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 25
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 88
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 120
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 152
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 26
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 106
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85181: keeping refhim=4294901761 during rekey
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85181:   them: 10.91.62.208<ui1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85181:     us: 10.91.62.206<db1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85181: responding to Quick Mode proposal {msgid:030dd2a8}
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85180: STATE_QUICK_R1: sent QR1, inbound IPsec SA installed, expecting QI2
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85180: transition from state STATE_QUICK_R0 to state STATE_QUICK_R1
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85180: keeping refhim=4294901761 during rekey
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85180:   them: 10.91.62.208<ui1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85180:     us: 10.91.62.206<db1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85180: responding to Quick Mode proposal {msgid:4e9b2a50}
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85179: STATE_QUICK_R1: sent QR1, inbound IPsec SA installed, expecting QI2
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85179: transition from state STATE_QUICK_R0 to state STATE_QUICK_R1
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85179: keeping refhim=4294901761 during rekey
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85179:   them: 10.91.62.208<ui1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85179:     us: 10.91.62.206<db1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85179: responding to Quick Mode proposal {msgid:f6107112}
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85178: STATE_QUICK_R1: sent QR1, inbound IPsec SA installed, expecting QI2
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85178: transition from state STATE_QUICK_R0 to state STATE_QUICK_R1
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85178: keeping refhim=4294901761 during rekey
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85178:   them: 10.91.62.208<ui1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85178:     us: 10.91.62.206<db1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85178: responding to Quick Mode proposal {msgid:482a72a9}
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85177: STATE_QUICK_R1: sent QR1, inbound IPsec SA installed, expecting QI2
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85177: transition from state STATE_QUICK_R0 to state STATE_QUICK_R1
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85177: keeping refhim=4294901761 during rekey
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85177:   them: 10.91.62.208<ui1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85177:     us: 10.91.62.206<db1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85177: responding to Quick Mode proposal {msgid:afacde92}
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85176: STATE_QUICK_R1: sent QR1, inbound IPsec SA installed, expecting QI2
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85176: transition from state STATE_QUICK_R0 to state STATE_QUICK_R1
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85176: keeping refhim=4294901761 during rekey
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85176:   them: 10.91.62.208<ui1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85176:     us: 10.91.62.206<db1_tri>
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #85176: responding to Quick Mode proposal {msgid:27071944}
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: the peer proposed: 10.91.62.206/32:0/0 -> 10.91.62.208/32:0/0
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: the peer proposed: 10.91.62.206/32:0/0 -> 10.91.62.208/32:0/0
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: the peer proposed: 10.91.62.206/32:0/0 -> 10.91.62.208/32:0/0
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: the peer proposed: 10.91.62.206/32:0/0 -> 10.91.62.208/32:0/0
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: the peer proposed: 10.91.62.206/32:0/0 -> 10.91.62.208/32:0/0
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: the peer proposed: 10.91.62.206/32:0/0 -> 10.91.62.208/32:0/0
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: the peer proposed: 10.91.62.206/32:0/0 -> 10.91.62.208/32:0/0
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 55
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 201
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 211
+2015-08-23T03:36:39-05:00 10.91.62.206 pluto[1084]: "ui1_tri_db1_tri" #84039: the peer proposed: 10.91.62.206/32:0/0 -> 10.91.62.208/32:0/0
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 135
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: malformed payload in packet
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db1_tri" #79634: next payload type of ISAKMP Hash Payload has an unknown value: 71
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_db1_tri" #80778: initiating Quick Mode PSK+ENCRYPT+UP+IKEV2_ALLOW+SAREF_TRACK+IKE_FRAG_ALLOW to replace #80755 {using isakmp#79634 msgid:78721a52 proposal=AES(12)_256-SHA1(2)_000 pfsgroup=no-pfs}
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_db1_tri" #80755: starting keying attempt 5007 of an unlimited number
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_db1_tri" #80755: max number of retransmissions (2) reached STATE_QUICK_I1.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db2_tri" #80777: initiating Quick Mode PSK+ENCRYPT+UP+IKEV2_ALLOW+SAREF_TRACK+IKE_FRAG_ALLOW to replace #80756 {using isakmp#79634 msgid:b4cee756 proposal=AES(12)_256-SHA1(2)_000 pfsgroup=no-pfs}
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db2_tri" #80756: starting keying attempt 5007 of an unlimited number
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_db2_tri" #80756: max number of retransmissions (2) reached STATE_QUICK_I1.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_db1_tri" #80776: initiating Quick Mode PSK+ENCRYPT+UP+IKEV2_ALLOW+SAREF_TRACK+IKE_FRAG_ALLOW to replace #80757 {using isakmp#79634 msgid:030dd2a8 proposal=AES(12)_256-SHA1(2)_000 pfsgroup=no-pfs}
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_db1_tri" #80757: starting keying attempt 5007 of an unlimited number
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_db1_tri" #80757: max number of retransmissions (2) reached STATE_QUICK_I1.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_db2_tri" #80775: initiating Quick Mode PSK+ENCRYPT+UP+IKEV2_ALLOW+SAREF_TRACK+IKE_FRAG_ALLOW to replace #80758 {using isakmp#79634 msgid:4e9b2a50 proposal=AES(12)_256-SHA1(2)_000 pfsgroup=no-pfs}
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_db2_tri" #80758: starting keying attempt 5007 of an unlimited number
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_db2_tri" #80758: max number of retransmissions (2) reached STATE_QUICK_I1.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_dbr_tri" #80774: initiating Quick Mode PSK+ENCRYPT+UP+IKEV2_ALLOW+SAREF_TRACK+IKE_FRAG_ALLOW to replace #80759 {using isakmp#79634 msgid:f6107112 proposal=AES(12)_256-SHA1(2)_000 pfsgroup=no-pfs}
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_dbr_tri" #80759: starting keying attempt 5007 of an unlimited number
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui1_tri_dbr_tri" #80759: max number of retransmissions (2) reached STATE_QUICK_I1.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_dbr_tri" #80773: initiating Quick Mode PSK+ENCRYPT+UP+IKEV2_ALLOW+SAREF_TRACK+IKE_FRAG_ALLOW to replace #80760 {using isakmp#79634 msgid:482a72a9 proposal=AES(12)_256-SHA1(2)_000 pfsgroup=no-pfs}
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_dbr_tri" #80760: starting keying attempt 5007 of an unlimited number
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "uir_tri_dbr_tri" #80760: max number of retransmissions (2) reached STATE_QUICK_I1.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_dbr_tri" #80772: initiating Quick Mode PSK+ENCRYPT+UP+IKEV2_ALLOW+SAREF_TRACK+IKE_FRAG_ALLOW to replace #80761 {using isakmp#79634 msgid:afacde92 proposal=AES(12)_256-SHA1(2)_000 pfsgroup=no-pfs}
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_dbr_tri" #80761: starting keying attempt 5007 of an unlimited number
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_dbr_tri" #80761: max number of retransmissions (2) reached STATE_QUICK_I1.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_db2_tri" #80771: initiating Quick Mode PSK+ENCRYPT+UP+IKEV2_ALLOW+SAREF_TRACK+IKE_FRAG_ALLOW to replace #80762 {using isakmp#79634 msgid:27071944 proposal=AES(12)_256-SHA1(2)_000 pfsgroup=no-pfs}
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_db2_tri" #80762: starting keying attempt 5007 of an unlimited number
+2015-08-23T03:36:39-05:00 10.91.62.208 pluto[10991]: "ui2_tri_db2_tri" #80762: max number of retransmissions (2) reached STATE_QUICK_I1.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal

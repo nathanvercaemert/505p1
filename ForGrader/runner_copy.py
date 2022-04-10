@@ -30,7 +30,7 @@ def directory_sort(type, cost, output_name):
                 # 3 warmups and 10 runs
                 runs = 13
                 for file in files:
-                    if x >= 128:
+                    if x >= 1024:
                         break
                         # 2 warmups and 3 runs
                         runs = 5
@@ -74,8 +74,8 @@ if not sort_time_cap.isnumeric():
 sort_time_cap = int(sort_time_cap)
 
 # get the directory
-# directory = '/root/csc505-spring-2022/Project1/'
-directory = './../csc505-spring-2022/Project1/'
+directory = '/root/csc505-spring-2022/Project1/'
+# directory = './../csc505-spring-2022/Project1/'
 directory_list = os.listdir(directory)
 out_file_base = "./sorted/"
 log_file_base = "./output/"
