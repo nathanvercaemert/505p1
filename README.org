@@ -7,21 +7,36 @@ ssh root@142.93.64.31
 #+BEGIN_SRC shell
 CSC505project
 #+END_SRC
-** Project Folder
+** Project Folders
+- There is a folder in our repository organized with the grader in mind.
 #+BEGIN_SRC shell
-505p1
+/root/505p1/ForGrader/
 #+END_SRC
-* Run
-#+BEGIN_SRC shell
-python3 main.py logFile outputFile type(m/i/t) cost(c/e) numRuns
-#+END_SRC
-** Parameters
-- Cost refers to whether the "cheap" or "expensive" version of our comparison is used.
-- Type refers to whether insertion sort, merge sort, or timsort is used.
+*** Where is the data on our Droplet?
 - The data for the sorts is located in the following directory:
 #+BEGIN_SRC shell
 /root/csc505-spring-2022/Project1/
 #+END_SRC
+** Example Process For Comparing Sorts
+- The following sequence of commands will populate the (currently empty) plots, output, and sorted files.
+- We have adjusted our scripts for this demo so that they will run in a few seconds.
+- Please make sure that you are in the following file: /root/505p1/ForGrader
+- This will run the three different sorts on some of the small files in B in order to allow you to see the quadratic nature of insertion sort take over the extra time spent allocating memory in merge sort.
+#+BEGIN_SRC shell
+  python3 runner_copy.py B ALL c 1000
+  python3 readSteveRuns.py
+#+END_SRC
+* Basic Run
+The information below this point in the README is no longer specific to our Droplet. These commands can be run on the VCL
+#+BEGIN_SRC shell
+python3 main.py logFile outputFile type(m/i/t) cost(c/e) numRuns
+#+END_SRC
+** Parameters
+- logFile is the name of the file to sort
+- outputFile is the destination of the sorted file
+- type refers to whether insertion sort, merge sort, or timsort is used. Input is m, i, or t.
+- cost refers to whether the "cheap" or "expensive" version of our comparison is used. Input is c or e.
+- numRuns is how many times to repeat the sort
 * Output
 #+BEGIN_SRC shell
 m/i/t,cheapOrExpensive,logFile,isSorted,readTime,sortTime

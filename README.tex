@@ -1,4 +1,4 @@
-% Created 2022-04-10 Sun 18:00
+% Created 2022-04-10 Sun 19:35
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -30,44 +30,68 @@
 \tableofcontents
 
 \section{Digital Ocean}
-\label{sec:orgef98f97}
+\label{sec:org98879b1}
 \subsection{Box Location}
-\label{sec:org45488b7}
+\label{sec:orgcbb8043}
 \lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
 \begin{lstlisting}
 ssh root@142.93.64.31
 \end{lstlisting}
 \subsection{Password}
-\label{sec:orgb3ce47b}
+\label{sec:org2a1e2f6}
 \lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
 \begin{lstlisting}
 CSC505project
 \end{lstlisting}
-\subsection{Project Folder}
-\label{sec:org62dad0a}
-\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
-\begin{lstlisting}
-505p1
-\end{lstlisting}
-\section{Run}
-\label{sec:orgd3ea1d1}
-\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
-\begin{lstlisting}
-python3 main.py logFile outputFile type(m/i/t) cost(c/e) numRuns
-\end{lstlisting}
-\subsection{Parameters}
-\label{sec:org799087d}
+\subsection{Project Folders}
+\label{sec:org5450454}
 \begin{itemize}
-\item Cost refers to whether the "cheap" or "expensive" version of our comparison is used.
-\item Type refers to whether insertion sort, merge sort, or timsort is used.
+\item There is a folder in our repository organized with the grader in mind.
+\end{itemize}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+/root/505p1/ForGrader/
+\end{lstlisting}
+\subsubsection{Where is the data on our Droplet?}
+\label{sec:orgb0cc0f1}
+\begin{itemize}
 \item The data for the sorts is located in the following directory:
 \end{itemize}
 \lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
 \begin{lstlisting}
 /root/csc505-spring-2022/Project1/
 \end{lstlisting}
+\subsection{Example Process For Comparing Sorts}
+\label{sec:org180a0d9}
+\begin{itemize}
+\item The following sequence of commands will populate the (currently empty) plots, output, and sorted files.
+\item We have adjusted our scripts for this demo so that they will run in a few seconds.
+\item Please make sure that you are in the following file: /root/505p1/ForGrader
+\item This will run the three different sorts on some of the small files in B in order to allow you to see the quadratic nature of insertion sort take over the extra time spent allocating memory in merge sort.
+\end{itemize}
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+python3 runner_copy.py B ALL c 1000
+python3 readSteveRuns.py
+\end{lstlisting}
+\section{Basic Run}
+\label{sec:orgcf906a6}
+The information below this point in the README is no longer specific to our Droplet. These commands can be run on the VCL
+\lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+python3 main.py logFile outputFile type(m/i/t) cost(c/e) numRuns
+\end{lstlisting}
+\subsection{Parameters}
+\label{sec:orgf2fea30}
+\begin{itemize}
+\item logFile is the name of the file to sort
+\item outputFile is the destination of the sorted file
+\item type refers to whether insertion sort, merge sort, or timsort is used. Input is m, i, or t.
+\item cost refers to whether the "cheap" or "expensive" version of our comparison is used. Input is c or e.
+\item numRuns is how many times to repeat the sort
+\end{itemize}
 \section{Output}
-\label{sec:org6002ca3}
+\label{sec:orgd07411f}
 \lstset{language=shell,label= ,caption= ,captionpos=b,numbers=none}
 \begin{lstlisting}
 m/i/t,cheapOrExpensive,logFile,isSorted,readTime,sortTime
