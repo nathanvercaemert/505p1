@@ -11,9 +11,13 @@ CSC505project
 #+BEGIN_SRC shell
 python3 main.py logFile outputFile type(m/i/t) cost(c/e) numRuns
 #+END_SRC
-** Note
+** Parameters
 - Cost refers to whether the "cheap" or "expensive" version of our comparison is used.
-- Type refers to whether insertion sort, merge sort, or timsort is used. 
+- Type refers to whether insertion sort, merge sort, or timsort is used.
+- The data for the sorts is located in the following directory:
+#+BEGIN_SRC shell
+/root/csc505-spring-2022/Project1/
+#+END_SRC
 * Output
 #+BEGIN_SRC shell
 m/i/t,cheapOrExpensive,logFile,isSorted,readTime,sortTime
