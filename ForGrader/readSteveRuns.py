@@ -119,10 +119,10 @@ def dummyFunction(s):
     return s
 
 def logFunctionS(s):
-    return math.log(s)
+    return math.log(s, 2)
 
 def logFunctionT(s):
-    return math.log(s + 1)
+    return math.log(s + 1, 2)
 
 # predict for n^2
 def predictNSq(i, j, time):

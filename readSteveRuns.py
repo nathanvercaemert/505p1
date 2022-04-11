@@ -119,10 +119,10 @@ def dummyFunction(s):
     return s
 
 def logFunctionS(s):
-    return math.log(s)
+    return math.log(s, 2)
 
 def logFunctionT(s):
-    return math.log(s + 1)
+    return math.log(s + 1, 2)
 
 # predict for n^2
 def predictNSq(i, j, time):
@@ -177,6 +177,7 @@ def predictionPlot(folder, cost, sortType, plotTitle, predictFunction, f, f2):
 # displayPlot('A', 'e', ['i', 'm', 't'], 'Folder A Log-Log Expensive', logFunctionS, logFunctionS, False)
 # displayPlot('B', 'e', ['i', 'm', 't'], 'Folder B Log-Log Expensive', logFunctionS, logFunctionS, False)
 # displayPlot('C', 'e', ['i', 'm', 't'], 'Folder C Log-Log Expensive', logFunctionS, logFunctionS, False)
+displayPlot('C', 'e', ['i', 'm', 't'], 'Folder C Log-Log Expensive PlotTestLog', logFunctionS, logFunctionS, True)
 
 
 # displayPlot('A', 'c', ['i'], 'Folder A Cheap Insertion', dummyFunction, dummyFunction, True)
@@ -200,24 +201,18 @@ def predictionPlot(folder, cost, sortType, plotTitle, predictFunction, f, f2):
 # displayPlot('C', 'e', ['t'], 'Folder C Expensive Tim', dummyFunction, dummyFunction, True)
 
 
-predictionPlot('A', 'c', 'i', 'Prediction A Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
-predictionPlot('B', 'c', 'i', 'Prediction B Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
-predictionPlot('C', 'c', 'i', 'Prediction C Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
-predictionPlot('A', 'c', 'm', 'Prediction A Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
-predictionPlot('B', 'c', 'm', 'Prediction B Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
-predictionPlot('C', 'c', 'm', 'Prediction C Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
-predictionPlot('A', 'c', 't', 'Prediction A Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
-predictionPlot('B', 'c', 't', 'Prediction B Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
-predictionPlot('C', 'c', 't', 'Prediction C Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
-predictionPlot('A', 'e', 'i', 'Prediction A Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
-predictionPlot('B', 'e', 'i', 'Prediction B Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
-predictionPlot('C', 'e', 'i', 'Prediction C Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
-predictionPlot('A', 'e', 'm', 'Prediction A Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
-predictionPlot('B', 'e', 'm', 'Prediction B Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
-predictionPlot('C', 'e', 'm', 'Prediction C Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
-
-
-#predictionPlot('A', 'c', 'i', 'A Cheap Insertion Prediction', predictNSq, logFunctionS, logFunctionS)
-#predictionPlot('A', 'c', 'm', 'A Cheap Merge Prediction', predictNLogN, logFunctionS, logFunctionS)
-#predictionPlot('A', 'e', 'i', 'A Expensive Insertion Prediction', predictNSq, logFunctionS, logFunctionS)
-#predictionPlot('A', 'e', 'm', 'A Expensive Merge Prediction', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('A', 'c', 'i', 'Prediction A Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
+# predictionPlot('B', 'c', 'i', 'Prediction B Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
+# predictionPlot('C', 'c', 'i', 'Prediction C Cheap Insertion', predictNSq, logFunctionS, logFunctionS)
+# predictionPlot('A', 'c', 'm', 'Prediction A Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('B', 'c', 'm', 'Prediction B Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('C', 'c', 'm', 'Prediction C Cheap Merge', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('A', 'c', 't', 'Prediction A Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('B', 'c', 't', 'Prediction B Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('C', 'c', 't', 'Prediction C Cheap Tim', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('A', 'e', 'i', 'Prediction A Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
+# predictionPlot('B', 'e', 'i', 'Prediction B Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
+# predictionPlot('C', 'e', 'i', 'Prediction C Expensive Insertion', predictNSq, logFunctionS, logFunctionS)
+# predictionPlot('A', 'e', 'm', 'Prediction A Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('B', 'e', 'm', 'Prediction B Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
+# predictionPlot('C', 'e', 'm', 'Prediction C Expensive Merge', predictNLogN, logFunctionS, logFunctionS)
